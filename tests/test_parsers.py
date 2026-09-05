@@ -99,6 +99,28 @@ class TestFarside(unittest.TestCase):
         rows = FS.parse_farside(html)
         self.assertEqual(len(rows), 40)
 
+    def test_total_col_is_header_not_tail_summary(self):
+        """表尾 'Total' 汇总行在第 0 列;总计列必须取表头段那个(末列),不能被它带偏。"""
+        p = FS._TableParser()
+        p.feed(self.html)
+        table, _ = FS.pick_table(p.tables)
+        self.assertEqual(FS.find_total_col(table), 13)
+
+    def test_min_rows_is_a_parameter(self):
+        """落地页只有最近十几天,全史页有几百行 —— 门槛按源给,不是一个全局常量。"""
+        small = ("<table><tr><td></td><td>IBIT</td><td>Total</td></tr>"
+                 + "".join("<tr><td>%02d Jan 2026</td><td>1.0</td><td>2.0</td></tr>" % (i + 1)
+                           for i in range(15))
+                 + "</table>")
+        self.assertEqual(len(FS.parse_farside(small, min_rows=10)), 15)
+        self.assertRaises(RuntimeError, FS.parse_farside, small, 300)
+
+    def test_sources_ordered_full_history_first(self):
+        """全史页必须排在降级源前面,且门槛更高。"""
+        self.assertEqual(FS.SOURCES[0][0],
+                         "https://farside.co.uk/bitcoin-etf-flow-all-data/")
+        self.assertGreater(FS.SOURCES[0][1], FS.SOURCES[1][1])
+
     def test_bad_rows_over_threshold_raises(self):
         """残缺行(拿不到 Total 列)占比过高 → 判 Total 列定位错了,不许当噪声跳过。"""
         good = "".join(

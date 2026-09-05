@@ -2,15 +2,19 @@
 # -*- coding: utf-8 -*-
 """Farside BTC 现货 ETF 每日净流(全表历史)中继抓取。
 
-源:https://farside.co.uk/btc/ (页面上直接列出**全部历史**日行,单位 US$m)
-本机状态:403 / Cloudflare 挡死 → 只能在 GitHub Actions 里跑。
-        因此本脚本的**网络分支在本机无法实测**,标 [未经实测];
-        解析器分支由 tests/ 的合成 fixture 覆盖(结构假设写在下面)。
+源(2026-09-05 于 Actions 实测确认):
+  * **全史页** https://farside.co.uk/bitcoin-etf-flow-all-data/ —— 681 个日行,2024-01 起全量;
+    别名 https://farside.co.uk/bitcoin-etf-flow/ 内容相同。
+  * 落地页 https://farside.co.uk/btc/ **只有最近 15 天**(首版误以为它是全史,首跑即被
+    MIN_ROWS 门拦下报红 —— 这就是那道门存在的意义)。留作降级源:全史页够不着时,
+    至少还能把最近 15 天并进库存。
+本机状态:两个页面均 HTTP 403(Cloudflare 挡本机出口)→ 只能在 Actions 里跑。
 
-页面表结构假设(2026-09 公开页面口径,写死在这里以便结构一变就红):
-  * 一张主表,表头若干行,末列表头文字为 "Total";
-    中间是各 ETF 代码列(IBIT/FBTC/BITB/ARKB/BTCO/EZBC/BRRR/HODL/BTCW/GBTC/BTC…),
-    列数会随新产品上市而增加 —— 所以**按表头文字定位 Total 列,不写死列号**。
+页面表结构(实测,写死在这里以便结构一变就红):
+  * 主表表头三行:第 1 行末列文字 "Total";第 2 行是各 ETF 代码
+    (IBIT/FBTC/BITB/ARKB/BTCO/EZBC/BRRR/HODL/BTCW/MSBT/GBTC/BTC);第 3 行是费率。
+    列数会随新产品上市而增加(MSBT 就是后加的)—— 所以**按表头文字定位 Total 列,
+    不写死列号**。
   * 数据行首列是日期,形如 "02 Jan 2026";
     表尾另有 "Total"/"Average"/"Maximum"/"Minimum" 汇总行,首列不是日期 → 自动跳过。
   * 数值单位 US$ 百万;负数用 "(123.4)" 括号表示;空/"-" 视作 0.0。
@@ -28,12 +32,18 @@ from html.parser import HTMLParser
 
 import relay_common as R
 
-URL = "https://farside.co.uk/btc/"
 NAME = "etf_flows_farside"
 OUT = os.path.join(R.DATA, NAME + ".json")
 
-# 解析出的日行少于这个数 = 页面结构八成变了(farside 全表历史 2024-01 起,数百行)
-MIN_ROWS = 30
+# (URL, 该页至少应有多少日行)。按顺序试,第一个解析成功的为准。
+# 门槛是防"页面被换成挑战页/被截断"的哨兵:全史页 2026-09 实测 681 行,
+# 定 300 留足余量;落地页只有 15 行,定 10。**这道门宁可误红,不许放行半截历史**。
+SOURCES = [
+    ("https://farside.co.uk/bitcoin-etf-flow-all-data/", 300),
+    ("https://farside.co.uk/btc/", 10),
+]
+URL = SOURCES[0][0]          # 诊断/测试引用的主源
+
 # 行残缺(列数不够 / 数值解析不了)占比上限,超了就判结构变化
 MAX_BAD_FRAC = 0.20
 
@@ -131,12 +141,16 @@ def parse_amount(s):
 
 
 def find_total_col(rows):
-    """在表头行里找文字为 "Total" 的列;取最靠右的一个(farside 末列即总计)。
+    """在**表头段**(首个日期行之前)里找文字为 "Total" 的列,取最靠右的一个。
 
-    找不到则返回 None,调用方回退到"该表众数列宽的最后一列"。
+    只扫表头段是为了躲开表尾的 "Total" 汇总行(它的 "Total" 在第 0 列,
+    扫到会把总计列错定成日期列)。找不到则返回 None,
+    调用方回退到"该表众数列宽的最后一列"。
     """
     best = None
-    for row in rows[:8]:
+    for row in rows:
+        if row and parse_date_cell(row[0]) is not None:
+            break                      # 进入数据段,表头扫完了
         for i, c in enumerate(row):
             if _clean(c).lower() == "total":
                 if best is None or i > best:
@@ -154,7 +168,7 @@ def pick_table(tables):
     return best, best_n
 
 
-def parse_farside(html_text):
+def parse_farside(html_text, min_rows=30):
     """HTML → [{"date","total_net_flow_usd_m"}, ...] 升序。结构不符抛 RuntimeError。"""
     p = _TableParser()
     p.feed(html_text)
@@ -190,9 +204,9 @@ def parse_farside(html_text):
             continue
         out[d.isoformat()] = v
 
-    if len(out) < MIN_ROWS:
+    if len(out) < min_rows:
         raise RuntimeError("只解析出 %d 条日行(< 下限 %d),判为页面结构变化或内容被截断"
-                           % (len(out), MIN_ROWS))
+                           % (len(out), min_rows))
     if bad > MAX_BAD_FRAC * (len(out) + bad):
         raise RuntimeError("残缺行 %d / 共 %d(> %.0f%%),Total 列(idx=%d)定位可能错了"
                            % (bad, len(out) + bad, MAX_BAD_FRAC * 100, col))
@@ -201,15 +215,25 @@ def parse_farside(html_text):
 
 
 def main():
-    try:
-        raw = R.http_get(URL, timeout=90)
-        html_text = raw.decode("utf-8", "replace")
-        rows = parse_farside(html_text)
-    except Exception as e:                      # noqa: BLE001 —— 任何失败都记账+红
-        path = R.record_error(NAME, "%s: %s" % (type(e).__name__, e))
-        sys.stderr.write("[FAIL] farside 抓取/解析失败,已记 %s\n       %s: %s\n"
-                         % (path, type(e).__name__, e))
+    rows, used, errors = None, None, []
+    for url, min_rows in SOURCES:
+        try:
+            raw = R.http_get(url, timeout=90)
+            rows = parse_farside(raw.decode("utf-8", "replace"), min_rows=min_rows)
+            used = url
+            break
+        except Exception as e:                  # noqa: BLE001
+            errors.append("%s → %s: %s" % (url, type(e).__name__, e))
+            sys.stderr.write("[farside] %s 不可用:%s: %s\n" % (url, type(e).__name__, e))
+
+    if rows is None:                            # 全部源都挂 → 记账 + 红
+        msg = "; ".join(errors)
+        path = R.record_error(NAME, msg)
+        sys.stderr.write("[FAIL] farside 抓取/解析失败,已记 %s\n       %s\n" % (path, msg))
         return 1
+    if used != SOURCES[0][0]:                   # 用了降级源:只有最近 15 天,必须喊出来
+        R.record_error(NAME, "降级到 %s(只含最近数日);主源失败:%s" % (used, "; ".join(errors)))
+        sys.stderr.write("[WARN] farside 降级到 %s(非全史)\n" % used)
 
     old = R.load_json(OUT, [])
     if not isinstance(old, list):
@@ -217,8 +241,8 @@ def main():
         return 1
     merged, added, updated = R.merge_by_key(old, rows, "date")
     R.write_json(OUT, merged)
-    sys.stdout.write("[OK] farside: 本次解析 %d 行,新增 %d,修订 %d,库存 %d(%s → %s)\n"
-                     % (len(rows), added, updated, len(merged),
+    sys.stdout.write("[OK] farside(%s): 本次解析 %d 行,新增 %d,修订 %d,库存 %d(%s → %s)\n"
+                     % (used, len(rows), added, updated, len(merged),
                         merged[0]["date"], merged[-1]["date"]))
     return 0
 

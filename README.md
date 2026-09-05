@@ -6,7 +6,7 @@
 
 | 源 | 本机结果 | 性质 |
 |---|---|---|
-| `https://farside.co.uk/btc/` | HTTP **403** | Cloudflare 挡数据中心/本机出口 |
+| `https://farside.co.uk/…` | HTTP **403** | Cloudflare 挡本机出口 |
 | `https://www.cftc.gov/files/dea/history/*` | `SSL_ERROR_SYSCALL`(curl 35) | cftc.gov 与 publicreporting.cftc.gov 两个域名 SSL 全封锁 |
 
 GitHub Actions 的出口 IP 大概率能通。于是:**Actions 每天抓一次 → 提交进本仓 `data/` →
@@ -23,15 +23,22 @@ ETF 净流史太短(2024-01 起,D3 只能判未定谳),COT 在 S1 里是**记录
   workflow 除 `GITHUB_TOKEN`(Actions 自带,仅用于提交本仓 `data/`)外不用任何 secret。
 - 加新中继前先自问:这份数据公开出去有没有代价?有 → 不进这个仓。
 
-## 状态:[未经实测]
+## 状态:Actions 可达性已实测(2026-09-05)
 
-两个抓取脚本的**网络分支在本机无法验证**(见上表)。首次 Actions 跑成功之前,
-"farside/cftc 从 Actions 可达"只是假设,不是事实。README 里凡标 `[未经实测]` 的
-都是这类假设,首跑结果出来后据实改写,**不许因为"应该能通"就把标记摘掉**。
+两个抓取脚本的网络分支在**本机**永远无法验证(见上表),所以"从 Actions 够不够得着"
+只能由首跑回答。首跑(run 33982364829)与修复后复跑的结果:
 
-- `scripts/fetch_etf_farside.py` — `[未经实测]`
-- `scripts/fetch_cftc_cot.py` — `[未经实测]`
-- 解析器分支**已实测**:`tests/` 用合成夹具离线覆盖(见下),两个解释器绿。
+| 脚本 | Actions 可达性 | 首跑结果 |
+|---|---|---|
+| `fetch_cftc_cot.py` | ✅ **通** | 一次回补 2018–2026 共 718 行,`2018-04-10 → 2026-09-01` |
+| `fetch_etf_farside.py` | ✅ **通**(Cloudflare 没挡 Actions 出口) | 首跑**报红**:落地页只有 15 天,被 `min_rows` 门拦下;换全史页后 681 行入库 |
+
+首跑那次报红是**设计内的正确行为**,不是事故:当时脚本假设 `https://farside.co.uk/btc/`
+是全史页,实测它只列最近 15 天。门槛拦住了"把 15 天当成全部历史写进库"这件事,
+诊断完换成真全史页 `https://farside.co.uk/bitcoin-etf-flow-all-data/`(681 行)。
+**教训记在这里:公开页面的"全表"是个假设,不是事实,先量行数再入库。**
+
+解析器分支由 `tests/` 的合成夹具离线覆盖(见下),两个解释器绿。
 
 ## 数据产物
 
@@ -43,7 +50,15 @@ ETF 净流史太短(2024-01 起,D3 只能判未定谳),COT 在 S1 里是**记录
 
 美国 BTC 现货 ETF **每日合计净流**,单位 US$ 百万(源站口径),按 `date` 升序去重。
 取的是 farside 表格最右侧 `Total` 列;各家 ETF 分列不入库(需要时再加)。
-farside 页面展示**全部历史**,所以每次跑都是全量重解析 + 合并,历史修订会被覆盖为最新值。
+
+源按顺序试(`SOURCES`):
+
+1. `https://farside.co.uk/bitcoin-etf-flow-all-data/` — 全史(2026-09-05 实测 681 行,
+   2024-01-11 起),门槛 `min_rows=300`;
+2. `https://farside.co.uk/btc/` — **只有最近 15 天**,门槛 `min_rows=10`,仅作降级源;
+   一旦用到它,error 账里会记一条"降级"告警(库存不会因此变短,但当天没有历史修订)。
+
+全史页每次跑都是全量重解析 + 合并,源站的历史修订会被覆盖为最新值。
 
 ### `data/cot_btc.json`
 
@@ -75,13 +90,13 @@ CFTC **Traders in Financial Futures (TFF)** 周频报告里的 CME 比特币期�
 ## 消费方式(本地)
 
 ```bash
-curl -s https://raw.githubusercontent.com/<owner>/market-relays/main/data/etf_flows_farside.json
-curl -s https://raw.githubusercontent.com/<owner>/market-relays/main/data/cot_btc.json
+curl -s https://raw.githubusercontent.com/ryanzh668/market-relays/main/data/etf_flows_farside.json
+curl -s https://raw.githubusercontent.com/ryanzh668/market-relays/main/data/cot_btc.json
 ```
 
 ```python
 import json, urllib.request
-URL = "https://raw.githubusercontent.com/<owner>/market-relays/main/data/etf_flows_farside.json"
+URL = "https://raw.githubusercontent.com/ryanzh668/market-relays/main/data/etf_flows_farside.json"
 rows = json.load(urllib.request.urlopen(URL, timeout=30))
 ```
 
@@ -105,15 +120,15 @@ rows = json.load(urllib.request.urlopen(URL, timeout=30))
 /opt/homebrew/bin/python3 tests/test_parsers.py     # 3.14
 ```
 
-24 个用例,全离线。夹具一律带 `_SYNTHETIC` 后缀:
+27 个用例,全离线。夹具一律带 `_SYNTHETIC` 后缀:
 
 - `tests/fixtures/farside_btc_SYNTHETIC.html` — 手造的 farside 式表格(含诱饵导航表、
-  多行表头、括号负数、`-` 空值、千分位逗号、表尾 Total/Average/Maximum/Minimum 汇总行)
+  三行表头(Total/代码/费率)、括号负数、`-` 空值、千分位逗号、表尾 Total/Average/Maximum/Minimum 汇总行)
 - `tests/fixtures/finfut_SYNTHETIC.txt` — 手造的 TFF 式 CSV(真实列名,含非 BTC 行、
   非 CME 的 BTC 行、`.` 缺失值)
 
 **这些夹具不是真实市场数据,数值没有任何研究含义**,只用来钉住"结构一变就红"。
-覆盖的失败路径:无表格(比如被 WAF 换成挑战页)、日行过少、残缺行占比过高、
+覆盖的失败路径:无表格(比如被 WAF 换成挑战页)、日行过少(全史页降级成短表)、残缺行占比过高、
 TFF 缺必需列、只有表头、日期解析不了、zip 里没有 .txt。
 
 依赖:**stdlib only**(`urllib` / `html.parser` / `csv` / `zipfile` / `json`)。
