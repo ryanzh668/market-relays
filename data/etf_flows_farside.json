@@ -1,0 +1,2726 @@
+[
+ {
+  "date": "2024-01-11",
+  "total_net_flow_usd_m": 655.3
+ },
+ {
+  "date": "2024-01-12",
+  "total_net_flow_usd_m": 203.0
+ },
+ {
+  "date": "2024-01-15",
+  "total_net_flow_usd_m": 0.0
+ },
+ {
+  "date": "2024-01-16",
+  "total_net_flow_usd_m": -52.7
+ },
+ {
+  "date": "2024-01-17",
+  "total_net_flow_usd_m": 453.8
+ },
+ {
+  "date": "2024-01-18",
+  "total_net_flow_usd_m": -126.6
+ },
+ {
+  "date": "2024-01-19",
+  "total_net_flow_usd_m": 43.6
+ },
+ {
+  "date": "2024-01-22",
+  "total_net_flow_usd_m": -87.4
+ },
+ {
+  "date": "2024-01-23",
+  "total_net_flow_usd_m": -106.1
+ },
+ {
+  "date": "2024-01-24",
+  "total_net_flow_usd_m": -158.3
+ },
+ {
+  "date": "2024-01-25",
+  "total_net_flow_usd_m": -79.8
+ },
+ {
+  "date": "2024-01-26",
+  "total_net_flow_usd_m": 14.8
+ },
+ {
+  "date": "2024-01-29",
+  "total_net_flow_usd_m": 255.1
+ },
+ {
+  "date": "2024-01-30",
+  "total_net_flow_usd_m": 247.3
+ },
+ {
+  "date": "2024-01-31",
+  "total_net_flow_usd_m": 197.6
+ },
+ {
+  "date": "2024-02-01",
+  "total_net_flow_usd_m": 38.5
+ },
+ {
+  "date": "2024-02-02",
+  "total_net_flow_usd_m": 80.0
+ },
+ {
+  "date": "2024-02-05",
+  "total_net_flow_usd_m": 68.1
+ },
+ {
+  "date": "2024-02-06",
+  "total_net_flow_usd_m": 33.6
+ },
+ {
+  "date": "2024-02-07",
+  "total_net_flow_usd_m": 146.0
+ },
+ {
+  "date": "2024-02-08",
+  "total_net_flow_usd_m": 405.0
+ },
+ {
+  "date": "2024-02-09",
+  "total_net_flow_usd_m": 541.5
+ },
+ {
+  "date": "2024-02-12",
+  "total_net_flow_usd_m": 493.4
+ },
+ {
+  "date": "2024-02-13",
+  "total_net_flow_usd_m": 636.3
+ },
+ {
+  "date": "2024-02-14",
+  "total_net_flow_usd_m": 339.7
+ },
+ {
+  "date": "2024-02-15",
+  "total_net_flow_usd_m": 477.4
+ },
+ {
+  "date": "2024-02-16",
+  "total_net_flow_usd_m": 330.3
+ },
+ {
+  "date": "2024-02-19",
+  "total_net_flow_usd_m": 0.0
+ },
+ {
+  "date": "2024-02-20",
+  "total_net_flow_usd_m": 135.6
+ },
+ {
+  "date": "2024-02-21",
+  "total_net_flow_usd_m": -35.6
+ },
+ {
+  "date": "2024-02-22",
+  "total_net_flow_usd_m": 251.4
+ },
+ {
+  "date": "2024-02-23",
+  "total_net_flow_usd_m": 232.5
+ },
+ {
+  "date": "2024-02-26",
+  "total_net_flow_usd_m": 519.9
+ },
+ {
+  "date": "2024-02-27",
+  "total_net_flow_usd_m": 576.9
+ },
+ {
+  "date": "2024-02-28",
+  "total_net_flow_usd_m": 673.4
+ },
+ {
+  "date": "2024-02-29",
+  "total_net_flow_usd_m": 92.3
+ },
+ {
+  "date": "2024-03-01",
+  "total_net_flow_usd_m": -139.6
+ },
+ {
+  "date": "2024-03-04",
+  "total_net_flow_usd_m": 562.7
+ },
+ {
+  "date": "2024-03-05",
+  "total_net_flow_usd_m": 648.3
+ },
+ {
+  "date": "2024-03-06",
+  "total_net_flow_usd_m": 332.0
+ },
+ {
+  "date": "2024-03-07",
+  "total_net_flow_usd_m": 472.5
+ },
+ {
+  "date": "2024-03-08",
+  "total_net_flow_usd_m": 223.0
+ },
+ {
+  "date": "2024-03-11",
+  "total_net_flow_usd_m": 505.4
+ },
+ {
+  "date": "2024-03-12",
+  "total_net_flow_usd_m": 1045.0
+ },
+ {
+  "date": "2024-03-13",
+  "total_net_flow_usd_m": 683.7
+ },
+ {
+  "date": "2024-03-14",
+  "total_net_flow_usd_m": 132.7
+ },
+ {
+  "date": "2024-03-15",
+  "total_net_flow_usd_m": 198.8
+ },
+ {
+  "date": "2024-03-18",
+  "total_net_flow_usd_m": -154.3
+ },
+ {
+  "date": "2024-03-19",
+  "total_net_flow_usd_m": -326.2
+ },
+ {
+  "date": "2024-03-20",
+  "total_net_flow_usd_m": -261.5
+ },
+ {
+  "date": "2024-03-21",
+  "total_net_flow_usd_m": -94.0
+ },
+ {
+  "date": "2024-03-22",
+  "total_net_flow_usd_m": -51.6
+ },
+ {
+  "date": "2024-03-25",
+  "total_net_flow_usd_m": 15.4
+ },
+ {
+  "date": "2024-03-26",
+  "total_net_flow_usd_m": 418.0
+ },
+ {
+  "date": "2024-03-27",
+  "total_net_flow_usd_m": 243.5
+ },
+ {
+  "date": "2024-03-28",
+  "total_net_flow_usd_m": 182.8
+ },
+ {
+  "date": "2024-03-29",
+  "total_net_flow_usd_m": 0.0
+ },
+ {
+  "date": "2024-04-01",
+  "total_net_flow_usd_m": -85.7
+ },
+ {
+  "date": "2024-04-02",
+  "total_net_flow_usd_m": 39.5
+ },
+ {
+  "date": "2024-04-03",
+  "total_net_flow_usd_m": 113.5
+ },
+ {
+  "date": "2024-04-04",
+  "total_net_flow_usd_m": 213.4
+ },
+ {
+  "date": "2024-04-05",
+  "total_net_flow_usd_m": 203.0
+ },
+ {
+  "date": "2024-04-08",
+  "total_net_flow_usd_m": -223.8
+ },
+ {
+  "date": "2024-04-09",
+  "total_net_flow_usd_m": -19.4
+ },
+ {
+  "date": "2024-04-10",
+  "total_net_flow_usd_m": 123.7
+ },
+ {
+  "date": "2024-04-11",
+  "total_net_flow_usd_m": 91.3
+ },
+ {
+  "date": "2024-04-12",
+  "total_net_flow_usd_m": -55.1
+ },
+ {
+  "date": "2024-04-15",
+  "total_net_flow_usd_m": -36.7
+ },
+ {
+  "date": "2024-04-16",
+  "total_net_flow_usd_m": -58.0
+ },
+ {
+  "date": "2024-04-17",
+  "total_net_flow_usd_m": -165.0
+ },
+ {
+  "date": "2024-04-18",
+  "total_net_flow_usd_m": -4.3
+ },
+ {
+  "date": "2024-04-19",
+  "total_net_flow_usd_m": 59.7
+ },
+ {
+  "date": "2024-04-22",
+  "total_net_flow_usd_m": 62.2
+ },
+ {
+  "date": "2024-04-23",
+  "total_net_flow_usd_m": 31.6
+ },
+ {
+  "date": "2024-04-24",
+  "total_net_flow_usd_m": -120.6
+ },
+ {
+  "date": "2024-04-25",
+  "total_net_flow_usd_m": -217.6
+ },
+ {
+  "date": "2024-04-26",
+  "total_net_flow_usd_m": -83.6
+ },
+ {
+  "date": "2024-04-29",
+  "total_net_flow_usd_m": -51.6
+ },
+ {
+  "date": "2024-04-30",
+  "total_net_flow_usd_m": -161.6
+ },
+ {
+  "date": "2024-05-01",
+  "total_net_flow_usd_m": -563.7
+ },
+ {
+  "date": "2024-05-02",
+  "total_net_flow_usd_m": -34.4
+ },
+ {
+  "date": "2024-05-03",
+  "total_net_flow_usd_m": 378.3
+ },
+ {
+  "date": "2024-05-06",
+  "total_net_flow_usd_m": 217.0
+ },
+ {
+  "date": "2024-05-07",
+  "total_net_flow_usd_m": -15.7
+ },
+ {
+  "date": "2024-05-08",
+  "total_net_flow_usd_m": 11.5
+ },
+ {
+  "date": "2024-05-09",
+  "total_net_flow_usd_m": -11.3
+ },
+ {
+  "date": "2024-05-10",
+  "total_net_flow_usd_m": -84.7
+ },
+ {
+  "date": "2024-05-13",
+  "total_net_flow_usd_m": 66.0
+ },
+ {
+  "date": "2024-05-14",
+  "total_net_flow_usd_m": 100.5
+ },
+ {
+  "date": "2024-05-15",
+  "total_net_flow_usd_m": 303.0
+ },
+ {
+  "date": "2024-05-16",
+  "total_net_flow_usd_m": 257.3
+ },
+ {
+  "date": "2024-05-17",
+  "total_net_flow_usd_m": 221.5
+ },
+ {
+  "date": "2024-05-20",
+  "total_net_flow_usd_m": 237.2
+ },
+ {
+  "date": "2024-05-21",
+  "total_net_flow_usd_m": 305.7
+ },
+ {
+  "date": "2024-05-22",
+  "total_net_flow_usd_m": 154.0
+ },
+ {
+  "date": "2024-05-23",
+  "total_net_flow_usd_m": 107.9
+ },
+ {
+  "date": "2024-05-24",
+  "total_net_flow_usd_m": 251.9
+ },
+ {
+  "date": "2024-05-27",
+  "total_net_flow_usd_m": 0.0
+ },
+ {
+  "date": "2024-05-28",
+  "total_net_flow_usd_m": 45.0
+ },
+ {
+  "date": "2024-05-29",
+  "total_net_flow_usd_m": 28.3
+ },
+ {
+  "date": "2024-05-30",
+  "total_net_flow_usd_m": 48.8
+ },
+ {
+  "date": "2024-05-31",
+  "total_net_flow_usd_m": 48.8
+ },
+ {
+  "date": "2024-06-03",
+  "total_net_flow_usd_m": 105.1
+ },
+ {
+  "date": "2024-06-04",
+  "total_net_flow_usd_m": 886.6
+ },
+ {
+  "date": "2024-06-05",
+  "total_net_flow_usd_m": 488.1
+ },
+ {
+  "date": "2024-06-06",
+  "total_net_flow_usd_m": 217.7
+ },
+ {
+  "date": "2024-06-07",
+  "total_net_flow_usd_m": 131.0
+ },
+ {
+  "date": "2024-06-10",
+  "total_net_flow_usd_m": -64.9
+ },
+ {
+  "date": "2024-06-11",
+  "total_net_flow_usd_m": -200.4
+ },
+ {
+  "date": "2024-06-12",
+  "total_net_flow_usd_m": 100.8
+ },
+ {
+  "date": "2024-06-13",
+  "total_net_flow_usd_m": -226.2
+ },
+ {
+  "date": "2024-06-14",
+  "total_net_flow_usd_m": -189.9
+ },
+ {
+  "date": "2024-06-17",
+  "total_net_flow_usd_m": -145.9
+ },
+ {
+  "date": "2024-06-18",
+  "total_net_flow_usd_m": -152.4
+ },
+ {
+  "date": "2024-06-19",
+  "total_net_flow_usd_m": 0.0
+ },
+ {
+  "date": "2024-06-20",
+  "total_net_flow_usd_m": -139.9
+ },
+ {
+  "date": "2024-06-21",
+  "total_net_flow_usd_m": -105.9
+ },
+ {
+  "date": "2024-06-24",
+  "total_net_flow_usd_m": -174.5
+ },
+ {
+  "date": "2024-06-25",
+  "total_net_flow_usd_m": 31.0
+ },
+ {
+  "date": "2024-06-26",
+  "total_net_flow_usd_m": 21.4
+ },
+ {
+  "date": "2024-06-27",
+  "total_net_flow_usd_m": 11.8
+ },
+ {
+  "date": "2024-06-28",
+  "total_net_flow_usd_m": 73.0
+ },
+ {
+  "date": "2024-07-01",
+  "total_net_flow_usd_m": 129.5
+ },
+ {
+  "date": "2024-07-02",
+  "total_net_flow_usd_m": -13.7
+ },
+ {
+  "date": "2024-07-03",
+  "total_net_flow_usd_m": -20.5
+ },
+ {
+  "date": "2024-07-04",
+  "total_net_flow_usd_m": 0.0
+ },
+ {
+  "date": "2024-07-05",
+  "total_net_flow_usd_m": 143.1
+ },
+ {
+  "date": "2024-07-08",
+  "total_net_flow_usd_m": 294.8
+ },
+ {
+  "date": "2024-07-09",
+  "total_net_flow_usd_m": 216.4
+ },
+ {
+  "date": "2024-07-10",
+  "total_net_flow_usd_m": 147.4
+ },
+ {
+  "date": "2024-07-11",
+  "total_net_flow_usd_m": 78.9
+ },
+ {
+  "date": "2024-07-12",
+  "total_net_flow_usd_m": 310.1
+ },
+ {
+  "date": "2024-07-15",
+  "total_net_flow_usd_m": 300.9
+ },
+ {
+  "date": "2024-07-16",
+  "total_net_flow_usd_m": 422.5
+ },
+ {
+  "date": "2024-07-17",
+  "total_net_flow_usd_m": 53.3
+ },
+ {
+  "date": "2024-07-18",
+  "total_net_flow_usd_m": 37.2
+ },
+ {
+  "date": "2024-07-19",
+  "total_net_flow_usd_m": 427.2
+ },
+ {
+  "date": "2024-07-22",
+  "total_net_flow_usd_m": 485.9
+ },
+ {
+  "date": "2024-07-23",
+  "total_net_flow_usd_m": -78.0
+ },
+ {
+  "date": "2024-07-24",
+  "total_net_flow_usd_m": 44.5
+ },
+ {
+  "date": "2024-07-25",
+  "total_net_flow_usd_m": 31.1
+ },
+ {
+  "date": "2024-07-26",
+  "total_net_flow_usd_m": 51.8
+ },
+ {
+  "date": "2024-07-29",
+  "total_net_flow_usd_m": 124.1
+ },
+ {
+  "date": "2024-07-30",
+  "total_net_flow_usd_m": -18.3
+ },
+ {
+  "date": "2024-07-31",
+  "total_net_flow_usd_m": 0.3
+ },
+ {
+  "date": "2024-08-01",
+  "total_net_flow_usd_m": 50.6
+ },
+ {
+  "date": "2024-08-02",
+  "total_net_flow_usd_m": -237.4
+ },
+ {
+  "date": "2024-08-05",
+  "total_net_flow_usd_m": -168.4
+ },
+ {
+  "date": "2024-08-06",
+  "total_net_flow_usd_m": -148.6
+ },
+ {
+  "date": "2024-08-07",
+  "total_net_flow_usd_m": 45.1
+ },
+ {
+  "date": "2024-08-08",
+  "total_net_flow_usd_m": 194.6
+ },
+ {
+  "date": "2024-08-09",
+  "total_net_flow_usd_m": -89.7
+ },
+ {
+  "date": "2024-08-12",
+  "total_net_flow_usd_m": 27.8
+ },
+ {
+  "date": "2024-08-13",
+  "total_net_flow_usd_m": 39.0
+ },
+ {
+  "date": "2024-08-14",
+  "total_net_flow_usd_m": -81.4
+ },
+ {
+  "date": "2024-08-15",
+  "total_net_flow_usd_m": 11.1
+ },
+ {
+  "date": "2024-08-16",
+  "total_net_flow_usd_m": 35.9
+ },
+ {
+  "date": "2024-08-19",
+  "total_net_flow_usd_m": 62.1
+ },
+ {
+  "date": "2024-08-20",
+  "total_net_flow_usd_m": 88.0
+ },
+ {
+  "date": "2024-08-21",
+  "total_net_flow_usd_m": 39.5
+ },
+ {
+  "date": "2024-08-22",
+  "total_net_flow_usd_m": 64.8
+ },
+ {
+  "date": "2024-08-23",
+  "total_net_flow_usd_m": 252.0
+ },
+ {
+  "date": "2024-08-26",
+  "total_net_flow_usd_m": 202.6
+ },
+ {
+  "date": "2024-08-27",
+  "total_net_flow_usd_m": -127.1
+ },
+ {
+  "date": "2024-08-28",
+  "total_net_flow_usd_m": -105.3
+ },
+ {
+  "date": "2024-08-29",
+  "total_net_flow_usd_m": -71.8
+ },
+ {
+  "date": "2024-08-30",
+  "total_net_flow_usd_m": -175.6
+ },
+ {
+  "date": "2024-09-02",
+  "total_net_flow_usd_m": 0.0
+ },
+ {
+  "date": "2024-09-03",
+  "total_net_flow_usd_m": -287.8
+ },
+ {
+  "date": "2024-09-04",
+  "total_net_flow_usd_m": -37.2
+ },
+ {
+  "date": "2024-09-05",
+  "total_net_flow_usd_m": -211.1
+ },
+ {
+  "date": "2024-09-06",
+  "total_net_flow_usd_m": -170.0
+ },
+ {
+  "date": "2024-09-09",
+  "total_net_flow_usd_m": 28.6
+ },
+ {
+  "date": "2024-09-10",
+  "total_net_flow_usd_m": 117.0
+ },
+ {
+  "date": "2024-09-11",
+  "total_net_flow_usd_m": -43.9
+ },
+ {
+  "date": "2024-09-12",
+  "total_net_flow_usd_m": 39.0
+ },
+ {
+  "date": "2024-09-13",
+  "total_net_flow_usd_m": 263.2
+ },
+ {
+  "date": "2024-09-16",
+  "total_net_flow_usd_m": 12.8
+ },
+ {
+  "date": "2024-09-17",
+  "total_net_flow_usd_m": 186.8
+ },
+ {
+  "date": "2024-09-18",
+  "total_net_flow_usd_m": -52.7
+ },
+ {
+  "date": "2024-09-19",
+  "total_net_flow_usd_m": 158.3
+ },
+ {
+  "date": "2024-09-20",
+  "total_net_flow_usd_m": 92.0
+ },
+ {
+  "date": "2024-09-23",
+  "total_net_flow_usd_m": 4.5
+ },
+ {
+  "date": "2024-09-24",
+  "total_net_flow_usd_m": 136.0
+ },
+ {
+  "date": "2024-09-25",
+  "total_net_flow_usd_m": 105.9
+ },
+ {
+  "date": "2024-09-26",
+  "total_net_flow_usd_m": 365.7
+ },
+ {
+  "date": "2024-09-27",
+  "total_net_flow_usd_m": 494.4
+ },
+ {
+  "date": "2024-09-30",
+  "total_net_flow_usd_m": 61.3
+ },
+ {
+  "date": "2024-10-01",
+  "total_net_flow_usd_m": -242.6
+ },
+ {
+  "date": "2024-10-02",
+  "total_net_flow_usd_m": -91.7
+ },
+ {
+  "date": "2024-10-03",
+  "total_net_flow_usd_m": -54.2
+ },
+ {
+  "date": "2024-10-04",
+  "total_net_flow_usd_m": 25.6
+ },
+ {
+  "date": "2024-10-07",
+  "total_net_flow_usd_m": 235.2
+ },
+ {
+  "date": "2024-10-08",
+  "total_net_flow_usd_m": -18.6
+ },
+ {
+  "date": "2024-10-09",
+  "total_net_flow_usd_m": -40.6
+ },
+ {
+  "date": "2024-10-10",
+  "total_net_flow_usd_m": -120.8
+ },
+ {
+  "date": "2024-10-11",
+  "total_net_flow_usd_m": 253.6
+ },
+ {
+  "date": "2024-10-14",
+  "total_net_flow_usd_m": 555.9
+ },
+ {
+  "date": "2024-10-15",
+  "total_net_flow_usd_m": 371.0
+ },
+ {
+  "date": "2024-10-16",
+  "total_net_flow_usd_m": 458.5
+ },
+ {
+  "date": "2024-10-17",
+  "total_net_flow_usd_m": 470.5
+ },
+ {
+  "date": "2024-10-18",
+  "total_net_flow_usd_m": 273.7
+ },
+ {
+  "date": "2024-10-21",
+  "total_net_flow_usd_m": 294.3
+ },
+ {
+  "date": "2024-10-22",
+  "total_net_flow_usd_m": -79.1
+ },
+ {
+  "date": "2024-10-23",
+  "total_net_flow_usd_m": 192.4
+ },
+ {
+  "date": "2024-10-24",
+  "total_net_flow_usd_m": 188.0
+ },
+ {
+  "date": "2024-10-25",
+  "total_net_flow_usd_m": 402.0
+ },
+ {
+  "date": "2024-10-28",
+  "total_net_flow_usd_m": 479.4
+ },
+ {
+  "date": "2024-10-29",
+  "total_net_flow_usd_m": 870.1
+ },
+ {
+  "date": "2024-10-30",
+  "total_net_flow_usd_m": 893.3
+ },
+ {
+  "date": "2024-10-31",
+  "total_net_flow_usd_m": 32.3
+ },
+ {
+  "date": "2024-11-01",
+  "total_net_flow_usd_m": -54.9
+ },
+ {
+  "date": "2024-11-04",
+  "total_net_flow_usd_m": -541.1
+ },
+ {
+  "date": "2024-11-05",
+  "total_net_flow_usd_m": -116.8
+ },
+ {
+  "date": "2024-11-06",
+  "total_net_flow_usd_m": 621.9
+ },
+ {
+  "date": "2024-11-07",
+  "total_net_flow_usd_m": 1373.8
+ },
+ {
+  "date": "2024-11-08",
+  "total_net_flow_usd_m": 293.4
+ },
+ {
+  "date": "2024-11-11",
+  "total_net_flow_usd_m": 1114.1
+ },
+ {
+  "date": "2024-11-12",
+  "total_net_flow_usd_m": 817.5
+ },
+ {
+  "date": "2024-11-13",
+  "total_net_flow_usd_m": 510.1
+ },
+ {
+  "date": "2024-11-14",
+  "total_net_flow_usd_m": -400.7
+ },
+ {
+  "date": "2024-11-15",
+  "total_net_flow_usd_m": -370.0
+ },
+ {
+  "date": "2024-11-18",
+  "total_net_flow_usd_m": 254.8
+ },
+ {
+  "date": "2024-11-19",
+  "total_net_flow_usd_m": 829.5
+ },
+ {
+  "date": "2024-11-20",
+  "total_net_flow_usd_m": 773.4
+ },
+ {
+  "date": "2024-11-21",
+  "total_net_flow_usd_m": 1005.1
+ },
+ {
+  "date": "2024-11-22",
+  "total_net_flow_usd_m": 490.3
+ },
+ {
+  "date": "2024-11-25",
+  "total_net_flow_usd_m": -435.3
+ },
+ {
+  "date": "2024-11-26",
+  "total_net_flow_usd_m": -122.8
+ },
+ {
+  "date": "2024-11-27",
+  "total_net_flow_usd_m": 103.0
+ },
+ {
+  "date": "2024-11-28",
+  "total_net_flow_usd_m": 0.0
+ },
+ {
+  "date": "2024-11-29",
+  "total_net_flow_usd_m": 320.0
+ },
+ {
+  "date": "2024-12-02",
+  "total_net_flow_usd_m": 353.6
+ },
+ {
+  "date": "2024-12-03",
+  "total_net_flow_usd_m": 676.0
+ },
+ {
+  "date": "2024-12-04",
+  "total_net_flow_usd_m": 556.8
+ },
+ {
+  "date": "2024-12-05",
+  "total_net_flow_usd_m": 766.7
+ },
+ {
+  "date": "2024-12-06",
+  "total_net_flow_usd_m": 376.6
+ },
+ {
+  "date": "2024-12-09",
+  "total_net_flow_usd_m": 479.1
+ },
+ {
+  "date": "2024-12-10",
+  "total_net_flow_usd_m": 438.5
+ },
+ {
+  "date": "2024-12-11",
+  "total_net_flow_usd_m": 223.1
+ },
+ {
+  "date": "2024-12-12",
+  "total_net_flow_usd_m": 597.5
+ },
+ {
+  "date": "2024-12-13",
+  "total_net_flow_usd_m": 428.9
+ },
+ {
+  "date": "2024-12-16",
+  "total_net_flow_usd_m": 636.9
+ },
+ {
+  "date": "2024-12-17",
+  "total_net_flow_usd_m": 493.9
+ },
+ {
+  "date": "2024-12-18",
+  "total_net_flow_usd_m": 275.3
+ },
+ {
+  "date": "2024-12-19",
+  "total_net_flow_usd_m": -671.9
+ },
+ {
+  "date": "2024-12-20",
+  "total_net_flow_usd_m": -277.0
+ },
+ {
+  "date": "2024-12-23",
+  "total_net_flow_usd_m": -226.5
+ },
+ {
+  "date": "2024-12-24",
+  "total_net_flow_usd_m": -338.4
+ },
+ {
+  "date": "2024-12-25",
+  "total_net_flow_usd_m": 0.0
+ },
+ {
+  "date": "2024-12-26",
+  "total_net_flow_usd_m": 475.2
+ },
+ {
+  "date": "2024-12-27",
+  "total_net_flow_usd_m": -287.9
+ },
+ {
+  "date": "2024-12-30",
+  "total_net_flow_usd_m": -415.1
+ },
+ {
+  "date": "2024-12-31",
+  "total_net_flow_usd_m": 5.3
+ },
+ {
+  "date": "2025-01-01",
+  "total_net_flow_usd_m": 0.0
+ },
+ {
+  "date": "2025-01-02",
+  "total_net_flow_usd_m": -242.3
+ },
+ {
+  "date": "2025-01-03",
+  "total_net_flow_usd_m": 908.1
+ },
+ {
+  "date": "2025-01-06",
+  "total_net_flow_usd_m": 978.6
+ },
+ {
+  "date": "2025-01-07",
+  "total_net_flow_usd_m": 52.4
+ },
+ {
+  "date": "2025-01-08",
+  "total_net_flow_usd_m": -568.8
+ },
+ {
+  "date": "2025-01-09",
+  "total_net_flow_usd_m": 0.0
+ },
+ {
+  "date": "2025-01-10",
+  "total_net_flow_usd_m": -149.4
+ },
+ {
+  "date": "2025-01-13",
+  "total_net_flow_usd_m": -284.1
+ },
+ {
+  "date": "2025-01-14",
+  "total_net_flow_usd_m": -209.8
+ },
+ {
+  "date": "2025-01-15",
+  "total_net_flow_usd_m": 755.1
+ },
+ {
+  "date": "2025-01-16",
+  "total_net_flow_usd_m": 626.1
+ },
+ {
+  "date": "2025-01-17",
+  "total_net_flow_usd_m": 1072.8
+ },
+ {
+  "date": "2025-01-20",
+  "total_net_flow_usd_m": 0.0
+ },
+ {
+  "date": "2025-01-21",
+  "total_net_flow_usd_m": 802.6
+ },
+ {
+  "date": "2025-01-22",
+  "total_net_flow_usd_m": 248.7
+ },
+ {
+  "date": "2025-01-23",
+  "total_net_flow_usd_m": 188.7
+ },
+ {
+  "date": "2025-01-24",
+  "total_net_flow_usd_m": 517.7
+ },
+ {
+  "date": "2025-01-27",
+  "total_net_flow_usd_m": -457.6
+ },
+ {
+  "date": "2025-01-28",
+  "total_net_flow_usd_m": 18.4
+ },
+ {
+  "date": "2025-01-29",
+  "total_net_flow_usd_m": 92.0
+ },
+ {
+  "date": "2025-01-30",
+  "total_net_flow_usd_m": 588.1
+ },
+ {
+  "date": "2025-01-31",
+  "total_net_flow_usd_m": 318.6
+ },
+ {
+  "date": "2025-02-03",
+  "total_net_flow_usd_m": -234.4
+ },
+ {
+  "date": "2025-02-04",
+  "total_net_flow_usd_m": 340.7
+ },
+ {
+  "date": "2025-02-05",
+  "total_net_flow_usd_m": 66.4
+ },
+ {
+  "date": "2025-02-06",
+  "total_net_flow_usd_m": -140.2
+ },
+ {
+  "date": "2025-02-07",
+  "total_net_flow_usd_m": 171.3
+ },
+ {
+  "date": "2025-02-10",
+  "total_net_flow_usd_m": -186.3
+ },
+ {
+  "date": "2025-02-11",
+  "total_net_flow_usd_m": -56.7
+ },
+ {
+  "date": "2025-02-12",
+  "total_net_flow_usd_m": -251.0
+ },
+ {
+  "date": "2025-02-13",
+  "total_net_flow_usd_m": -157.8
+ },
+ {
+  "date": "2025-02-14",
+  "total_net_flow_usd_m": 66.2
+ },
+ {
+  "date": "2025-02-17",
+  "total_net_flow_usd_m": 0.0
+ },
+ {
+  "date": "2025-02-18",
+  "total_net_flow_usd_m": -60.7
+ },
+ {
+  "date": "2025-02-19",
+  "total_net_flow_usd_m": -71.2
+ },
+ {
+  "date": "2025-02-20",
+  "total_net_flow_usd_m": -364.8
+ },
+ {
+  "date": "2025-02-21",
+  "total_net_flow_usd_m": -62.9
+ },
+ {
+  "date": "2025-02-24",
+  "total_net_flow_usd_m": -565.9
+ },
+ {
+  "date": "2025-02-25",
+  "total_net_flow_usd_m": -1113.7
+ },
+ {
+  "date": "2025-02-26",
+  "total_net_flow_usd_m": -757.8
+ },
+ {
+  "date": "2025-02-27",
+  "total_net_flow_usd_m": -275.9
+ },
+ {
+  "date": "2025-02-28",
+  "total_net_flow_usd_m": 94.3
+ },
+ {
+  "date": "2025-03-03",
+  "total_net_flow_usd_m": -74.2
+ },
+ {
+  "date": "2025-03-04",
+  "total_net_flow_usd_m": -143.5
+ },
+ {
+  "date": "2025-03-05",
+  "total_net_flow_usd_m": -38.3
+ },
+ {
+  "date": "2025-03-06",
+  "total_net_flow_usd_m": -134.3
+ },
+ {
+  "date": "2025-03-07",
+  "total_net_flow_usd_m": -409.3
+ },
+ {
+  "date": "2025-03-10",
+  "total_net_flow_usd_m": -372.5
+ },
+ {
+  "date": "2025-03-11",
+  "total_net_flow_usd_m": -396.3
+ },
+ {
+  "date": "2025-03-12",
+  "total_net_flow_usd_m": 13.3
+ },
+ {
+  "date": "2025-03-13",
+  "total_net_flow_usd_m": -143.4
+ },
+ {
+  "date": "2025-03-14",
+  "total_net_flow_usd_m": 41.3
+ },
+ {
+  "date": "2025-03-17",
+  "total_net_flow_usd_m": 274.6
+ },
+ {
+  "date": "2025-03-18",
+  "total_net_flow_usd_m": 209.1
+ },
+ {
+  "date": "2025-03-19",
+  "total_net_flow_usd_m": 11.8
+ },
+ {
+  "date": "2025-03-20",
+  "total_net_flow_usd_m": 165.7
+ },
+ {
+  "date": "2025-03-21",
+  "total_net_flow_usd_m": 83.1
+ },
+ {
+  "date": "2025-03-24",
+  "total_net_flow_usd_m": 79.7
+ },
+ {
+  "date": "2025-03-25",
+  "total_net_flow_usd_m": 26.8
+ },
+ {
+  "date": "2025-03-26",
+  "total_net_flow_usd_m": 89.6
+ },
+ {
+  "date": "2025-03-27",
+  "total_net_flow_usd_m": 81.7
+ },
+ {
+  "date": "2025-03-28",
+  "total_net_flow_usd_m": -94.9
+ },
+ {
+  "date": "2025-03-31",
+  "total_net_flow_usd_m": -71.2
+ },
+ {
+  "date": "2025-04-01",
+  "total_net_flow_usd_m": -157.8
+ },
+ {
+  "date": "2025-04-02",
+  "total_net_flow_usd_m": 220.8
+ },
+ {
+  "date": "2025-04-03",
+  "total_net_flow_usd_m": -99.8
+ },
+ {
+  "date": "2025-04-04",
+  "total_net_flow_usd_m": -64.9
+ },
+ {
+  "date": "2025-04-07",
+  "total_net_flow_usd_m": -109.2
+ },
+ {
+  "date": "2025-04-08",
+  "total_net_flow_usd_m": -328.0
+ },
+ {
+  "date": "2025-04-09",
+  "total_net_flow_usd_m": -127.2
+ },
+ {
+  "date": "2025-04-10",
+  "total_net_flow_usd_m": -149.5
+ },
+ {
+  "date": "2025-04-11",
+  "total_net_flow_usd_m": -1.0
+ },
+ {
+  "date": "2025-04-14",
+  "total_net_flow_usd_m": 1.5
+ },
+ {
+  "date": "2025-04-15",
+  "total_net_flow_usd_m": 76.4
+ },
+ {
+  "date": "2025-04-16",
+  "total_net_flow_usd_m": -169.8
+ },
+ {
+  "date": "2025-04-17",
+  "total_net_flow_usd_m": 106.9
+ },
+ {
+  "date": "2025-04-18",
+  "total_net_flow_usd_m": 0.0
+ },
+ {
+  "date": "2025-04-21",
+  "total_net_flow_usd_m": 387.4
+ },
+ {
+  "date": "2025-04-22",
+  "total_net_flow_usd_m": 936.5
+ },
+ {
+  "date": "2025-04-23",
+  "total_net_flow_usd_m": 917.0
+ },
+ {
+  "date": "2025-04-24",
+  "total_net_flow_usd_m": 442.0
+ },
+ {
+  "date": "2025-04-25",
+  "total_net_flow_usd_m": 380.0
+ },
+ {
+  "date": "2025-04-28",
+  "total_net_flow_usd_m": 591.2
+ },
+ {
+  "date": "2025-04-29",
+  "total_net_flow_usd_m": 172.8
+ },
+ {
+  "date": "2025-04-30",
+  "total_net_flow_usd_m": -56.3
+ },
+ {
+  "date": "2025-05-01",
+  "total_net_flow_usd_m": 422.5
+ },
+ {
+  "date": "2025-05-02",
+  "total_net_flow_usd_m": 674.9
+ },
+ {
+  "date": "2025-05-05",
+  "total_net_flow_usd_m": 425.5
+ },
+ {
+  "date": "2025-05-06",
+  "total_net_flow_usd_m": -85.7
+ },
+ {
+  "date": "2025-05-07",
+  "total_net_flow_usd_m": 142.3
+ },
+ {
+  "date": "2025-05-08",
+  "total_net_flow_usd_m": 117.4
+ },
+ {
+  "date": "2025-05-09",
+  "total_net_flow_usd_m": 334.5
+ },
+ {
+  "date": "2025-05-12",
+  "total_net_flow_usd_m": 5.2
+ },
+ {
+  "date": "2025-05-13",
+  "total_net_flow_usd_m": -91.4
+ },
+ {
+  "date": "2025-05-14",
+  "total_net_flow_usd_m": 319.5
+ },
+ {
+  "date": "2025-05-15",
+  "total_net_flow_usd_m": 114.9
+ },
+ {
+  "date": "2025-05-16",
+  "total_net_flow_usd_m": 260.2
+ },
+ {
+  "date": "2025-05-19",
+  "total_net_flow_usd_m": 667.4
+ },
+ {
+  "date": "2025-05-20",
+  "total_net_flow_usd_m": 329.2
+ },
+ {
+  "date": "2025-05-21",
+  "total_net_flow_usd_m": 607.1
+ },
+ {
+  "date": "2025-05-22",
+  "total_net_flow_usd_m": 934.8
+ },
+ {
+  "date": "2025-05-23",
+  "total_net_flow_usd_m": 211.7
+ },
+ {
+  "date": "2025-05-26",
+  "total_net_flow_usd_m": 0.0
+ },
+ {
+  "date": "2025-05-27",
+  "total_net_flow_usd_m": 385.4
+ },
+ {
+  "date": "2025-05-28",
+  "total_net_flow_usd_m": 432.7
+ },
+ {
+  "date": "2025-05-29",
+  "total_net_flow_usd_m": -346.8
+ },
+ {
+  "date": "2025-05-30",
+  "total_net_flow_usd_m": -616.1
+ },
+ {
+  "date": "2025-06-02",
+  "total_net_flow_usd_m": -267.5
+ },
+ {
+  "date": "2025-06-03",
+  "total_net_flow_usd_m": 375.1
+ },
+ {
+  "date": "2025-06-04",
+  "total_net_flow_usd_m": 87.0
+ },
+ {
+  "date": "2025-06-05",
+  "total_net_flow_usd_m": -278.4
+ },
+ {
+  "date": "2025-06-06",
+  "total_net_flow_usd_m": -47.8
+ },
+ {
+  "date": "2025-06-09",
+  "total_net_flow_usd_m": 386.2
+ },
+ {
+  "date": "2025-06-10",
+  "total_net_flow_usd_m": 431.2
+ },
+ {
+  "date": "2025-06-11",
+  "total_net_flow_usd_m": 164.6
+ },
+ {
+  "date": "2025-06-12",
+  "total_net_flow_usd_m": 86.3
+ },
+ {
+  "date": "2025-06-13",
+  "total_net_flow_usd_m": 322.7
+ },
+ {
+  "date": "2025-06-16",
+  "total_net_flow_usd_m": 412.2
+ },
+ {
+  "date": "2025-06-17",
+  "total_net_flow_usd_m": 216.5
+ },
+ {
+  "date": "2025-06-18",
+  "total_net_flow_usd_m": 388.3
+ },
+ {
+  "date": "2025-06-19",
+  "total_net_flow_usd_m": 0.0
+ },
+ {
+  "date": "2025-06-20",
+  "total_net_flow_usd_m": 6.4
+ },
+ {
+  "date": "2025-06-23",
+  "total_net_flow_usd_m": 350.6
+ },
+ {
+  "date": "2025-06-24",
+  "total_net_flow_usd_m": 588.6
+ },
+ {
+  "date": "2025-06-25",
+  "total_net_flow_usd_m": 547.7
+ },
+ {
+  "date": "2025-06-26",
+  "total_net_flow_usd_m": 226.7
+ },
+ {
+  "date": "2025-06-27",
+  "total_net_flow_usd_m": 501.2
+ },
+ {
+  "date": "2025-06-30",
+  "total_net_flow_usd_m": 102.1
+ },
+ {
+  "date": "2025-07-01",
+  "total_net_flow_usd_m": -342.2
+ },
+ {
+  "date": "2025-07-02",
+  "total_net_flow_usd_m": 407.8
+ },
+ {
+  "date": "2025-07-03",
+  "total_net_flow_usd_m": 601.8
+ },
+ {
+  "date": "2025-07-07",
+  "total_net_flow_usd_m": 216.5
+ },
+ {
+  "date": "2025-07-08",
+  "total_net_flow_usd_m": 80.1
+ },
+ {
+  "date": "2025-07-09",
+  "total_net_flow_usd_m": 215.7
+ },
+ {
+  "date": "2025-07-10",
+  "total_net_flow_usd_m": 1175.6
+ },
+ {
+  "date": "2025-07-11",
+  "total_net_flow_usd_m": 1029.6
+ },
+ {
+  "date": "2025-07-14",
+  "total_net_flow_usd_m": 297.4
+ },
+ {
+  "date": "2025-07-15",
+  "total_net_flow_usd_m": 403.1
+ },
+ {
+  "date": "2025-07-16",
+  "total_net_flow_usd_m": 799.4
+ },
+ {
+  "date": "2025-07-17",
+  "total_net_flow_usd_m": 522.6
+ },
+ {
+  "date": "2025-07-18",
+  "total_net_flow_usd_m": 363.5
+ },
+ {
+  "date": "2025-07-21",
+  "total_net_flow_usd_m": -131.4
+ },
+ {
+  "date": "2025-07-22",
+  "total_net_flow_usd_m": -68.0
+ },
+ {
+  "date": "2025-07-23",
+  "total_net_flow_usd_m": -85.8
+ },
+ {
+  "date": "2025-07-24",
+  "total_net_flow_usd_m": 226.7
+ },
+ {
+  "date": "2025-07-25",
+  "total_net_flow_usd_m": 130.8
+ },
+ {
+  "date": "2025-07-28",
+  "total_net_flow_usd_m": 157.1
+ },
+ {
+  "date": "2025-07-29",
+  "total_net_flow_usd_m": 80.0
+ },
+ {
+  "date": "2025-07-30",
+  "total_net_flow_usd_m": 47.1
+ },
+ {
+  "date": "2025-07-31",
+  "total_net_flow_usd_m": -114.8
+ },
+ {
+  "date": "2025-08-01",
+  "total_net_flow_usd_m": -812.3
+ },
+ {
+  "date": "2025-08-04",
+  "total_net_flow_usd_m": -323.5
+ },
+ {
+  "date": "2025-08-05",
+  "total_net_flow_usd_m": -196.2
+ },
+ {
+  "date": "2025-08-06",
+  "total_net_flow_usd_m": 91.6
+ },
+ {
+  "date": "2025-08-07",
+  "total_net_flow_usd_m": 277.4
+ },
+ {
+  "date": "2025-08-08",
+  "total_net_flow_usd_m": 403.9
+ },
+ {
+  "date": "2025-08-11",
+  "total_net_flow_usd_m": 178.1
+ },
+ {
+  "date": "2025-08-12",
+  "total_net_flow_usd_m": 65.9
+ },
+ {
+  "date": "2025-08-13",
+  "total_net_flow_usd_m": 86.9
+ },
+ {
+  "date": "2025-08-14",
+  "total_net_flow_usd_m": 230.8
+ },
+ {
+  "date": "2025-08-15",
+  "total_net_flow_usd_m": -14.1
+ },
+ {
+  "date": "2025-08-18",
+  "total_net_flow_usd_m": -121.7
+ },
+ {
+  "date": "2025-08-19",
+  "total_net_flow_usd_m": -523.3
+ },
+ {
+  "date": "2025-08-20",
+  "total_net_flow_usd_m": -315.9
+ },
+ {
+  "date": "2025-08-21",
+  "total_net_flow_usd_m": -194.4
+ },
+ {
+  "date": "2025-08-22",
+  "total_net_flow_usd_m": -23.2
+ },
+ {
+  "date": "2025-08-25",
+  "total_net_flow_usd_m": 219.1
+ },
+ {
+  "date": "2025-08-26",
+  "total_net_flow_usd_m": 88.1
+ },
+ {
+  "date": "2025-08-27",
+  "total_net_flow_usd_m": 81.4
+ },
+ {
+  "date": "2025-08-28",
+  "total_net_flow_usd_m": 178.9
+ },
+ {
+  "date": "2025-08-29",
+  "total_net_flow_usd_m": -126.7
+ },
+ {
+  "date": "2025-09-02",
+  "total_net_flow_usd_m": 332.8
+ },
+ {
+  "date": "2025-09-03",
+  "total_net_flow_usd_m": 300.5
+ },
+ {
+  "date": "2025-09-04",
+  "total_net_flow_usd_m": -222.9
+ },
+ {
+  "date": "2025-09-05",
+  "total_net_flow_usd_m": -160.1
+ },
+ {
+  "date": "2025-09-08",
+  "total_net_flow_usd_m": 364.3
+ },
+ {
+  "date": "2025-09-09",
+  "total_net_flow_usd_m": 23.0
+ },
+ {
+  "date": "2025-09-10",
+  "total_net_flow_usd_m": 741.5
+ },
+ {
+  "date": "2025-09-11",
+  "total_net_flow_usd_m": 552.7
+ },
+ {
+  "date": "2025-09-12",
+  "total_net_flow_usd_m": 642.4
+ },
+ {
+  "date": "2025-09-15",
+  "total_net_flow_usd_m": 259.9
+ },
+ {
+  "date": "2025-09-16",
+  "total_net_flow_usd_m": 292.3
+ },
+ {
+  "date": "2025-09-17",
+  "total_net_flow_usd_m": -51.3
+ },
+ {
+  "date": "2025-09-18",
+  "total_net_flow_usd_m": 163.0
+ },
+ {
+  "date": "2025-09-19",
+  "total_net_flow_usd_m": 222.6
+ },
+ {
+  "date": "2025-09-22",
+  "total_net_flow_usd_m": -363.1
+ },
+ {
+  "date": "2025-09-23",
+  "total_net_flow_usd_m": -103.8
+ },
+ {
+  "date": "2025-09-24",
+  "total_net_flow_usd_m": 241.0
+ },
+ {
+  "date": "2025-09-25",
+  "total_net_flow_usd_m": -253.4
+ },
+ {
+  "date": "2025-09-26",
+  "total_net_flow_usd_m": -418.3
+ },
+ {
+  "date": "2025-09-29",
+  "total_net_flow_usd_m": 518.0
+ },
+ {
+  "date": "2025-09-30",
+  "total_net_flow_usd_m": 429.9
+ },
+ {
+  "date": "2025-10-01",
+  "total_net_flow_usd_m": 675.8
+ },
+ {
+  "date": "2025-10-02",
+  "total_net_flow_usd_m": 627.2
+ },
+ {
+  "date": "2025-10-03",
+  "total_net_flow_usd_m": 985.1
+ },
+ {
+  "date": "2025-10-06",
+  "total_net_flow_usd_m": 1205.2
+ },
+ {
+  "date": "2025-10-07",
+  "total_net_flow_usd_m": 875.6
+ },
+ {
+  "date": "2025-10-08",
+  "total_net_flow_usd_m": 440.7
+ },
+ {
+  "date": "2025-10-09",
+  "total_net_flow_usd_m": 197.8
+ },
+ {
+  "date": "2025-10-10",
+  "total_net_flow_usd_m": -4.5
+ },
+ {
+  "date": "2025-10-13",
+  "total_net_flow_usd_m": -326.4
+ },
+ {
+  "date": "2025-10-14",
+  "total_net_flow_usd_m": 102.7
+ },
+ {
+  "date": "2025-10-15",
+  "total_net_flow_usd_m": -104.1
+ },
+ {
+  "date": "2025-10-16",
+  "total_net_flow_usd_m": -530.9
+ },
+ {
+  "date": "2025-10-17",
+  "total_net_flow_usd_m": -366.6
+ },
+ {
+  "date": "2025-10-20",
+  "total_net_flow_usd_m": -40.4
+ },
+ {
+  "date": "2025-10-21",
+  "total_net_flow_usd_m": 477.2
+ },
+ {
+  "date": "2025-10-22",
+  "total_net_flow_usd_m": -101.4
+ },
+ {
+  "date": "2025-10-23",
+  "total_net_flow_usd_m": 20.3
+ },
+ {
+  "date": "2025-10-24",
+  "total_net_flow_usd_m": 90.6
+ },
+ {
+  "date": "2025-10-27",
+  "total_net_flow_usd_m": 149.3
+ },
+ {
+  "date": "2025-10-28",
+  "total_net_flow_usd_m": 202.4
+ },
+ {
+  "date": "2025-10-29",
+  "total_net_flow_usd_m": -470.7
+ },
+ {
+  "date": "2025-10-30",
+  "total_net_flow_usd_m": -488.4
+ },
+ {
+  "date": "2025-10-31",
+  "total_net_flow_usd_m": -191.6
+ },
+ {
+  "date": "2025-11-03",
+  "total_net_flow_usd_m": -186.5
+ },
+ {
+  "date": "2025-11-04",
+  "total_net_flow_usd_m": -566.4
+ },
+ {
+  "date": "2025-11-05",
+  "total_net_flow_usd_m": -137.0
+ },
+ {
+  "date": "2025-11-06",
+  "total_net_flow_usd_m": 239.9
+ },
+ {
+  "date": "2025-11-07",
+  "total_net_flow_usd_m": -558.4
+ },
+ {
+  "date": "2025-11-10",
+  "total_net_flow_usd_m": 1.2
+ },
+ {
+  "date": "2025-11-11",
+  "total_net_flow_usd_m": 524.0
+ },
+ {
+  "date": "2025-11-12",
+  "total_net_flow_usd_m": -278.1
+ },
+ {
+  "date": "2025-11-13",
+  "total_net_flow_usd_m": -866.7
+ },
+ {
+  "date": "2025-11-14",
+  "total_net_flow_usd_m": -492.1
+ },
+ {
+  "date": "2025-11-17",
+  "total_net_flow_usd_m": -254.6
+ },
+ {
+  "date": "2025-11-18",
+  "total_net_flow_usd_m": -372.8
+ },
+ {
+  "date": "2025-11-19",
+  "total_net_flow_usd_m": 75.4
+ },
+ {
+  "date": "2025-11-20",
+  "total_net_flow_usd_m": -903.2
+ },
+ {
+  "date": "2025-11-21",
+  "total_net_flow_usd_m": 238.4
+ },
+ {
+  "date": "2025-11-24",
+  "total_net_flow_usd_m": -151.0
+ },
+ {
+  "date": "2025-11-25",
+  "total_net_flow_usd_m": 128.7
+ },
+ {
+  "date": "2025-11-26",
+  "total_net_flow_usd_m": 21.1
+ },
+ {
+  "date": "2025-11-28",
+  "total_net_flow_usd_m": 71.4
+ },
+ {
+  "date": "2025-12-01",
+  "total_net_flow_usd_m": 8.5
+ },
+ {
+  "date": "2025-12-02",
+  "total_net_flow_usd_m": 58.5
+ },
+ {
+  "date": "2025-12-03",
+  "total_net_flow_usd_m": -14.9
+ },
+ {
+  "date": "2025-12-04",
+  "total_net_flow_usd_m": -194.6
+ },
+ {
+  "date": "2025-12-05",
+  "total_net_flow_usd_m": 54.8
+ },
+ {
+  "date": "2025-12-08",
+  "total_net_flow_usd_m": -60.4
+ },
+ {
+  "date": "2025-12-09",
+  "total_net_flow_usd_m": 151.9
+ },
+ {
+  "date": "2025-12-10",
+  "total_net_flow_usd_m": 223.5
+ },
+ {
+  "date": "2025-12-11",
+  "total_net_flow_usd_m": -77.5
+ },
+ {
+  "date": "2025-12-12",
+  "total_net_flow_usd_m": 49.1
+ },
+ {
+  "date": "2025-12-15",
+  "total_net_flow_usd_m": -357.6
+ },
+ {
+  "date": "2025-12-16",
+  "total_net_flow_usd_m": -277.2
+ },
+ {
+  "date": "2025-12-17",
+  "total_net_flow_usd_m": 457.3
+ },
+ {
+  "date": "2025-12-18",
+  "total_net_flow_usd_m": -161.3
+ },
+ {
+  "date": "2025-12-19",
+  "total_net_flow_usd_m": -158.3
+ },
+ {
+  "date": "2025-12-22",
+  "total_net_flow_usd_m": -142.2
+ },
+ {
+  "date": "2025-12-23",
+  "total_net_flow_usd_m": -188.6
+ },
+ {
+  "date": "2025-12-24",
+  "total_net_flow_usd_m": -175.3
+ },
+ {
+  "date": "2025-12-26",
+  "total_net_flow_usd_m": -275.9
+ },
+ {
+  "date": "2025-12-29",
+  "total_net_flow_usd_m": -19.3
+ },
+ {
+  "date": "2025-12-30",
+  "total_net_flow_usd_m": 355.1
+ },
+ {
+  "date": "2025-12-31",
+  "total_net_flow_usd_m": -348.1
+ },
+ {
+  "date": "2026-01-02",
+  "total_net_flow_usd_m": 471.3
+ },
+ {
+  "date": "2026-01-05",
+  "total_net_flow_usd_m": 697.2
+ },
+ {
+  "date": "2026-01-06",
+  "total_net_flow_usd_m": -243.2
+ },
+ {
+  "date": "2026-01-07",
+  "total_net_flow_usd_m": -486.1
+ },
+ {
+  "date": "2026-01-08",
+  "total_net_flow_usd_m": -398.8
+ },
+ {
+  "date": "2026-01-09",
+  "total_net_flow_usd_m": -250.0
+ },
+ {
+  "date": "2026-01-12",
+  "total_net_flow_usd_m": 116.7
+ },
+ {
+  "date": "2026-01-13",
+  "total_net_flow_usd_m": 753.8
+ },
+ {
+  "date": "2026-01-14",
+  "total_net_flow_usd_m": 840.6
+ },
+ {
+  "date": "2026-01-15",
+  "total_net_flow_usd_m": 100.2
+ },
+ {
+  "date": "2026-01-16",
+  "total_net_flow_usd_m": -394.7
+ },
+ {
+  "date": "2026-01-20",
+  "total_net_flow_usd_m": -479.7
+ },
+ {
+  "date": "2026-01-21",
+  "total_net_flow_usd_m": -708.7
+ },
+ {
+  "date": "2026-01-22",
+  "total_net_flow_usd_m": -32.2
+ },
+ {
+  "date": "2026-01-23",
+  "total_net_flow_usd_m": -103.5
+ },
+ {
+  "date": "2026-01-26",
+  "total_net_flow_usd_m": 6.8
+ },
+ {
+  "date": "2026-01-27",
+  "total_net_flow_usd_m": -147.4
+ },
+ {
+  "date": "2026-01-28",
+  "total_net_flow_usd_m": -19.6
+ },
+ {
+  "date": "2026-01-29",
+  "total_net_flow_usd_m": -817.8
+ },
+ {
+  "date": "2026-01-30",
+  "total_net_flow_usd_m": -509.7
+ },
+ {
+  "date": "2026-02-02",
+  "total_net_flow_usd_m": 561.8
+ },
+ {
+  "date": "2026-02-03",
+  "total_net_flow_usd_m": -272.0
+ },
+ {
+  "date": "2026-02-04",
+  "total_net_flow_usd_m": -544.9
+ },
+ {
+  "date": "2026-02-05",
+  "total_net_flow_usd_m": -434.1
+ },
+ {
+  "date": "2026-02-06",
+  "total_net_flow_usd_m": 371.1
+ },
+ {
+  "date": "2026-02-09",
+  "total_net_flow_usd_m": 144.9
+ },
+ {
+  "date": "2026-02-10",
+  "total_net_flow_usd_m": 166.5
+ },
+ {
+  "date": "2026-02-11",
+  "total_net_flow_usd_m": -276.3
+ },
+ {
+  "date": "2026-02-12",
+  "total_net_flow_usd_m": -410.2
+ },
+ {
+  "date": "2026-02-13",
+  "total_net_flow_usd_m": 15.1
+ },
+ {
+  "date": "2026-02-17",
+  "total_net_flow_usd_m": -104.9
+ },
+ {
+  "date": "2026-02-18",
+  "total_net_flow_usd_m": -133.3
+ },
+ {
+  "date": "2026-02-19",
+  "total_net_flow_usd_m": -165.8
+ },
+ {
+  "date": "2026-02-20",
+  "total_net_flow_usd_m": 88.1
+ },
+ {
+  "date": "2026-02-23",
+  "total_net_flow_usd_m": -203.8
+ },
+ {
+  "date": "2026-02-24",
+  "total_net_flow_usd_m": 257.7
+ },
+ {
+  "date": "2026-02-25",
+  "total_net_flow_usd_m": 506.6
+ },
+ {
+  "date": "2026-02-26",
+  "total_net_flow_usd_m": 254.4
+ },
+ {
+  "date": "2026-02-27",
+  "total_net_flow_usd_m": -27.5
+ },
+ {
+  "date": "2026-03-02",
+  "total_net_flow_usd_m": 458.2
+ },
+ {
+  "date": "2026-03-03",
+  "total_net_flow_usd_m": 225.2
+ },
+ {
+  "date": "2026-03-04",
+  "total_net_flow_usd_m": 461.9
+ },
+ {
+  "date": "2026-03-05",
+  "total_net_flow_usd_m": -227.9
+ },
+ {
+  "date": "2026-03-06",
+  "total_net_flow_usd_m": -348.9
+ },
+ {
+  "date": "2026-03-09",
+  "total_net_flow_usd_m": 167.1
+ },
+ {
+  "date": "2026-03-10",
+  "total_net_flow_usd_m": 246.9
+ },
+ {
+  "date": "2026-03-11",
+  "total_net_flow_usd_m": 115.2
+ },
+ {
+  "date": "2026-03-12",
+  "total_net_flow_usd_m": 53.8
+ },
+ {
+  "date": "2026-03-13",
+  "total_net_flow_usd_m": 180.4
+ },
+ {
+  "date": "2026-03-16",
+  "total_net_flow_usd_m": 199.4
+ },
+ {
+  "date": "2026-03-17",
+  "total_net_flow_usd_m": 199.4
+ },
+ {
+  "date": "2026-03-18",
+  "total_net_flow_usd_m": -163.5
+ },
+ {
+  "date": "2026-03-19",
+  "total_net_flow_usd_m": -90.2
+ },
+ {
+  "date": "2026-03-20",
+  "total_net_flow_usd_m": -52.0
+ },
+ {
+  "date": "2026-03-23",
+  "total_net_flow_usd_m": 167.2
+ },
+ {
+  "date": "2026-03-24",
+  "total_net_flow_usd_m": -74.5
+ },
+ {
+  "date": "2026-03-25",
+  "total_net_flow_usd_m": 7.8
+ },
+ {
+  "date": "2026-03-26",
+  "total_net_flow_usd_m": -171.3
+ },
+ {
+  "date": "2026-03-27",
+  "total_net_flow_usd_m": -225.5
+ },
+ {
+  "date": "2026-03-30",
+  "total_net_flow_usd_m": 69.4
+ },
+ {
+  "date": "2026-03-31",
+  "total_net_flow_usd_m": 117.5
+ },
+ {
+  "date": "2026-04-01",
+  "total_net_flow_usd_m": -173.7
+ },
+ {
+  "date": "2026-04-02",
+  "total_net_flow_usd_m": 9.0
+ },
+ {
+  "date": "2026-04-06",
+  "total_net_flow_usd_m": 471.4
+ },
+ {
+  "date": "2026-04-07",
+  "total_net_flow_usd_m": -159.1
+ },
+ {
+  "date": "2026-04-08",
+  "total_net_flow_usd_m": -93.9
+ },
+ {
+  "date": "2026-04-09",
+  "total_net_flow_usd_m": 358.1
+ },
+ {
+  "date": "2026-04-10",
+  "total_net_flow_usd_m": 256.7
+ },
+ {
+  "date": "2026-04-13",
+  "total_net_flow_usd_m": -291.0
+ },
+ {
+  "date": "2026-04-14",
+  "total_net_flow_usd_m": 411.4
+ },
+ {
+  "date": "2026-04-15",
+  "total_net_flow_usd_m": 186.1
+ },
+ {
+  "date": "2026-04-16",
+  "total_net_flow_usd_m": 26.1
+ },
+ {
+  "date": "2026-04-17",
+  "total_net_flow_usd_m": 663.9
+ },
+ {
+  "date": "2026-04-20",
+  "total_net_flow_usd_m": 238.4
+ },
+ {
+  "date": "2026-04-21",
+  "total_net_flow_usd_m": 11.8
+ },
+ {
+  "date": "2026-04-22",
+  "total_net_flow_usd_m": 335.8
+ },
+ {
+  "date": "2026-04-23",
+  "total_net_flow_usd_m": 223.3
+ },
+ {
+  "date": "2026-04-24",
+  "total_net_flow_usd_m": 14.4
+ },
+ {
+  "date": "2026-04-27",
+  "total_net_flow_usd_m": -263.2
+ },
+ {
+  "date": "2026-04-28",
+  "total_net_flow_usd_m": -89.7
+ },
+ {
+  "date": "2026-04-29",
+  "total_net_flow_usd_m": -137.6
+ },
+ {
+  "date": "2026-04-30",
+  "total_net_flow_usd_m": 23.5
+ },
+ {
+  "date": "2026-05-01",
+  "total_net_flow_usd_m": 629.8
+ },
+ {
+  "date": "2026-05-04",
+  "total_net_flow_usd_m": 532.3
+ },
+ {
+  "date": "2026-05-05",
+  "total_net_flow_usd_m": 467.3
+ },
+ {
+  "date": "2026-05-06",
+  "total_net_flow_usd_m": 46.2
+ },
+ {
+  "date": "2026-05-07",
+  "total_net_flow_usd_m": -268.5
+ },
+ {
+  "date": "2026-05-08",
+  "total_net_flow_usd_m": -145.7
+ },
+ {
+  "date": "2026-05-11",
+  "total_net_flow_usd_m": 27.2
+ },
+ {
+  "date": "2026-05-12",
+  "total_net_flow_usd_m": -233.2
+ },
+ {
+  "date": "2026-05-13",
+  "total_net_flow_usd_m": -630.4
+ },
+ {
+  "date": "2026-05-14",
+  "total_net_flow_usd_m": 131.3
+ },
+ {
+  "date": "2026-05-15",
+  "total_net_flow_usd_m": -290.4
+ },
+ {
+  "date": "2026-05-18",
+  "total_net_flow_usd_m": -648.6
+ },
+ {
+  "date": "2026-05-19",
+  "total_net_flow_usd_m": -331.1
+ },
+ {
+  "date": "2026-05-20",
+  "total_net_flow_usd_m": -70.5
+ },
+ {
+  "date": "2026-05-21",
+  "total_net_flow_usd_m": -100.9
+ },
+ {
+  "date": "2026-05-22",
+  "total_net_flow_usd_m": -105.2
+ },
+ {
+  "date": "2026-05-26",
+  "total_net_flow_usd_m": -333.6
+ },
+ {
+  "date": "2026-05-27",
+  "total_net_flow_usd_m": -733.4
+ },
+ {
+  "date": "2026-05-28",
+  "total_net_flow_usd_m": -223.3
+ },
+ {
+  "date": "2026-05-29",
+  "total_net_flow_usd_m": -125.3
+ },
+ {
+  "date": "2026-06-01",
+  "total_net_flow_usd_m": -483.8
+ },
+ {
+  "date": "2026-06-02",
+  "total_net_flow_usd_m": -519.1
+ },
+ {
+  "date": "2026-06-03",
+  "total_net_flow_usd_m": -396.6
+ },
+ {
+  "date": "2026-06-04",
+  "total_net_flow_usd_m": 3.2
+ },
+ {
+  "date": "2026-06-05",
+  "total_net_flow_usd_m": -325.7
+ },
+ {
+  "date": "2026-06-08",
+  "total_net_flow_usd_m": -91.4
+ },
+ {
+  "date": "2026-06-09",
+  "total_net_flow_usd_m": -77.4
+ },
+ {
+  "date": "2026-06-10",
+  "total_net_flow_usd_m": -213.9
+ },
+ {
+  "date": "2026-06-11",
+  "total_net_flow_usd_m": -22.5
+ },
+ {
+  "date": "2026-06-12",
+  "total_net_flow_usd_m": 85.9
+ },
+ {
+  "date": "2026-06-15",
+  "total_net_flow_usd_m": -64.8
+ },
+ {
+  "date": "2026-06-16",
+  "total_net_flow_usd_m": 10.2
+ },
+ {
+  "date": "2026-06-17",
+  "total_net_flow_usd_m": -82.2
+ },
+ {
+  "date": "2026-06-18",
+  "total_net_flow_usd_m": -90.7
+ },
+ {
+  "date": "2026-06-22",
+  "total_net_flow_usd_m": -68.3
+ },
+ {
+  "date": "2026-06-23",
+  "total_net_flow_usd_m": -113.8
+ },
+ {
+  "date": "2026-06-24",
+  "total_net_flow_usd_m": -469.0
+ },
+ {
+  "date": "2026-06-25",
+  "total_net_flow_usd_m": -691.7
+ },
+ {
+  "date": "2026-06-26",
+  "total_net_flow_usd_m": -444.5
+ },
+ {
+  "date": "2026-06-29",
+  "total_net_flow_usd_m": -231.0
+ },
+ {
+  "date": "2026-06-30",
+  "total_net_flow_usd_m": -222.6
+ },
+ {
+  "date": "2026-07-01",
+  "total_net_flow_usd_m": -296.0
+ },
+ {
+  "date": "2026-07-02",
+  "total_net_flow_usd_m": 223.5
+ },
+ {
+  "date": "2026-07-06",
+  "total_net_flow_usd_m": 265.7
+ },
+ {
+  "date": "2026-07-07",
+  "total_net_flow_usd_m": 21.5
+ },
+ {
+  "date": "2026-07-08",
+  "total_net_flow_usd_m": -84.9
+ },
+ {
+  "date": "2026-07-09",
+  "total_net_flow_usd_m": -95.3
+ },
+ {
+  "date": "2026-07-10",
+  "total_net_flow_usd_m": 90.4
+ },
+ {
+  "date": "2026-07-13",
+  "total_net_flow_usd_m": -424.7
+ },
+ {
+  "date": "2026-07-14",
+  "total_net_flow_usd_m": 181.1
+ },
+ {
+  "date": "2026-07-15",
+  "total_net_flow_usd_m": 107.7
+ },
+ {
+  "date": "2026-07-16",
+  "total_net_flow_usd_m": 79.1
+ },
+ {
+  "date": "2026-07-17",
+  "total_net_flow_usd_m": 132.3
+ },
+ {
+  "date": "2026-07-20",
+  "total_net_flow_usd_m": 226.8
+ },
+ {
+  "date": "2026-07-21",
+  "total_net_flow_usd_m": 203.2
+ },
+ {
+  "date": "2026-07-22",
+  "total_net_flow_usd_m": 69.1
+ },
+ {
+  "date": "2026-07-23",
+  "total_net_flow_usd_m": -225.1
+ },
+ {
+  "date": "2026-07-24",
+  "total_net_flow_usd_m": -240.1
+ },
+ {
+  "date": "2026-07-27",
+  "total_net_flow_usd_m": -11.6
+ },
+ {
+  "date": "2026-07-28",
+  "total_net_flow_usd_m": -49.7
+ },
+ {
+  "date": "2026-07-29",
+  "total_net_flow_usd_m": 32.1
+ },
+ {
+  "date": "2026-07-30",
+  "total_net_flow_usd_m": 233.1
+ },
+ {
+  "date": "2026-07-31",
+  "total_net_flow_usd_m": -265.4
+ },
+ {
+  "date": "2026-08-03",
+  "total_net_flow_usd_m": 170.1
+ },
+ {
+  "date": "2026-08-04",
+  "total_net_flow_usd_m": 211.5
+ },
+ {
+  "date": "2026-08-05",
+  "total_net_flow_usd_m": 244.4
+ },
+ {
+  "date": "2026-08-06",
+  "total_net_flow_usd_m": 137.6
+ },
+ {
+  "date": "2026-08-07",
+  "total_net_flow_usd_m": 101.7
+ },
+ {
+  "date": "2026-08-10",
+  "total_net_flow_usd_m": -144.6
+ },
+ {
+  "date": "2026-08-11",
+  "total_net_flow_usd_m": 7.8
+ },
+ {
+  "date": "2026-08-12",
+  "total_net_flow_usd_m": -61.1
+ },
+ {
+  "date": "2026-08-13",
+  "total_net_flow_usd_m": -131.1
+ },
+ {
+  "date": "2026-08-14",
+  "total_net_flow_usd_m": -56.2
+ },
+ {
+  "date": "2026-08-17",
+  "total_net_flow_usd_m": 297.5
+ },
+ {
+  "date": "2026-08-18",
+  "total_net_flow_usd_m": 189.3
+ },
+ {
+  "date": "2026-08-19",
+  "total_net_flow_usd_m": 517.2
+ },
+ {
+  "date": "2026-08-20",
+  "total_net_flow_usd_m": 606.3
+ },
+ {
+  "date": "2026-08-21",
+  "total_net_flow_usd_m": 307.5
+ },
+ {
+  "date": "2026-08-24",
+  "total_net_flow_usd_m": 337.6
+ },
+ {
+  "date": "2026-08-25",
+  "total_net_flow_usd_m": 314.3
+ },
+ {
+  "date": "2026-08-26",
+  "total_net_flow_usd_m": 232.2
+ },
+ {
+  "date": "2026-08-27",
+  "total_net_flow_usd_m": 242.3
+ },
+ {
+  "date": "2026-08-28",
+  "total_net_flow_usd_m": -201.9
+ },
+ {
+  "date": "2026-08-31",
+  "total_net_flow_usd_m": 216.7
+ },
+ {
+  "date": "2026-09-01",
+  "total_net_flow_usd_m": -236.5
+ },
+ {
+  "date": "2026-09-02",
+  "total_net_flow_usd_m": 101.1
+ },
+ {
+  "date": "2026-09-03",
+  "total_net_flow_usd_m": 730.8
+ },
+ {
+  "date": "2026-09-04",
+  "total_net_flow_usd_m": 174.6
+ }
+]
