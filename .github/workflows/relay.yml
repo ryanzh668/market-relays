@@ -1,0 +1,69 @@
+name: relay
+# 公共市场数据日频中继。本机对 farside.co.uk(Cloudflare 403)与 cftc.gov(SSL 全封锁)
+# 都够不着,只有 Actions 的出口 IP 能试 —— 这条流水线的**首跑本身就是可达性实测**。
+#
+# 两个源互不相干,**一个挂不许连坐另一个**:每步 continue-on-error,
+# 最后 gate 步汇总——两个都挂才让整条 run 红;只挂一个则黄字警告但 run 绿
+# (数据文件里那个源的记录就此断更,error 账里有原因,不会写假数)。
+on:
+  schedule:
+    - cron: '45 22 * * *'      # 每日 22:45 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: relay
+  cancel-in-progress: false
+
+jobs:
+  relay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Farside BTC ETF flows
+        id: farside
+        continue-on-error: true
+        run: python3 scripts/fetch_etf_farside.py
+
+      - name: CFTC COT (TFF, CME Bitcoin)
+        id: cftc
+        continue-on-error: true
+        run: python3 scripts/fetch_cftc_cot.py
+
+      - name: Commit data changes
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          if git diff --cached --quiet; then
+            echo "data/ 无变化,不提交"
+          else
+            git commit -m "relay: data update $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Gate
+        env:
+          FARSIDE: ${{ steps.farside.outcome }}
+          CFTC: ${{ steps.cftc.outcome }}
+        run: |
+          echo "farside=$FARSIDE  cftc=$CFTC"
+          if [ "$FARSIDE" != "success" ] && [ "$CFTC" != "success" ]; then
+            echo "::error::两个源都失败了 —— 见 data/*.error.json"
+            exit 1
+          fi
+          if [ "$FARSIDE" != "success" ]; then
+            echo "::warning::farside 失败(cftc 正常),见 data/etf_flows_farside.error.json"
+          fi
+          if [ "$CFTC" != "success" ]; then
+            echo "::warning::cftc 失败(farside 正常),见 data/cot_btc.error.json"
+          fi
