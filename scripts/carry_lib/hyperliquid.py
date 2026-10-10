@@ -8,7 +8,11 @@
 has_spot：同所现货代币名 == coin 或 == "U"+coin（Unit 桥接币，如 UBTC）且以 USDC 计价 [推断：映射规则]。
 历史 OI 无公共接口 → pool 历史行无法回填 [待验·无路]；pool 只能自前向首日起累积。
 
-用法：python3 collect/hyperliquid.py forward | backfill [--since 2025-01-01] [--only funding,klines] [--coins MON,BTC]
+用法：python3 collect/hyperliquid.py forward | backfill [--since 2025-01-01] [--only funding,klines,klines4h,daily,spotmeta]
+                                    [--coins MON,BTC] [--shard 0/4]
+      python3 collect/hyperliquid.py proxy-pool [--v01-dir ~/note/market-relays/data/carry/hyperliquid/v01]
+v0.1：回填宇宙 = meta 全部永续（含 isDelisted，不再按 OI/现货筛）；HL 1h K 线只给最近 5000 根，更早用 4h 补到
+klines/hyperliquid_4h/；代理池行（proxy=true，oi_usd=null）由 proxy-pool 从账本费率 + 中继 v01/ 产物生成。
 """
 import argparse
 import json
@@ -243,10 +247,32 @@ def backfill(sink, since, only, coins=None, shard=None):
     for k, p in enumerate(perps):
         c = p["coin"]
         rep = report.setdefault(c, {"delisted": p["delisted"], "spot": p["spot"]})
+        first_1h = last_1h = None
+        if "klines" in only or ("funding" in only and p["delisted"]):
+            try:
+                k1 = candles(c, "1h", since_ms, fetched)
+                rows = [C.mkrow("klines", ts=int(r["t"]), o=C.f(r["o"]), h=C.f(r["h"]),
+                                l=C.f(r["l"]), c=C.f(r["c"]), kind="last") for r in k1]
+                sink.write("klines", rows, ex=EX, symbol=c, backfill=True)
+                first_1h = rows[0]["ts"] if rows else None
+                last_1h = rows[-1]["ts"] if rows else None
+                rep["k1h_n"] = len(rows)
+                rep["k1h_last"] = last_1h
+                rep["k1h_first"] = first_1h
+            except C.HttpError as e:
+                rep["k1h_err"] = str(e)[:200]
+                C.write_error(EX, "backfill klines %s" % c, e)
         if "funding" in only:
             try:
                 raw = funding_hist_w(c, since_ms)
                 rows = funding_rows(c, raw, "backfill", fetched)
+                if p["delisted"]:
+                    # 已下架币：HL 下架后仍逐小时返回 rate=0.0 的“空结算”直到今天 [有据 FTM 实测]
+                    # → 截到最后一根 1h K 线收盘；无 K 线（窗口内未交易）则只留非零行
+                    cut = last_1h + C.HOUR_MS if last_1h else None
+                    n0 = len(rows)
+                    rows = [r for r in rows if (r["ts"] <= cut if cut else r["rate"] != 0)]
+                    rep["funding_dropped_after_delist"] = n0 - len(rows)
                 sink.write("funding", rows, ex=EX, symbol=c, backfill=True)
                 rep["funding_n"] = len(rows)
                 rep["funding_first"] = rows[0]["ts"] if rows else None
@@ -254,19 +280,6 @@ def backfill(sink, since, only, coins=None, shard=None):
             except C.HttpError as e:
                 rep["funding_err"] = str(e)[:200]
                 C.write_error(EX, "backfill funding %s" % c, e)
-        first_1h = None
-        if "klines" in only:
-            try:
-                k1 = candles(c, "1h", since_ms, fetched)
-                rows = [C.mkrow("klines", ts=int(r["t"]), o=C.f(r["o"]), h=C.f(r["h"]),
-                                l=C.f(r["l"]), c=C.f(r["c"]), kind="last") for r in k1]
-                sink.write("klines", rows, ex=EX, symbol=c, backfill=True)
-                first_1h = rows[0]["ts"] if rows else None
-                rep["k1h_n"] = len(rows)
-                rep["k1h_first"] = first_1h
-            except C.HttpError as e:
-                rep["k1h_err"] = str(e)[:200]
-                C.write_error(EX, "backfill klines %s" % c, e)
         if "klines4h" in only and (first_1h is None or first_1h > since_ms):
             try:
                 end = (first_1h or fetched)
@@ -310,9 +323,99 @@ def backfill(sink, since, only, coins=None, shard=None):
     C.log("hyperliquid backfill done", sink.stats)
 
 
+def load_v01_dir(v01_dir):
+    """读中继产物 v01/：spot_meta_raw.json + daily_*.json（各分片合并）。"""
+    import glob
+    spot = json.load(open(os.path.join(v01_dir, "spot_meta_raw.json")))
+    daily = {}
+    for fn in sorted(glob.glob(os.path.join(v01_dir, "daily_*.json"))):
+        daily.update(json.load(open(fn)))
+    return spot, daily
+
+
+def write_spot_meta(spot, daily, ledger=None):
+    """ledger/hl_spot_meta.json：当前现货清单（含 fetched_at）+ 永续↔现货映射 + 现货首日代理。"""
+    pairs = []
+    for coin, d in sorted(daily.items()):
+        if not d.get("spot"):
+            continue
+        s1 = d.get("spot_1d") or []
+        tdt = d.get("token_deploy_time")
+        pairs.append({"perp": coin, "spot_symbol": d["spot"],
+                      "listed_spot_date": C.ms_to_date(s1[0][0]) if s1 else None,
+                      "listed_spot_date_src": "first_spot_1d_candle" if s1 else None,
+                      "token_deploy_time": tdt, "perp_delisted": d.get("delisted")})
+    out = {"fetched_at": spot["fetched_at"], "fetched_at_iso": C.ms_to_iso(spot["fetched_at"]),
+           "note": "spotMeta 只有当前列表；listed_spot_date 用现货 1d K 线首根日期代理 [推断]；"
+                   "v0.1 回放按“当前有现货即全程有现货”处理（预注册 §4 已登记偏向）",
+           "n_spot_pairs_usdc_mapped_to_perp": len(pairs), "pairs": pairs,
+           "spotMeta": spot["spotMeta"]}
+    p = os.path.join(ledger or C.LEDGER, "hl_spot_meta.json")
+    with open(p + ".tmp", "w") as fh:
+        json.dump(out, fh, ensure_ascii=False, indent=1)
+    os.replace(p + ".tmp", p)
+    return out
+
+
+def proxy_pool_rows(funding_by_sym, daily, forward_first, today, fetched):
+    """HL 代理池行（v0.1）：每币每日一行（该日有资金费结算才出行），oi_usd=null，proxy=true。
+
+    funding_by_sym: {coin: sorted list of ts}；forward_first: {coin: 首个前向池日期}（之后不写，免得盖掉真行）。
+    has_spot 按 spotMeta 当前列表（全程）；listed_perp_date = 首条费率日期；
+    perp/spot_vol24h_usd = 前一日 1d K 线 v×c（近似，无前视）；delisted 只在已下架币的最后一日为 true。
+    """
+    rows = []
+    for coin, tss in sorted(funding_by_sym.items()):
+        if not tss:
+            continue
+        d = daily.get(coin, {})
+        spot_sym = d.get("spot")
+        pv = dict((C.ms_to_date(t), (c or 0) * (v or 0)) for t, c, v in d.get("perp_1d") or [])
+        sv = dict((C.ms_to_date(t), (c or 0) * (v or 0)) for t, c, v in d.get("spot_1d") or [])
+        s1 = d.get("spot_1d") or []
+        lsd = C.ms_to_date(s1[0][0]) if s1 else None
+        lpd = C.ms_to_date(tss[0])
+        dates = sorted(set(C.ms_to_date(t) for t in tss))
+        last = dates[-1]
+        stop = min(forward_first.get(coin, today), today)
+        for day in dates:
+            if day >= stop:
+                continue
+            prev = C.ms_to_date(C.date_to_ms(day) - C.DAY_MS)
+            rows.append(C.mkrow(
+                "pool", date=day, ex=EX, symbol=coin, spot_symbol=spot_sym,
+                has_spot=bool(spot_sym), oi_usd=None,
+                perp_vol24h_usd=round(pv[prev], 2) if prev in pv else None,
+                spot_vol24h_usd=round(sv[prev], 2) if prev in sv else None,
+                depth_bid_1pct_usd=None, depth_ask_1pct_usd=None,
+                funding_cap=CAP, funding_floor=-CAP, listed_perp_date=lpd, listed_spot_date=lsd,
+                delisted=bool(d.get("delisted")) and day == last, fetched_at=fetched, proxy=True))
+    return rows
+
+
+def proxy_pool(v01_dir, ledger=None):
+    ledger = ledger or C.LEDGER
+    spot, daily = load_v01_dir(v01_dir)
+    write_spot_meta(spot, daily, ledger)
+    fb = {}
+    for r in C.iter_jsonl(C.table_path("funding", ledger=ledger)):
+        if r["ex"] == EX:
+            fb.setdefault(r["symbol"], set()).add(r["ts"])
+    fb = dict((k, sorted(v)) for k, v in fb.items())
+    ff = {}
+    for r in C.iter_jsonl(C.table_path("pool", ledger=ledger)):
+        if r["ex"] == EX and not r.get("proxy"):
+            ff[r["symbol"]] = min(ff.get(r["symbol"], "9999"), r["date"])
+    rows = proxy_pool_rows(fb, daily, ff, C.today(), C.now_ms())
+    n = C.LedgerWriter(ledger).append("pool", rows)
+    C.log("hyperliquid proxy-pool 生成 %d 行，新追加 %d 行，币 %d" % (len(rows), n, len(fb)))
+    return n
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
-    ap.add_argument("mode", choices=["forward", "backfill"])
+    ap.add_argument("mode", choices=["forward", "backfill", "proxy-pool"])
+    ap.add_argument("--v01-dir", default=os.path.expanduser("~/note/market-relays/data/carry/hyperliquid/v01"))
     ap.add_argument("--since", default="2025-01-01")
     ap.add_argument("--only", default="funding,klines,klines4h,daily,spotmeta")
     ap.add_argument("--coins", default="")
@@ -322,6 +425,8 @@ def main(argv=None):
     try:
         if a.mode == "forward":
             forward(sink)
+        elif a.mode == "proxy-pool":
+            proxy_pool(a.v01_dir)
         else:
             backfill(sink, a.since, a.only.split(","), [c for c in a.coins.split(",") if c],
                      a.shard or None)
