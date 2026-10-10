@@ -12,7 +12,7 @@ on:
         required: false
         default: 'collect'
       sources:
-        description: 'backfill 的源，逗号分隔（binance,hyperliquid,bybit）'
+        description: 'backfill 的源，逗号分隔（binance,hyperliquid,bybit,okx,deribit）'
         required: false
         default: 'binance,hyperliquid'
       only:
@@ -65,6 +65,10 @@ jobs:
         continue-on-error: true
         run: python3 scripts/fetch_carry_hyperliquid.py
 
+      - name: Manifest
+        if: env.MODE != 'probe'
+        run: python3 scripts/fetch_carry_manifest.py
+
       - name: Commit data changes
         run: |
           set -euo pipefail
@@ -104,7 +108,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        src: [binance, hyperliquid, bybit]
+        src: [binance, hyperliquid, bybit, okx, deribit]
     env:
       MODE: backfill
       CARRY_WHERE: actions
