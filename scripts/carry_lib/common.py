@@ -193,7 +193,7 @@ def throttle(bucket, min_interval):
         time.sleep(wait)
 
 
-def http(url, params=None, body=None, retries=None, timeout=25, bucket=None, min_interval=0,
+def http(url, params=None, body=None, retries=None, timeout=None, bucket=None, min_interval=0,
          raw=False, headers=None):
     """GET（body=None）或 POST JSON。返回解析后的 JSON（raw=True 返回 bytes）。
 
@@ -205,6 +205,8 @@ def http(url, params=None, body=None, retries=None, timeout=25, bucket=None, min
             url = url + ("&" if "?" in url else "?") + urllib.parse.urlencode(clean)
     if retries is None:
         retries = int(os.environ.get("CARRY_RETRIES", "5"))
+    if timeout is None:
+        timeout = float(os.environ.get("CARRY_TIMEOUT", "15"))
     hdrs = {"User-Agent": UA, "Accept": "application/json,*/*"}
     data = None
     if body is not None:

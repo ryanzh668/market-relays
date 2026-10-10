@@ -65,6 +65,18 @@ jobs:
         continue-on-error: true
         run: python3 scripts/fetch_carry_hyperliquid.py
 
+      - name: OKX (冗余；主路线是本机直连)
+        id: okx
+        if: env.MODE != 'probe' && hashFiles('scripts/fetch_carry_okx.py') != ''
+        continue-on-error: true
+        run: python3 scripts/fetch_carry_okx.py
+
+      - name: Deribit (冗余；主路线是本机直连)
+        id: deribit
+        if: env.MODE != 'probe' && hashFiles('scripts/fetch_carry_deribit.py') != ''
+        continue-on-error: true
+        run: python3 scripts/fetch_carry_deribit.py
+
       - name: Manifest
         if: env.MODE != 'probe'
         run: python3 scripts/fetch_carry_manifest.py

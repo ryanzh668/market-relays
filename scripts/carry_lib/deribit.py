@@ -77,19 +77,46 @@ def okx_index_4h(inst_id, since_ms):
     return out
 
 
+MONTHS = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
+
+
+def friday_names(und, since_ms, until_ms):
+    """since..until 之间每个周五的 Deribit 合约名（如 BTC-7MAR25、BTC-28MAR25）。"""
+    from datetime import datetime, timezone
+    out = []
+    t = since_ms
+    while t <= until_ms:
+        if (t // C.DAY_MS + 3) % 7 == 4:  # 周五（1970-01-01 周四=3）
+            d = datetime.fromtimestamp(t / 1000.0, tz=timezone.utc)
+            out.append("%s-%d%s%02d" % (und, d.day, MONTHS[d.month - 1], d.year % 100))
+        t += C.DAY_MS
+    return out
+
+
 def backfill(sink, since):
     since_ms = C.date_to_ms(since)
     fetched = C.now_ms()
     for und in UNDERLYINGS:
         spot = okx_index_4h(und + "-USD", since_ms)
-        insts = []
+        insts = dict()
         for expired in ("true", "false"):
             for i in rpc("get_instruments", {"currency": und, "kind": "future", "expired": expired}):
                 if i.get("settlement_period") == "perpetual":
                     continue
                 if int(i["expiration_timestamp"]) < since_ms:
                     continue
-                insts.append(i)
+                insts[i["instrument_name"]] = i
+        # get_instruments(expired=true) 只返回最近到期的少数合约 → 按“每周五 08:00 UTC 到期”枚举名字补全
+        for name in friday_names(und, since_ms, fetched):
+            if name in insts:
+                continue
+            try:
+                i = rpc("get_instrument", {"instrument_name": name})
+            except C.HttpError:
+                continue  # 该周五没有此合约
+            insts[name] = i
+        insts = sorted(insts.values(), key=lambda i: int(i["expiration_timestamp"]))
+        C.log("deribit %s 合约数 %d" % (und, len(insts)))
         for n, i in enumerate(insts):
             inst, expiry = i["instrument_name"], int(i["expiration_timestamp"])
             start = max(since_ms, int(i.get("creation_timestamp") or since_ms))

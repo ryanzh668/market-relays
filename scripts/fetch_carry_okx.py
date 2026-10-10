@@ -30,6 +30,8 @@ try:
     mod.main(args)
     if MODE == "backfill":  # OKX 交割基差（仅仍上市合约）
         mod.main(["basis-backfill", "--since", os.environ.get("SINCE", "2025-01-01")])
+    else:
+        mod.main(["basis"])
 finally:
     if MODE == "backfill":  # 回填得到的元数据（pool_ever、现货上市日）并入前向目录
         src = os.path.join(ROOT, "backfill_out", "okx", "meta.json")

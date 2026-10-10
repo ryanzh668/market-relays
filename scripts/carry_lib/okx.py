@@ -121,7 +121,7 @@ def forward(sink):
         ft, nft = r.get("fundingTime"), r.get("nextFundingTime")
         iv = C.interval_from_diff(int(nft), int(ft)) if ft and nft else None
         return _hist_rows(i, insts[i]["base"], insts[i]["quote"], page, "forward", fetched, iv)
-    res, fails = C.pmap(hist, live, workers=4)
+    res, fails = C.pmap(hist, live, workers=8)
     for i, e in fails.items():
         C.write_error(EX, "forward funding %s" % i, e)
     sink.write("funding", [r for rows in res.values() for r in rows], ex=EX)
