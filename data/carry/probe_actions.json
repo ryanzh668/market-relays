@@ -1,0 +1,186 @@
+{
+ "probed_at": "2026-10-10T02:36:45Z",
+ "where": "actions",
+ "results": [
+  {
+   "http": 451,
+   "err": null,
+   "bytes": null,
+   "head": "{\n  \"code\": 0,\n  \"msg\": \"Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact custom",
+   "ms": 101,
+   "src": "binance",
+   "route": "fapi.binance.com premiumIndex",
+   "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT"
+  },
+  {
+   "http": 451,
+   "err": null,
+   "bytes": null,
+   "head": "{\n  \"code\": 0,\n  \"msg\": \"Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact custom",
+   "ms": 51,
+   "src": "binance",
+   "route": "fapi.binance.com fundingRate",
+   "url": "https://fapi.binance.com/fapi/v1/fundingRate?symbol=BTCUSDT&limit=5"
+  },
+  {
+   "http": 202,
+   "err": null,
+   "bytes": 0,
+   "head": "",
+   "ms": 420,
+   "src": "binance",
+   "route": "fapi1.binance.com premiumIndex",
+   "url": "https://fapi1.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT"
+  },
+  {
+   "http": 202,
+   "err": null,
+   "bytes": 0,
+   "head": "",
+   "ms": 388,
+   "src": "binance",
+   "route": "fapi2.binance.com premiumIndex",
+   "url": "https://fapi2.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT"
+  },
+  {
+   "http": 202,
+   "err": null,
+   "bytes": 0,
+   "head": "",
+   "ms": 384,
+   "src": "binance",
+   "route": "fapi3.binance.com premiumIndex",
+   "url": "https://fapi3.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT"
+  },
+  {
+   "http": 200,
+   "err": null,
+   "bytes": 231,
+   "head": "{\"symbol\":\"BTCUSDT\",\"markPrice\":\"82616.10000000\",\"indexPrice\":\"82651.95717391\",\"estimatedSettlePrice\":\"82661.80723949\",\"lastFundingRate\":\"0.00002319\",\"interestR",
+   "ms": 267,
+   "src": "binance",
+   "route": "www.binance.com/fapi premiumIndex",
+   "url": "https://www.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT"
+  },
+  {
+   "http": 400,
+   "err": null,
+   "bytes": null,
+   "head": "{\"code\":\"000002\",\"message\":\"illegal parameter\",\"messageDetail\":null,\"data\":null,\"success\":false}",
+   "ms": 161,
+   "src": "binance",
+   "route": "www.binance.com bapi fundingRate",
+   "url": "https://www.binance.com/bapi/futures/v1/public/future/common/get-funding-rate-history?symbol=BTCUSDT"
+  },
+  {
+   "http": 451,
+   "err": null,
+   "bytes": null,
+   "head": "{\n  \"code\": 0,\n  \"msg\": \"Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact custom",
+   "ms": 168,
+   "src": "binance",
+   "route": "api-gcp.binance.com spot ping",
+   "url": "https://api-gcp.binance.com/api/v3/ping"
+  },
+  {
+   "http": 200,
+   "err": null,
+   "bytes": 45,
+   "head": "{\"symbol\":\"BTCUSDT\",\"price\":\"82658.01000000\"}",
+   "ms": 459,
+   "src": "binance",
+   "route": "data-api.binance.vision spot ticker",
+   "url": "https://data-api.binance.vision/api/v3/ticker/price?symbol=BTCUSDT"
+  },
+  {
+   "http": 200,
+   "err": null,
+   "bytes": 941,
+   "head": "zip",
+   "ms": 423,
+   "src": "binance",
+   "route": "data.binance.vision fundingRate zip",
+   "url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2025-09.zip"
+  },
+  {
+   "http": 200,
+   "err": null,
+   "bytes": 20590,
+   "head": "zip",
+   "ms": 167,
+   "src": "binance",
+   "route": "data.binance.vision markPriceKlines zip",
+   "url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2025-09.zip"
+  },
+  {
+   "http": 200,
+   "err": null,
+   "bytes": 2,
+   "head": "{}",
+   "ms": 403,
+   "src": "binance",
+   "route": "fapi.binance.us (US 站无合约)",
+   "url": "https://api.binance.us/api/v3/ping"
+  },
+  {
+   "http": 403,
+   "err": null,
+   "bytes": null,
+   "head": "{\n    error:The Amazon CloudFront distribution is configured to block access from your country\n}",
+   "ms": 56,
+   "src": "bybit",
+   "route": "api.bybit.com tickers linear",
+   "url": "https://api.bybit.com/v5/market/tickers?category=linear"
+  },
+  {
+   "http": 403,
+   "err": null,
+   "bytes": null,
+   "head": "{\n    error:The Amazon CloudFront distribution is configured to block access from your country\n}",
+   "ms": 109,
+   "src": "bybit",
+   "route": "api.bytick.com tickers linear",
+   "url": "https://api.bytick.com/v5/market/tickers?category=linear"
+  },
+  {
+   "http": 403,
+   "err": null,
+   "bytes": null,
+   "head": "{\n    error:The Amazon CloudFront distribution is configured to block access from your country\n}",
+   "ms": 42,
+   "src": "bybit",
+   "route": "api.bybit.com funding history",
+   "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=BTCUSDT&limit=5"
+  },
+  {
+   "http": 200,
+   "err": null,
+   "bytes": 17628,
+   "head": "{\"universe\":[{\"szDecimals\":5,\"name\":\"BTC\",\"maxLeverage\":40,\"marginTableId\":56},{\"szDecimals\":4,\"name\":\"ETH\",\"maxLeverage\":25,\"marginTableId\":55},{\"szDecimals\":2",
+   "ms": 203,
+   "src": "hyperliquid",
+   "route": "api.hyperliquid.xyz info meta",
+   "url": "https://api.hyperliquid.xyz/info"
+  },
+  {
+   "http": 200,
+   "err": null,
+   "bytes": 524,
+   "head": "{\"code\":\"0\",\"data\":[{\"formulaType\":\"withRate\",\"fundingRate\":\"0.0000176426638990\",\"fundingTime\":\"1791619200000\",\"impactValue\":\"20000.0000000000000000\",\"instId\":\"",
+   "ms": 157,
+   "src": "okx",
+   "route": "www.okx.com funding-rate",
+   "url": "https://www.okx.com/api/v5/public/funding-rate?instId=BTC-USDT-SWAP"
+  },
+  {
+   "http": 200,
+   "err": null,
+   "bytes": 165,
+   "head": "{\"jsonrpc\":\"2.0\",\"result\":{\"estimated_delivery_price\":82593.81,\"index_price\":82593.81},\"usIn\":1791599809621392,\"usOut\":1791599809621911,\"usDiff\":519,\"testnet\":f",
+   "ms": 239,
+   "src": "deribit",
+   "route": "www.deribit.com index",
+   "url": "https://www.deribit.com/api/v2/public/get_index_price?index_name=btc_usd"
+  }
+ ]
+}
