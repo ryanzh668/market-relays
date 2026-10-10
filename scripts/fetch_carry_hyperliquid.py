@@ -26,6 +26,10 @@ import hyperliquid as mod  # noqa: E402
 args = ["backfill", "--since", os.environ.get("SINCE", "2025-01-01")] if MODE == "backfill" else ["forward"]
 if MODE == "backfill" and os.environ.get("ONLY"):
     args += ["--only", os.environ["ONLY"]]
+if MODE == "backfill" and os.environ.get("SHARD"):      # v0.1 全量回填分片 i/n
+    args += ["--shard", os.environ["SHARD"]]
+if MODE == "backfill" and os.environ.get("SYMBOLS"):
+    args += ["--coins", os.environ["SYMBOLS"]]
 try:
     mod.main(args)
 finally:

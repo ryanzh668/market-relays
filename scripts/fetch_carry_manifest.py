@@ -10,7 +10,7 @@ D = os.path.join(ROOT, "data", "carry")
 files = {}
 for dp, _dn, fns in os.walk(D):
     for fn in fns:
-        if not fn.endswith(".jsonl") or "_progress" in dp:
+        if not (fn.endswith(".jsonl") or fn.endswith(".jsonl.gz")) or "_progress" in dp:
             continue
         p = os.path.join(dp, fn)
         rel = os.path.relpath(p, D)

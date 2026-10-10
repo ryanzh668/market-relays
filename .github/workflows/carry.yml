@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'probe = 只跑可达性探针；collect = 探针 + 前向采集；backfill = 历史回填（产物为 artifact，不进仓库）'
+        description: 'probe = 只跑可达性探针；collect = 探针 + 前向采集；backfill = 历史回填（产物为 artifact，不进仓库）；hl_v01 = HL 全量回填 4 片并行（产物 commit 进仓库）'
         required: false
         default: 'collect'
       sources:
@@ -29,7 +29,7 @@ permissions:
 
 jobs:
   carry:
-    if: (github.event.inputs.mode || 'collect') != 'backfill'
+    if: (github.event.inputs.mode || 'collect') != 'backfill' && github.event.inputs.mode != 'hl_v01'
     concurrency:              # 只串行前向采集（commit 冲突）；回填走 artifact，不占这把锁
       group: carry-forward
       cancel-in-progress: false
@@ -151,3 +151,74 @@ jobs:
             backfill_out
             data/carry/${{ matrix.src }}/meta.json
           retention-days: 30
+
+  # v0.1：Hyperliquid 全量回填（meta 全部永续），4 片并行 → 汇总 job 一次性 commit 进 data/carry/hyperliquid/
+  hl_v01:
+    if: github.event.inputs.mode == 'hl_v01'
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3]
+    env:
+      MODE: backfill
+      CARRY_WHERE: actions
+      CARRY_RETRIES: '8'
+      ONLY: ${{ github.event.inputs.only }}
+      SYMBOLS: ${{ github.event.inputs.symbols }}
+      SHARD: ${{ matrix.shard }}/4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: HL backfill shard ${{ matrix.shard }}
+        continue-on-error: true
+        run: python3 scripts/fetch_carry_hyperliquid.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hl-v01-${{ matrix.shard }}
+          path: backfill_out
+          retention-days: 14
+
+  hl_v01_commit:
+    if: github.event.inputs.mode == 'hl_v01'
+    needs: hl_v01
+    concurrency:
+      group: carry-forward
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: hl-v01-*
+          path: hl_art
+      - name: Merge into data/carry/hyperliquid
+        run: |
+          set -euo pipefail
+          mkdir -p data/carry/hyperliquid
+          for d in hl_art/hl-v01-*; do
+            mkdir -p data/carry/hyperliquid/backfill data/carry/hyperliquid/v01
+            [ -d "$d/hyperliquid/backfill" ] && cp -r "$d/hyperliquid/backfill/." data/carry/hyperliquid/backfill/ || true
+            [ -d "$d/hyperliquid/v01" ] && cp -r "$d/hyperliquid/v01/." data/carry/hyperliquid/v01/ || true
+            [ -f "$d/hyperliquid/error.jsonl" ] && cat "$d/hyperliquid/error.jsonl" >> data/carry/hyperliquid/v01/errors.jsonl || true
+          done
+          du -sh data/carry/hyperliquid
+          python3 scripts/fetch_carry_manifest.py
+      - name: Commit
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data/carry
+          git commit -m "carry: HL v0.1 全量回填 $(date -u +%Y-%m-%dT%H:%MZ)" || exit 0
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && break
+            sleep 5
+          done

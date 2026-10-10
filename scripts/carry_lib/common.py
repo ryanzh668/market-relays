@@ -45,6 +45,10 @@ SCHEMA = {
               "days_to_expiry", "ann_basis", "fetched_at"],
     "klines": ["ts", "o", "h", "l", "c", "kind"],
 }
+# 可选字段（v0.1 新增）：出现时只能是这些，缺失不补 null（v0 行保持原样）
+OPTIONAL = {"pool": ("proxy",)}
+# 4h K 线（HL 1h 只给最近 5000 根，之前用 4h 补）：同 klines schema，落 klines/{ex}_4h/
+KLINE_ALIASES = {"klines4h": "_4h"}
 KEYS = {
     "funding": ("ex", "symbol", "ts"),
     "pool": ("date", "ex", "symbol"),
@@ -71,10 +75,13 @@ class SchemaError(ValueError):
 def mkrow(table, **kw):
     """按 SPEC §2 造一行：缺失字段写 None，不许多字段。"""
     cols = SCHEMA[table]
-    extra = set(kw) - set(cols)
+    extra = set(kw) - set(cols) - set(OPTIONAL.get(table, ()))
     if extra:
         raise SchemaError("%s 多余字段 %s" % (table, sorted(extra)))
     row = dict((c, kw.get(c)) for c in cols)
+    for c in OPTIONAL.get(table, ()):
+        if c in kw:
+            row[c] = kw[c]
     if "fetched_at" in cols and row["fetched_at"] is None:
         row["fetched_at"] = now_ms()
     validate(table, row)
@@ -83,8 +90,11 @@ def mkrow(table, **kw):
 
 def validate(table, row):
     cols = SCHEMA[table]
-    if list(row.keys()) != cols and set(row.keys()) != set(cols):
-        raise SchemaError("%s 字段不符: %s" % (table, sorted(set(row) ^ set(cols))))
+    keys = set(row.keys()) - set(OPTIONAL.get(table, ()))
+    if keys != set(cols):
+        raise SchemaError("%s 字段不符: %s" % (table, sorted(keys ^ set(cols))))
+    if table == "pool" and "proxy" in row and not isinstance(row["proxy"], bool):
+        raise SchemaError("pool.proxy 必须是布尔")
     for k in KEYS[table]:
         if row.get(k) is None:
             raise SchemaError("%s 主键 %s 为空" % (table, k))
@@ -375,7 +385,7 @@ class RelayWriter(object):
         if not rows:
             return 0
         for r in rows:
-            validate(table, r)
+            validate("klines" if table in KLINE_ALIASES else table, r)
         ex = ex or rows[0].get("ex")
         with self._lock:
             if backfill or table == "klines":
@@ -414,6 +424,8 @@ class Sink(object):
     def write(self, table, rows, ex=None, symbol=None, backfill=False):
         if self.relay:
             return self.w.append(table, rows, ex=ex, symbol=symbol, backfill=backfill)
+        if table in KLINE_ALIASES:
+            return self.w.append("klines", rows, ex=ex + KLINE_ALIASES[table], symbol=symbol)
         return self.w.append(table, rows, ex=ex, symbol=symbol)
 
     def has_date(self, table, date, ex):
