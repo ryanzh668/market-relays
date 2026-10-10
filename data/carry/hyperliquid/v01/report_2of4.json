@@ -1,0 +1,17 @@
+{
+"coins": {
+"HYPE": {
+"delisted": false,
+"funding_first": 1735689600054,
+"funding_last": 1791644400053,
+"funding_n": 15544,
+"k1h_first": 1773633600000,
+"k1h_n": 5004,
+"k4h_first": 1735689600000,
+"k4h_n": 2635,
+"spot": "@107"
+}
+},
+"fetched_at": 1791645122795,
+"since": "2025-01-01"
+}

@@ -1,0 +1,17 @@
+{
+"coins": {
+"MON": {
+"delisted": false,
+"funding_first": 1759899600056,
+"funding_last": 1791644400053,
+"funding_n": 8819,
+"k1h_first": 1773644400000,
+"k1h_n": 5001,
+"k4h_first": 1759896000000,
+"k4h_n": 954,
+"spot": "@129"
+}
+},
+"fetched_at": 1791645122641,
+"since": "2025-01-01"
+}

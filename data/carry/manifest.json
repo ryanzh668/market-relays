@@ -20,6 +20,50 @@
 "lines": 48,
 "sha256": "35dd343240ed15c95f357ad967c05819f774ea89a0a1fcc6844a785ab3f2f652"
 },
+"hyperliquid/backfill/funding/BTC.jsonl.gz": {
+"lines": 419,
+"sha256": "d302d461321d1bf4eb017838d87dcac6eb8da2ad475b3331544e57340b2fb41e"
+},
+"hyperliquid/backfill/funding/FTM.jsonl.gz": {
+"lines": 283,
+"sha256": "1543dd61ff498c6404db8b1427714dec419da9d5c829c5bb5d1d966321f8702c"
+},
+"hyperliquid/backfill/funding/HYPE.jsonl.gz": {
+"lines": 338,
+"sha256": "88169d83235d34375635ffe26b2ab611271e3ce72e84c506860ce44d121efbbf"
+},
+"hyperliquid/backfill/funding/MON.jsonl.gz": {
+"lines": 263,
+"sha256": "3e2ff663f63c8dc8510bf082ffc798034bbd292b271c50e7d9e06d80e8e5c97c"
+},
+"hyperliquid/backfill/klines/BTC.jsonl.gz": {
+"lines": 258,
+"sha256": "abff78d6d1d5c02d02b5ae44a68605b4a34503c5bf2f778952b417bf53414405"
+},
+"hyperliquid/backfill/klines/FTM.jsonl.gz": {
+"lines": 20,
+"sha256": "1a3890071d9e26d979d6a18c08f1240c72b85d89011dd12814dfb1458427efef"
+},
+"hyperliquid/backfill/klines/HYPE.jsonl.gz": {
+"lines": 273,
+"sha256": "b6d7fefe949e62162e05803ed10db06ff3964f88c4302a8d12ba5fdc7246860b"
+},
+"hyperliquid/backfill/klines/MON.jsonl.gz": {
+"lines": 299,
+"sha256": "5af32078b5ec89d949f2698cd9e9bb07e48b76d0233b46fa212dbdeccdbcf008"
+},
+"hyperliquid/backfill/klines4h/BTC.jsonl.gz": {
+"lines": 164,
+"sha256": "970435525a27095e13ca59136e10941cdef7bd9c69f92a2094d0d0f8fd997a60"
+},
+"hyperliquid/backfill/klines4h/HYPE.jsonl.gz": {
+"lines": 176,
+"sha256": "eaaf99ef7a1e81697a323825f62aa017624d1237e019f0d42dd9ea24f811bb8a"
+},
+"hyperliquid/backfill/klines4h/MON.jsonl.gz": {
+"lines": 64,
+"sha256": "c76ab319b349ad027217bfd46790532f5d357f08a474654c99d9c2c269e7cc17"
+},
 "hyperliquid/funding/2026-10-10.jsonl": {
 "lines": 2232,
 "sha256": "9fec459f44579ee8ffa7b771e374d1bd55a886fb093d29f438cf0126df1e1672"
