@@ -11,7 +11,7 @@
 """
 import gzip
 import hashlib
-import http.client
+from http.client import HTTPException
 import json
 import os
 import socket
@@ -233,7 +233,7 @@ def http(url, params=None, body=None, retries=None, timeout=25, bucket=None, min
                 raise last
             time.sleep(min(60, 2 ** i * (5 if e.code in (418, 429) else 1)))
             continue
-        except (urllib.error.URLError, socket.timeout, OSError, ValueError, http.client.HTTPException) as e:
+        except (urllib.error.URLError, socket.timeout, OSError, ValueError, HTTPException) as e:
             last = HttpError(0, url, "%s: %s" % (type(e).__name__, getattr(e, "reason", e)))
         time.sleep(min(30, 0.7 * (2 ** i)))
     raise last
