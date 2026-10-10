@@ -15,6 +15,10 @@ on:
         description: 'backfill 的源，逗号分隔（binance,hyperliquid,bybit,okx,deribit）'
         required: false
         default: 'binance,hyperliquid'
+      symbols:
+        description: 'backfill 只跑这些符号（逗号分隔；空 = 全宇宙），仅 binance/okx 生效'
+        required: false
+        default: ''
       only:
         description: 'backfill 的表（binance: funding,pool,klines；hyperliquid: funding,klines）；空 = 全部'
         required: false
@@ -23,13 +27,12 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: carry
-  cancel-in-progress: false
-
 jobs:
   carry:
     if: (github.event.inputs.mode || 'collect') != 'backfill'
+    concurrency:              # 只串行前向采集（commit 冲突）；回填走 artifact，不占这把锁
+      group: carry-forward
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
@@ -115,6 +118,9 @@ jobs:
 
   backfill:
     if: github.event.inputs.mode == 'backfill'
+    concurrency:
+      group: carry-backfill-${{ github.event.inputs.sources }}
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 300
     strategy:
@@ -125,6 +131,7 @@ jobs:
       MODE: backfill
       CARRY_WHERE: actions
       ONLY: ${{ github.event.inputs.only }}
+      SYMBOLS: ${{ github.event.inputs.symbols }}
     steps:
       - uses: actions/checkout@v4
         if: contains(github.event.inputs.sources, matrix.src)

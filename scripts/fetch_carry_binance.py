@@ -26,6 +26,8 @@ import binance as mod  # noqa: E402
 args = ["backfill", "--since", os.environ.get("SINCE", "2025-01-01")] if MODE == "backfill" else ["forward"]
 if MODE == "backfill" and os.environ.get("ONLY"):
     args += ["--only", os.environ["ONLY"]]
+if MODE == "backfill" and os.environ.get("SYMBOLS"):
+    args += ["--symbols", os.environ["SYMBOLS"]]
 try:
     mod.main(args)
 finally:
