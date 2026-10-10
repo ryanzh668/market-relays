@@ -483,3 +483,11 @@ def annualize(rates_sum, days):
     if not days:
         return None
     return rates_sum / float(days) * 365.0 * 100.0
+
+
+def annualize_compound(rates_sum, days):
+    """复利年化 APY（百分比）=(1+区间合计)^(365/天数)−1。种子面板的 7D/14D/30D 用的是这个口径
+    （10-10 验收发现：单利 APR 系统性低 6–11%，复利口径误差 <0.1pp）。"""
+    if not days:
+        return None
+    return ((1.0 + rates_sum) ** (365.0 / days) - 1.0) * 100.0
