@@ -107,7 +107,10 @@ def row_key(table, row):
 
 
 def payload(row):
-    return tuple((k, row[k]) for k in sorted(row) if k not in VOLATILE)
+    """内容指纹（忽略 fetched_at/source）。用 sha1 摘要而非整行元组，百万行索引也省内存。"""
+    s = json.dumps([(k, row[k]) for k in sorted(row) if k not in VOLATILE], ensure_ascii=False,
+                   separators=(",", ":"))
+    return hashlib.sha1(s.encode("utf-8")).digest()[:12]
 
 
 # ---------------------------------------------------------------- 时间
@@ -346,6 +349,8 @@ class LedgerWriter(object):
                     with open(path, "a", encoding="utf-8") as fh:
                         fh.write("\n".join(out) + "\n")
                 n += len(out)
+                if table == "klines":  # K 线按文件分，用完即弃，避免几百万行索引常驻内存
+                    self._idx.pop(path, None)
             self.stats[table] = self.stats.get(table, 0) + n
         return n
 

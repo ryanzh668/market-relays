@@ -266,18 +266,24 @@ def backfill_funding(sink, insts, since_ms):
         C.progress("okx_funding", done=n + 1, total=len(insts), last=i, rows=len(rows))
 
 
-def _paged(path, params, ts_from, rate, bucket, col=0):
-    out, after = [], None
-    for _ in range(60):
+def _paged(path, params, ts_from, rate, bucket, col=0, cursor="after", max_pages=250):
+    """向过去翻页。K 线类接口用 after=最早 ts；rubik 不认 after，要用 end=最早 ts−1。
+    同一页重复出现即停（10-10 首跑踩坑：rubik 忽略 after，60 页全是同 100 天）。"""
+    out, seen, cur = [], set(), None
+    for _ in range(max_pages):
         p = dict(params)
-        if after:
-            p["after"] = after
+        if cur is not None:
+            p[cursor] = cur
         page = req(path, p, rate=rate, bucket=bucket)
-        if not page:
+        new = [r for r in page if r[col] not in seen]
+        if not new:
             break
-        out.extend(page)
-        after = page[-1][col]
-        if int(after) <= ts_from:
+        for r in new:
+            seen.add(r[col])
+        out.extend(new)
+        oldest = min(int(r[col]) for r in new)
+        cur = oldest - 1 if cursor == "end" else oldest
+        if oldest <= ts_from:
             break
     return [r for r in out if int(r[col]) >= ts_from]
 
@@ -292,7 +298,8 @@ def backfill_pool(sink, insts, since_ms, meta):
             continue
         try:
             ois = _paged("/api/v5/rubik/stat/contracts/open-interest-history",
-                         {"instId": i, "period": "1D", "limit": 100}, since_ms, 0.45, "okx_rubik")
+                         {"instId": i, "period": "1D", "limit": 100}, since_ms, 0.45, "okx_rubik",
+                         cursor="end")
             pk = _paged("/api/v5/market/history-candles", {"instId": i, "bar": "1Dutc", "limit": 100},
                         since_ms - 2 * C.DAY_MS, 0.12, "okx_hc")
             sk = _paged("/api/v5/market/history-candles",
