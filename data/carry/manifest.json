@@ -20,49 +20,2581 @@
 "lines": 48,
 "sha256": "35dd343240ed15c95f357ad967c05819f774ea89a0a1fcc6844a785ab3f2f652"
 },
-"hyperliquid/backfill/funding/BTC.jsonl.gz": {
+"hyperliquid/backfill/funding/0G.jsonl.gz": {
+"lines": 354,
+"sha256": "1b0009ff4b52a4cdd761920f3d1bbd97a7f72961dea0d4ef126e7b3fd66ce2e2"
+},
+"hyperliquid/backfill/funding/2Z.jsonl.gz": {
+"lines": 310,
+"sha256": "009c7bc05db1484bfd0d33327a3df4015b3cf88d3313b553182ad463bf0ef421"
+},
+"hyperliquid/backfill/funding/AAVE.jsonl.gz": {
+"lines": 368,
+"sha256": "31682ca61061a1192cf289443fb1cc2c4a6b2b16b78fda6eeeed19e069fad2e4"
+},
+"hyperliquid/backfill/funding/ACE.jsonl.gz": {
+"lines": 394,
+"sha256": "9425992681b28f12e82fdcd500db5b87239705c4ab12924d823ae4f1bfb58b8f"
+},
+"hyperliquid/backfill/funding/ADA.jsonl.gz": {
+"lines": 376,
+"sha256": "5a5060436862c5ace780814f0dbce83e7ad51e3f3e4d9dea8e9e07f42a70104d"
+},
+"hyperliquid/backfill/funding/AERO.jsonl.gz": {
+"lines": 165,
+"sha256": "65f80aaa4588d99cae280b93d942230b12ecc8f38fb846a8c11ac3fbb1d806fe"
+},
+"hyperliquid/backfill/funding/AI.jsonl.gz": {
+"lines": 100,
+"sha256": "1acd523fc0a34d5611ad350512c75c20e2b9ea59e6ac8fea35be7655d9577772"
+},
+"hyperliquid/backfill/funding/AI16Z.jsonl.gz": {
+"lines": 211,
+"sha256": "069cba0d1fccf77e6e67069fc283efb7c289a426cc9a5f78732761e46d9a211f"
+},
+"hyperliquid/backfill/funding/AIXBT.jsonl.gz": {
+"lines": 414,
+"sha256": "cdba2446dd7a281b071c1a36b2fc16e215323268380c6768668b175d12e91ea0"
+},
+"hyperliquid/backfill/funding/ALGO.jsonl.gz": {
+"lines": 289,
+"sha256": "57fdc310a97547a5798b8452eb8eda3fc9f1cc48b4fb9fb6628ccfcd44e9c8e7"
+},
+"hyperliquid/backfill/funding/ALT.jsonl.gz": {
+"lines": 461,
+"sha256": "5475de446f4cf38fce71222a73a364a5a7f6b243ef1b13902ae7843f55712996"
+},
+"hyperliquid/backfill/funding/ANIME.jsonl.gz": {
 "lines": 419,
-"sha256": "d302d461321d1bf4eb017838d87dcac6eb8da2ad475b3331544e57340b2fb41e"
+"sha256": "a3ead096c6914b3cdfd7f1e4f93515438b86affd0220c879f72852d97954d89c"
+},
+"hyperliquid/backfill/funding/APE.jsonl.gz": {
+"lines": 369,
+"sha256": "fdecc696e1051d7ea5759197f40fa5d057b44e8b83bbbec3d3573fa5852dc09b"
+},
+"hyperliquid/backfill/funding/APEX.jsonl.gz": {
+"lines": 186,
+"sha256": "74a139a701b12d48a18a10a5ad197049a204b074199c9cbb684c97fd55084a20"
+},
+"hyperliquid/backfill/funding/APT.jsonl.gz": {
+"lines": 421,
+"sha256": "4db83fd65b97266d4aabc7d1555022699fc610894540b27964df701bde34ee7c"
+},
+"hyperliquid/backfill/funding/AR.jsonl.gz": {
+"lines": 391,
+"sha256": "61063465f62680d9038a2adbe7457227b524ac43c236cefcf3dc2640a17e9b6a"
+},
+"hyperliquid/backfill/funding/ARB.jsonl.gz": {
+"lines": 370,
+"sha256": "51251f0ad8d1a160f445907a26ff6943c55da3ce5ebeb4b9d0038c1bf2691b86"
+},
+"hyperliquid/backfill/funding/ARK.jsonl.gz": {
+"lines": 361,
+"sha256": "523be9305a2fe7f4975512de8353d407e47531ffcf08403a6eb1448557449753"
+},
+"hyperliquid/backfill/funding/ASTER.jsonl.gz": {
+"lines": 225,
+"sha256": "8a54f10e8926d6e4308ec6b5a9371ad3399405c622c44565155e8eba552dec06"
+},
+"hyperliquid/backfill/funding/ATOM.jsonl.gz": {
+"lines": 408,
+"sha256": "b8b846c5672f7e913839a64f4f3c2549c5f54340271cff3bc1faa4c6d188380f"
+},
+"hyperliquid/backfill/funding/AVAX.jsonl.gz": {
+"lines": 317,
+"sha256": "5abd1087202a4b169899b054bf89164b9479c41c3611d657a49d8a0f68312752"
+},
+"hyperliquid/backfill/funding/AVNT.jsonl.gz": {
+"lines": 226,
+"sha256": "7a2c7b8dc2ceb4e2ce6702d15765dbb1ef031d5fa3ead99e1bee93a95d741fa7"
+},
+"hyperliquid/backfill/funding/AXS.jsonl.gz": {
+"lines": 177,
+"sha256": "3f957caf327f672f8ffd6367275ab268afafb0c49810f67b4abcf20e00e9ccb2"
+},
+"hyperliquid/backfill/funding/AZTEC.jsonl.gz": {
+"lines": 155,
+"sha256": "e03e10f896d9c7a39e12b9983c71a92cb6fb004a8224513f1905b82183dfffed"
+},
+"hyperliquid/backfill/funding/BABY.jsonl.gz": {
+"lines": 352,
+"sha256": "e9175af3350ee4c3aa2832cfdb3e29d1224d3b22e3e4531391b44a682823949f"
+},
+"hyperliquid/backfill/funding/BADGER.jsonl.gz": {
+"lines": 58,
+"sha256": "47c716c83c711308b3988198e4c385103f5d8930adb6dffc987aa866cc5254e7"
+},
+"hyperliquid/backfill/funding/BANANA.jsonl.gz": {
+"lines": 314,
+"sha256": "b583c96a3ab197b715dcaed3414881be120c2afc1b164ea1a4ac9748079a9651"
+},
+"hyperliquid/backfill/funding/BCH.jsonl.gz": {
+"lines": 360,
+"sha256": "786c51be292a370d15fb5a7a6c5d502b8b395240f8269a6ead1109243d541e3c"
+},
+"hyperliquid/backfill/funding/BERA.jsonl.gz": {
+"lines": 404,
+"sha256": "5fbefb4fe1dba20dbd0a0fdce255d9be533714d80c4de7344863e11b1cf11e0c"
+},
+"hyperliquid/backfill/funding/BIGTIME.jsonl.gz": {
+"lines": 320,
+"sha256": "42e50da4011aa7afaa1b1f40e6f996347778b0bd7fbdfe8f58b66cba9dd7f0c4"
+},
+"hyperliquid/backfill/funding/BIO.jsonl.gz": {
+"lines": 482,
+"sha256": "c881c4b122226d399ad168f1924babf7f5309a8ed392e5508585d1b464f56e2b"
+},
+"hyperliquid/backfill/funding/BLAST.jsonl.gz": {
+"lines": 438,
+"sha256": "88d07465f7948adf7dea8a739b39a53acebef627cf48d5c4993cf8f0c38419d2"
+},
+"hyperliquid/backfill/funding/BLUR.jsonl.gz": {
+"lines": 435,
+"sha256": "2456522604630bc314dae3fc81acfd1bac5aeddddbf4d6af84c15264ddd897f0"
+},
+"hyperliquid/backfill/funding/BNB.jsonl.gz": {
+"lines": 447,
+"sha256": "ebd9160319d092d75019c7d7964644cec9608046696fd58d47a401f142a056eb"
+},
+"hyperliquid/backfill/funding/BNT.jsonl.gz": {
+"lines": 59,
+"sha256": "9671f18ea286b71b1184351f9e62a40cb697c1e5e92b3ff3ccbf0175c7c25ed4"
+},
+"hyperliquid/backfill/funding/BOME.jsonl.gz": {
+"lines": 302,
+"sha256": "01c803dff855281e231dfd4b258b6cf3719cce48855edb38213fd4e95dcffbfc"
+},
+"hyperliquid/backfill/funding/BRETT.jsonl.gz": {
+"lines": 431,
+"sha256": "ee7fa53633f52e7fc7bc3148fe65bbe300402cb370704a5531b99c02ebed3261"
+},
+"hyperliquid/backfill/funding/BSV.jsonl.gz": {
+"lines": 429,
+"sha256": "aa75a6835dfcf6d359a00f604989edee8d8abe8c3c546b4fb9d5a2d7e64c30b1"
+},
+"hyperliquid/backfill/funding/BTC.jsonl.gz": {
+"lines": 409,
+"sha256": "ba7e7b3cf30dd1a15dc914deba86eb7f18c08260567915757fd5c60a0ac97073"
+},
+"hyperliquid/backfill/funding/CAKE.jsonl.gz": {
+"lines": 304,
+"sha256": "92f55f0808994360fc75cfe193b87d094eee895a49e424113d3a9a48401a1eaa"
+},
+"hyperliquid/backfill/funding/CASHCAT.jsonl.gz": {
+"lines": 65,
+"sha256": "7a8188b087dd75556e0d4e345bb98d7fb347bafbab85a93912272f2aa52f40d7"
+},
+"hyperliquid/backfill/funding/CATI.jsonl.gz": {
+"lines": 52,
+"sha256": "893e88a6323f1aac7317210253be7903f08c83de0c06d55d7ccd83493447b069"
+},
+"hyperliquid/backfill/funding/CC.jsonl.gz": {
+"lines": 191,
+"sha256": "6b7652fc7220ef4d7ee228de733887813ab42aee7498c569d413988fed6e11c2"
+},
+"hyperliquid/backfill/funding/CELO.jsonl.gz": {
+"lines": 337,
+"sha256": "2086aec96e2dc7b682b87e9084feb479f193bb94769453fb0142b0830f86238f"
+},
+"hyperliquid/backfill/funding/CFX.jsonl.gz": {
+"lines": 332,
+"sha256": "baf5e96f63cce8b0b9f0257308a8bf30756cb734f1ada1ece7cb2142e007a6af"
+},
+"hyperliquid/backfill/funding/CHILLGUY.jsonl.gz": {
+"lines": 203,
+"sha256": "74ce4abce756c0dade52638df3f32b0ff0a0b4abbd99c6fee05537b6394c400d"
+},
+"hyperliquid/backfill/funding/CHIP.jsonl.gz": {
+"lines": 113,
+"sha256": "560a71d8e75e3925a0fc98db225d26506011347448b0e4a22a1279361298c49a"
+},
+"hyperliquid/backfill/funding/COMP.jsonl.gz": {
+"lines": 393,
+"sha256": "7810786278a3e42aa73801977fc13be61f438275e7ee18019de1ef19a2e21fc5"
+},
+"hyperliquid/backfill/funding/CRV.jsonl.gz": {
+"lines": 366,
+"sha256": "6582b8e7efea44bb6055c4a198a06ea57d31d96482a837d01d0a9721121c81a9"
+},
+"hyperliquid/backfill/funding/CYBER.jsonl.gz": {
+"lines": 78,
+"sha256": "50735fadb331b6b1f081fff8560954cbfb4286c1fddac9d0a3fdcf302d7df85e"
+},
+"hyperliquid/backfill/funding/DASH.jsonl.gz": {
+"lines": 93,
+"sha256": "4c77fdd1ec1d0d909d4600a007b5e2cf1b2f82e2f6a1614d0c457e886382259e"
+},
+"hyperliquid/backfill/funding/DOGE.jsonl.gz": {
+"lines": 417,
+"sha256": "d7919d760fec245e9d6c2502f0361e19d84d5518c7c7018f8ac2c25fb31f9bb9"
+},
+"hyperliquid/backfill/funding/DOOD.jsonl.gz": {
+"lines": 227,
+"sha256": "510260a74410befa743cd4e2c0c856a7c1d68ba34fa50eee96e4abedf314410d"
+},
+"hyperliquid/backfill/funding/DOT.jsonl.gz": {
+"lines": 393,
+"sha256": "f1c5419b55a554a77e3021429a7b0e0e4b1c250fa6ee1d330dae0323827880f1"
+},
+"hyperliquid/backfill/funding/DYDX.jsonl.gz": {
+"lines": 313,
+"sha256": "c789225be30ed480e73a99e7b30ff8329e09cbe0df1dfbd9aadffc8de262ecba"
+},
+"hyperliquid/backfill/funding/DYM.jsonl.gz": {
+"lines": 323,
+"sha256": "5fc48cbc07a99c4d0aec61fa9c4e56b0cbab1bc8476b1c34962c224ae2310a1b"
+},
+"hyperliquid/backfill/funding/EIGEN.jsonl.gz": {
+"lines": 400,
+"sha256": "bc8a52428259c9c7d4fa451f198c773eab17011c90a5d2ce92e09485e77e946e"
+},
+"hyperliquid/backfill/funding/ENA.jsonl.gz": {
+"lines": 391,
+"sha256": "1b86eae3e31f2462ad6312e4c7699496c1229c4f2852084ce89a98f95aeb6a04"
+},
+"hyperliquid/backfill/funding/ENS.jsonl.gz": {
+"lines": 312,
+"sha256": "2669076af61d0904b57e7799cf3e4dc96f60d684af3be22b119e82797cb5402a"
+},
+"hyperliquid/backfill/funding/ETC.jsonl.gz": {
+"lines": 381,
+"sha256": "531ef9503829dec8cd265403167ff1abc71624614fd4bd75aceebd3adfbe5257"
+},
+"hyperliquid/backfill/funding/ETH.jsonl.gz": {
+"lines": 383,
+"sha256": "2d00f272592e528ac57545ac2364c984d06904705aadc963a49acc3f6abc6b6d"
+},
+"hyperliquid/backfill/funding/ETHFI.jsonl.gz": {
+"lines": 402,
+"sha256": "f0061a7baa360ee85d7b7fa40d6bbe0dfe4bdc61bbbc59503753a9d92b56b28c"
+},
+"hyperliquid/backfill/funding/FARTCOIN.jsonl.gz": {
+"lines": 351,
+"sha256": "f60e01cc90cae70138a2b2a39e60d10a67457f9c435b5554aec5da77768c0810"
+},
+"hyperliquid/backfill/funding/FET.jsonl.gz": {
+"lines": 322,
+"sha256": "92e37c16fe36de358133b050c0c54636e599bb445484e21d28a7a8e2e0a4fbf9"
+},
+"hyperliquid/backfill/funding/FIL.jsonl.gz": {
+"lines": 376,
+"sha256": "5b6f1e2fc262255430b8bab86bf1c9285ca80c966e13e5e3297f8fbbf8397f7a"
+},
+"hyperliquid/backfill/funding/FOGO.jsonl.gz": {
+"lines": 141,
+"sha256": "f49a1930d582810e64a5e437f56feb351812183a24fb40a347a3093015123da1"
 },
 "hyperliquid/backfill/funding/FTM.jsonl.gz": {
-"lines": 283,
-"sha256": "1543dd61ff498c6404db8b1427714dec419da9d5c829c5bb5d1d966321f8702c"
+"lines": 8,
+"sha256": "c23d1e08c4331d8a325e5307904f57c2c49427d76503e9c0997e991111603d53"
+},
+"hyperliquid/backfill/funding/FTT.jsonl.gz": {
+"lines": 201,
+"sha256": "651edb14ea6a567ef7ff1328cab724d7e8c1b1a75e16db6730ee748ac8ef374d"
+},
+"hyperliquid/backfill/funding/FXS.jsonl.gz": {
+"lines": 197,
+"sha256": "71f0814cde5427a271b30a274266f914032f17ca7673c928ff4b29be09685b4e"
+},
+"hyperliquid/backfill/funding/GALA.jsonl.gz": {
+"lines": 322,
+"sha256": "6497621622bcc29d61a3b4d23f3b37cf2c551340eb625f70e51078cf9f1df9e4"
+},
+"hyperliquid/backfill/funding/GAS.jsonl.gz": {
+"lines": 327,
+"sha256": "14b5ddcf982db01a11b753806e99f646d4eb6975ce431b247e2c118e12df88a3"
+},
+"hyperliquid/backfill/funding/GMT.jsonl.gz": {
+"lines": 399,
+"sha256": "8d35630a8581a295a0b8bdf20635c188a0c0a47646a6e6b355110f674acef5ac"
+},
+"hyperliquid/backfill/funding/GMX.jsonl.gz": {
+"lines": 410,
+"sha256": "1ff60bce867e91d1de68d4ed13986e8b7531c27a2a2568aa25ac7f818564d6f6"
+},
+"hyperliquid/backfill/funding/GOAT.jsonl.gz": {
+"lines": 326,
+"sha256": "bccfd3c00188b793b55253724f72f7227f426226f2a6e0d5592e0ff268469f51"
+},
+"hyperliquid/backfill/funding/GRAM.jsonl.gz": {
+"lines": 69,
+"sha256": "a9b6819cc4a9bb629b9cfd462f5107b7df768a879e527c3039294e177787c6d5"
+},
+"hyperliquid/backfill/funding/GRASS.jsonl.gz": {
+"lines": 443,
+"sha256": "c38732776b830ed32d3c94774f328a0d989851adf19476c9e3c93bb9e38ded2d"
+},
+"hyperliquid/backfill/funding/GRIFFAIN.jsonl.gz": {
+"lines": 257,
+"sha256": "298075b6259d71485f1bdcf17ccb3ad86ab7bea38dd1737d952c9a324b7b437d"
+},
+"hyperliquid/backfill/funding/HBAR.jsonl.gz": {
+"lines": 333,
+"sha256": "731f1303894c7f0a1d23066616bb392a92525cedbb801be8995ae83bbac317aa"
+},
+"hyperliquid/backfill/funding/HEMI.jsonl.gz": {
+"lines": 230,
+"sha256": "9e6c536c227512e3868b59c30baffad21fa43b06e81e85dcc2cf86525db9ab66"
+},
+"hyperliquid/backfill/funding/HMSTR.jsonl.gz": {
+"lines": 378,
+"sha256": "97e4b6607b0fef66e1717df33e0f64e560bdc3b8e07062346ffce11d9e5c8dc2"
+},
+"hyperliquid/backfill/funding/HPOS.jsonl.gz": {
+"lines": 78,
+"sha256": "d7e67aef23f8b74ad54cc038504756f44fc0cb159132711da46298ed0d5f09ce"
 },
 "hyperliquid/backfill/funding/HYPE.jsonl.gz": {
+"lines": 327,
+"sha256": "2a3e5f6e51cf003d18e31ee2d398f2e5bbac95a59cb5bd37fdd64898de765272"
+},
+"hyperliquid/backfill/funding/HYPER.jsonl.gz": {
+"lines": 354,
+"sha256": "c94cb783f04441f7144b8b9fd5e00f860ca2b67e6e4bc14bd6e8a8ad092927f0"
+},
+"hyperliquid/backfill/funding/ICP.jsonl.gz": {
+"lines": 211,
+"sha256": "4fed43ac6d2c19c95c01e028eeea174a06aa3ba6798f72c4d9194b09a10e4163"
+},
+"hyperliquid/backfill/funding/ILV.jsonl.gz": {
+"lines": 50,
+"sha256": "677963dece7cb197f37eee10c497ddc7ada07a4bb9602feff03ccf38d175a384"
+},
+"hyperliquid/backfill/funding/IMX.jsonl.gz": {
 "lines": 338,
-"sha256": "88169d83235d34375635ffe26b2ab611271e3ce72e84c506860ce44d121efbbf"
+"sha256": "57f69d2b06c70a11a110066b357dfbee79102ee4b8572793f8fb29194c6affe7"
+},
+"hyperliquid/backfill/funding/INIT.jsonl.gz": {
+"lines": 351,
+"sha256": "7839ce447885a1a489251b88088ebf3774066a4db95a2b88d1f3fe09e07b4794"
+},
+"hyperliquid/backfill/funding/INJ.jsonl.gz": {
+"lines": 347,
+"sha256": "c7c88f23f40dc3334d6f822630f32f423fe7548eb855f01877f67824e96416e6"
+},
+"hyperliquid/backfill/funding/IO.jsonl.gz": {
+"lines": 501,
+"sha256": "f912f19d1e4699a7b05ac2596490a27b040e47062d981869b9c1bbc423dbfc29"
+},
+"hyperliquid/backfill/funding/IOTA.jsonl.gz": {
+"lines": 341,
+"sha256": "485736d915d75060f14463a5b2a61a11bf10217aa63bb94abd270bdec1f2c952"
+},
+"hyperliquid/backfill/funding/IP.jsonl.gz": {
+"lines": 404,
+"sha256": "4f06d40385cbc609bd93754812b6af49e8c7d44b4106f4a98d5795fbbbfecc38"
+},
+"hyperliquid/backfill/funding/JELLY.jsonl.gz": {
+"lines": 32,
+"sha256": "fdbde9615e7c185410615dce144ee9b2ea826d6a05a25fab13b9bd98c9a6b744"
+},
+"hyperliquid/backfill/funding/JTO.jsonl.gz": {
+"lines": 397,
+"sha256": "f8629e11a737c82ec0adf82152b76ba971a52282ec1773e6e3827c0c72d95856"
+},
+"hyperliquid/backfill/funding/JUP.jsonl.gz": {
+"lines": 390,
+"sha256": "7e750abe9ee93b416f863e759c0cbae531fd1e4ea07b4852e9d64128eedc20cc"
+},
+"hyperliquid/backfill/funding/KAITO.jsonl.gz": {
+"lines": 416,
+"sha256": "d3e965635ea96ad40a8ccbcad9965ba1930164ec85ec8e2ff3fb1a1c14c215b0"
+},
+"hyperliquid/backfill/funding/KAS.jsonl.gz": {
+"lines": 397,
+"sha256": "9aa0780cb0ae8870e48478cf2077088751c813eade9fb5d4da392ebfe05315e9"
+},
+"hyperliquid/backfill/funding/LAUNCHCOIN.jsonl.gz": {
+"lines": 166,
+"sha256": "3575c23225b2afb8840a977207d2012848ed97918cd204e617c39ee209bd8780"
+},
+"hyperliquid/backfill/funding/LAYER.jsonl.gz": {
+"lines": 400,
+"sha256": "74442e1350fe054782ede30ffaa89b9d3c22610b266fb4f4eae63c0662fc2ac5"
+},
+"hyperliquid/backfill/funding/LDO.jsonl.gz": {
+"lines": 389,
+"sha256": "26b708146b5ca712764b9bd1241aa1d497b3736445e301453c2a287e71f3b818"
+},
+"hyperliquid/backfill/funding/LINEA.jsonl.gz": {
+"lines": 266,
+"sha256": "362482927cb23b3c24d53d34388ea0d46d0d1f4fc81c68785113bce3f19723fc"
+},
+"hyperliquid/backfill/funding/LINK.jsonl.gz": {
+"lines": 324,
+"sha256": "3f898ea8d81e2ed20c749d8ee0aa454dd3a4dfb0d6a6c47a5ab59d23f21acd33"
+},
+"hyperliquid/backfill/funding/LISTA.jsonl.gz": {
+"lines": 65,
+"sha256": "919d2b2d5093407d4bb10fca7a3dd526a7fd384133af0d79d88ce3216d04b28f"
+},
+"hyperliquid/backfill/funding/LIT.jsonl.gz": {
+"lines": 191,
+"sha256": "c0d79497e4909e7a01d46740671d7b22193eceee9864f04898462ad11c2c1eed"
+},
+"hyperliquid/backfill/funding/LTC.jsonl.gz": {
+"lines": 361,
+"sha256": "1543a79ebb78489b99a50e8542d0cec410bc687b87fb15e334cf0ca5cdc27151"
+},
+"hyperliquid/backfill/funding/MANTA.jsonl.gz": {
+"lines": 423,
+"sha256": "91b2c2cd51716c1e9b7c86fee0bb21624f6660e50881eee5f8e41f7482510859"
+},
+"hyperliquid/backfill/funding/MAV.jsonl.gz": {
+"lines": 280,
+"sha256": "94fbd916f6ef2c9f69ae8df2e80eda6bf31e26a7f0c776a6c2a7c0b6288dc382"
+},
+"hyperliquid/backfill/funding/MAVIA.jsonl.gz": {
+"lines": 351,
+"sha256": "2a7815824ef480ed094b1d986d57a41e0eb05933f44ab202e788c1b2df488b21"
+},
+"hyperliquid/backfill/funding/ME.jsonl.gz": {
+"lines": 536,
+"sha256": "844d7448e24b6055c8cb3a0623d6839c67be98beb192dd35e058f7f1610f8389"
+},
+"hyperliquid/backfill/funding/MEGA.jsonl.gz": {
+"lines": 176,
+"sha256": "b9eab0fff3474e6c03e7a6b926ac37da8cf4588d19bfafbad6f8075b9120efa3"
+},
+"hyperliquid/backfill/funding/MELANIA.jsonl.gz": {
+"lines": 256,
+"sha256": "bd7244906beb4fd05a0df0b970e01bde4d529b6b1106d90d8916be29aeff342d"
+},
+"hyperliquid/backfill/funding/MEME.jsonl.gz": {
+"lines": 348,
+"sha256": "390e9112d09865bd778c48512d978ef04dfaa38551c06eb642ffcdc0a6c4d423"
+},
+"hyperliquid/backfill/funding/MERL.jsonl.gz": {
+"lines": 392,
+"sha256": "2b3009659d44f347fb28b8d0f373ff2d7f8ed03f48c79c79da3ea9b82b46372c"
+},
+"hyperliquid/backfill/funding/MET.jsonl.gz": {
+"lines": 180,
+"sha256": "27ac3e411ef2feb7227d5d7d4ff386e71a902b533e904873975cac92e78a89c8"
+},
+"hyperliquid/backfill/funding/MEW.jsonl.gz": {
+"lines": 289,
+"sha256": "330adc3acf65241e9749f3a9384ab48588fdd9514a9fedfbc8819ac22c7df795"
+},
+"hyperliquid/backfill/funding/MINA.jsonl.gz": {
+"lines": 333,
+"sha256": "e05ec80971af4ec59c2cfe1047bf489a426cfcf09e770ba346cb889fc1dadc7e"
+},
+"hyperliquid/backfill/funding/MKR.jsonl.gz": {
+"lines": 146,
+"sha256": "b0a8481f75e29a8684e6c9ac9c7f7be5134e24554f0dc6daa556d11e2e13d182"
+},
+"hyperliquid/backfill/funding/MNT.jsonl.gz": {
+"lines": 362,
+"sha256": "b7f8e2a05dc674d687ad75e56e48da1e748d6a129a1c1bc9d53cb5620d896986"
 },
 "hyperliquid/backfill/funding/MON.jsonl.gz": {
-"lines": 263,
-"sha256": "3e2ff663f63c8dc8510bf082ffc798034bbd292b271c50e7d9e06d80e8e5c97c"
+"lines": 230,
+"sha256": "8f1c9a5befedc18647edea6b3b0f0141d195500f1373c41236d255621dd000c0"
+},
+"hyperliquid/backfill/funding/MOODENG.jsonl.gz": {
+"lines": 326,
+"sha256": "9704ee47735acea802528325b4a8c90efc3e7ea8ce0af9e739c9ece96af1a313"
+},
+"hyperliquid/backfill/funding/MORPHO.jsonl.gz": {
+"lines": 376,
+"sha256": "3539a76895731d37eed067fe74825d536820613f8bce7d9fa22b2e96a1642838"
+},
+"hyperliquid/backfill/funding/MOVE.jsonl.gz": {
+"lines": 446,
+"sha256": "dbf2d68e85b36e8dcdb945b213373092fc05a4e773486a436c5c884f7e93a11e"
+},
+"hyperliquid/backfill/funding/MYRO.jsonl.gz": {
+"lines": 40,
+"sha256": "ace73799cf34102a1d1036a0095cfca455bf82495c28af246ee89a07b6fe48f7"
+},
+"hyperliquid/backfill/funding/NEAR.jsonl.gz": {
+"lines": 328,
+"sha256": "ff21bb3877d6e86230f99d966c7d22873e4e391350721dd0116ee14f4de8f065"
+},
+"hyperliquid/backfill/funding/NEIROETH.jsonl.gz": {
+"lines": 142,
+"sha256": "6e25caa98432fe025955890f3a13c5dc1154a48642a6d6942d73289ce5387e12"
+},
+"hyperliquid/backfill/funding/NEO.jsonl.gz": {
+"lines": 405,
+"sha256": "73379a60854b7b805c63074d3fceb8b751cb0d0cae725166ed9d640d09e2b165"
+},
+"hyperliquid/backfill/funding/NIL.jsonl.gz": {
+"lines": 283,
+"sha256": "8d70dd1d0ef30d561f576d679c9c7766c415d04f910c59c8b6c9e47417a9e676"
+},
+"hyperliquid/backfill/funding/NOT.jsonl.gz": {
+"lines": 366,
+"sha256": "b618ed20ee7b0daa658bca30a1ab3fefc10e24051f3dc79aa2c44d11fdb71b39"
+},
+"hyperliquid/backfill/funding/NTRN.jsonl.gz": {
+"lines": 47,
+"sha256": "7d9063f99481fc7f9d955e13de4f6d3eb38ab4a9493f7828d194d5ea0555c90c"
+},
+"hyperliquid/backfill/funding/NXPC.jsonl.gz": {
+"lines": 279,
+"sha256": "16e3a8b2cac5e42ef78027a181bef1631e63258a697aeff4e6c0dd7d129f3bf3"
+},
+"hyperliquid/backfill/funding/OGN.jsonl.gz": {
+"lines": 75,
+"sha256": "55dfe0a9e56b057af89ca38b2c591c7509fd9adccda12549975e0440d7d0ac06"
+},
+"hyperliquid/backfill/funding/OM.jsonl.gz": {
+"lines": 311,
+"sha256": "7b4e37e8a89b1502379a963a014f373de69a08165c1bb4546d9a40050d480052"
+},
+"hyperliquid/backfill/funding/OMNI.jsonl.gz": {
+"lines": 202,
+"sha256": "b31c7d1a7eb01b4af59d79e32ddaa59e279ee0a472089514b94e3b325129920c"
+},
+"hyperliquid/backfill/funding/ONDO.jsonl.gz": {
+"lines": 338,
+"sha256": "6b372e7adb093a6372d9d92ec63bf38ab7570243e8a36299d0b3cb33d9c17956"
+},
+"hyperliquid/backfill/funding/OP.jsonl.gz": {
+"lines": 506,
+"sha256": "18a2537322a43126c202af59697ef94fdbef47a4a1deb93d7f6138b69b26b321"
+},
+"hyperliquid/backfill/funding/ORBS.jsonl.gz": {
+"lines": 60,
+"sha256": "f43a7ced15dfbffad7261e8e0036a75abbb7d879babc1458a2969e414317067c"
+},
+"hyperliquid/backfill/funding/ORDI.jsonl.gz": {
+"lines": 327,
+"sha256": "968a50122685fc3a0c8aa113632d748f10c52151cd92ae8d6ec791882bff897a"
+},
+"hyperliquid/backfill/funding/PAXG.jsonl.gz": {
+"lines": 266,
+"sha256": "9a19ec2b8c1562e888fe3bd304b4dd357763faa85b1541608b0ff8294066d379"
+},
+"hyperliquid/backfill/funding/PENDLE.jsonl.gz": {
+"lines": 257,
+"sha256": "d1b4e093a4f81014a32e09fe4608d5726ce8c04ac7417b30ba74182dc9ab10ae"
+},
+"hyperliquid/backfill/funding/PENGU.jsonl.gz": {
+"lines": 426,
+"sha256": "54b216a23302b6bbd9c9d21d618ca66b87aab9ce2f77ef7324ace47fd5a5fde6"
+},
+"hyperliquid/backfill/funding/PEOPLE.jsonl.gz": {
+"lines": 218,
+"sha256": "e3908a8c65c96cf14a3d3370c982d8bb592036cdd7e1fc650f78c48f6eb15596"
+},
+"hyperliquid/backfill/funding/PIXEL.jsonl.gz": {
+"lines": 70,
+"sha256": "8cfe95a6ca61f79bcf3e16bfedd2192ba14979de625f0e72f4c222216fd0acc8"
+},
+"hyperliquid/backfill/funding/PNUT.jsonl.gz": {
+"lines": 441,
+"sha256": "7e135184d8710cd7c894df7feff3f198f024d9ea269a951efc046e930c59db72"
+},
+"hyperliquid/backfill/funding/POL.jsonl.gz": {
+"lines": 358,
+"sha256": "2e27bfa44da3538d102c704c27bdea8cb2089c92f8b38c567e31ea92e549d3df"
+},
+"hyperliquid/backfill/funding/POLYX.jsonl.gz": {
+"lines": 474,
+"sha256": "a29fa3a9d9eaa2caa506831f81cc09922425b8e34db651afdd35e578484951c2"
+},
+"hyperliquid/backfill/funding/PONS.jsonl.gz": {
+"lines": 28,
+"sha256": "eb709c83181ae7e7b9d679874d93fce43ec2d6b5ca02c93f76b01851ed3c7426"
+},
+"hyperliquid/backfill/funding/POPCAT.jsonl.gz": {
+"lines": 345,
+"sha256": "322bc677bc3d475c25effa70c1d5d140d0690d9c8638ba8a91ebf73041d85fa3"
+},
+"hyperliquid/backfill/funding/PROMPT.jsonl.gz": {
+"lines": 258,
+"sha256": "474337627e3468c9f9a37325c301e16034743e4c1fac349a370566c6cde52a42"
+},
+"hyperliquid/backfill/funding/PROVE.jsonl.gz": {
+"lines": 290,
+"sha256": "d84bdaa4365b9e2ebc764738ab6dd21c7c5d1a77d1ac791326289d1429d286f3"
+},
+"hyperliquid/backfill/funding/PUMP.jsonl.gz": {
+"lines": 192,
+"sha256": "b8ba68f343c5fa55cabe3cee9f7539e7cc479bb9906f9d4adf1abefa3ad830fa"
+},
+"hyperliquid/backfill/funding/PURR.jsonl.gz": {
+"lines": 321,
+"sha256": "1c8b1bf38e3099cb8d6ce29865d3d0a94b3167e35011d715bf709fc68954e2df"
+},
+"hyperliquid/backfill/funding/PYTH.jsonl.gz": {
+"lines": 433,
+"sha256": "597f94988b8d3aadca3cc725eca91860918c957be47ec43f599b7c176254f8e4"
+},
+"hyperliquid/backfill/funding/RDNT.jsonl.gz": {
+"lines": 125,
+"sha256": "6151aa3f6d40dec74153a6ee40604a72a1fcb5aba1e50a394f32ef8aa6f362b2"
+},
+"hyperliquid/backfill/funding/RENDER.jsonl.gz": {
+"lines": 286,
+"sha256": "e017d14d7f0c9067bdb063d38f77e29c2a1cf6dfb8c4c0775e19aaa14dde484e"
+},
+"hyperliquid/backfill/funding/REQ.jsonl.gz": {
+"lines": 157,
+"sha256": "c005f82eb7b8f130d294ab941fdd8dbe1bdbcbf40b872ef51fbb844822930909"
+},
+"hyperliquid/backfill/funding/RESOLV.jsonl.gz": {
+"lines": 226,
+"sha256": "4b1f768fcc101ae9e77ff55609d683bd687e82f640319ec6a4cd7c946b59939c"
+},
+"hyperliquid/backfill/funding/REZ.jsonl.gz": {
+"lines": 451,
+"sha256": "6057849758d589a327d07044998673b8da7a690a76f37340650ba1b8091fa94e"
+},
+"hyperliquid/backfill/funding/RLB.jsonl.gz": {
+"lines": 33,
+"sha256": "7cbe1b71d5529a39a6675e25c1411c5025666c01d35cb189c0dc0dfeb622a1c7"
+},
+"hyperliquid/backfill/funding/RSR.jsonl.gz": {
+"lines": 340,
+"sha256": "60a763115901f745e764fb5dd476fc52eafdad1aa5948a1c94a1758b8f5991ee"
+},
+"hyperliquid/backfill/funding/RUNE.jsonl.gz": {
+"lines": 309,
+"sha256": "58acd01f7c062d9cf598eefb68fd00410c7be28a07c0f390e513307bcab406a5"
+},
+"hyperliquid/backfill/funding/S.jsonl.gz": {
+"lines": 360,
+"sha256": "4396371d56e45ac756cbe73aed37d6084c30bad4f3afcfb4e06c28cf8f11c501"
+},
+"hyperliquid/backfill/funding/SAGA.jsonl.gz": {
+"lines": 376,
+"sha256": "c9840ae160d6b240d984d91452dd7e81263c851ec2e6f09c373bd68f8d97f0d8"
+},
+"hyperliquid/backfill/funding/SAND.jsonl.gz": {
+"lines": 412,
+"sha256": "da3ec16b60c924cd51f14880bbb7add25584fbe19992985927f2675f4c3f65e0"
+},
+"hyperliquid/backfill/funding/SCR.jsonl.gz": {
+"lines": 297,
+"sha256": "cd878f2a2ac694ab2c39582b5572ec78ff066ee59276e37f3e9d633675827737"
+},
+"hyperliquid/backfill/funding/SEI.jsonl.gz": {
+"lines": 404,
+"sha256": "994aad03222ce9522dada472bb2cc514a5c849f9c16d693b18b3f4ef2c356569"
+},
+"hyperliquid/backfill/funding/SKR.jsonl.gz": {
+"lines": 158,
+"sha256": "dc35894d88018d7efbe75ea11d35a7214be425e774b529bc35300bf832fee1c1"
+},
+"hyperliquid/backfill/funding/SKY.jsonl.gz": {
+"lines": 217,
+"sha256": "cbfc7d5cd09f8f6f4ab30782ca0edcdd1720ca2cd3887c36f8ab4d1c7d3142d2"
+},
+"hyperliquid/backfill/funding/SNX.jsonl.gz": {
+"lines": 321,
+"sha256": "1c8f695bc41fee7d00b462a1f7e631a046396c55e084d1fae2a8550e05cd0716"
+},
+"hyperliquid/backfill/funding/SOL.jsonl.gz": {
+"lines": 432,
+"sha256": "568eaa7fe2c943265b4eaf7ce189a433653eb8384712b432c0bdae7921729ce0"
+},
+"hyperliquid/backfill/funding/SOPH.jsonl.gz": {
+"lines": 339,
+"sha256": "eaa21d78310c742c61d678af10d7a252050d6a11517731e6906f083e2135974b"
+},
+"hyperliquid/backfill/funding/SPX.jsonl.gz": {
+"lines": 383,
+"sha256": "24b788b140b613dca2ca4edb99c30af52f460bc9fca5f8f2171a40c19a469b2b"
+},
+"hyperliquid/backfill/funding/STABLE.jsonl.gz": {
+"lines": 174,
+"sha256": "43242b34cb717f785e4f32d71cfe5b71d565825e9276bbe0a1172c52bcdfc2f3"
+},
+"hyperliquid/backfill/funding/STBL.jsonl.gz": {
+"lines": 200,
+"sha256": "f492fc9f728fd4aa407239d1db9ac563a554bcb021afd96e6519f0d27a38956d"
+},
+"hyperliquid/backfill/funding/STG.jsonl.gz": {
+"lines": 135,
+"sha256": "bbd88fc3558607c9b79d1b4403a429d47d0d371d7ecd24761ee586d8af4b508d"
+},
+"hyperliquid/backfill/funding/STRK.jsonl.gz": {
+"lines": 387,
+"sha256": "b384432fe5494b65e206e3eb7fc3b0535b48049cd5b73cdfc1829f12aa8586b6"
+},
+"hyperliquid/backfill/funding/STX.jsonl.gz": {
+"lines": 373,
+"sha256": "77d81e0b173e62bd30c27f8b6f95769e093f1fcc3ef97ef8bd35e1f3052ae3b5"
+},
+"hyperliquid/backfill/funding/SUI.jsonl.gz": {
+"lines": 395,
+"sha256": "abba95008e72c86990fc83fa55843730ac5db1226e078c2480a494055b7b26f3"
+},
+"hyperliquid/backfill/funding/SUPER.jsonl.gz": {
+"lines": 418,
+"sha256": "092ef41e89f06d2eccdc25bffd899cb1d8afb9052f265ef0b10e364781bcfb9d"
+},
+"hyperliquid/backfill/funding/SUSHI.jsonl.gz": {
+"lines": 459,
+"sha256": "244da6aa454f6c2ab02cb8c5406f4c6f1bc14b65ab7d618de06776ecad34ef4e"
+},
+"hyperliquid/backfill/funding/SYRUP.jsonl.gz": {
+"lines": 276,
+"sha256": "f59ccad6eedc928fa53f8779075d6bd468b611bc790f4d6a00c5efae4f0a92db"
+},
+"hyperliquid/backfill/funding/TAO.jsonl.gz": {
+"lines": 384,
+"sha256": "b68598a81628cf28416135c7b0b2dfc5ead71309fc4dbfe8c33860e06bdd0261"
+},
+"hyperliquid/backfill/funding/TIA.jsonl.gz": {
+"lines": 441,
+"sha256": "4335504258436d93d7c56e113066d7dbe6417cc9527dc23c02c1bfcfe45df3d8"
+},
+"hyperliquid/backfill/funding/TNSR.jsonl.gz": {
+"lines": 322,
+"sha256": "578c1b159e6f812db9f952a26f6c7b055544248e00dcd28a1e123d98b87bccbe"
+},
+"hyperliquid/backfill/funding/TON.jsonl.gz": {
+"lines": 295,
+"sha256": "db28c7cb530b9bb0c35f75103ed5f14ddf8b95ad9340dc67a2c0fd730a7658d1"
+},
+"hyperliquid/backfill/funding/TRB.jsonl.gz": {
+"lines": 253,
+"sha256": "67904198a29d17ea78754908d5c0a770517d6465908f08bc05d5925c0650e0b6"
+},
+"hyperliquid/backfill/funding/TRUMP.jsonl.gz": {
+"lines": 466,
+"sha256": "5421f95a06d8060a85e68943645164d4afd6e849115ed18fe5371388b36ac47a"
+},
+"hyperliquid/backfill/funding/TRX.jsonl.gz": {
+"lines": 347,
+"sha256": "399f52ea88e4ce3d7a221a7c4bfed8879d94d3356490320c25219f78146229c6"
+},
+"hyperliquid/backfill/funding/TST.jsonl.gz": {
+"lines": 288,
+"sha256": "8ad854dceae5045e51a72b3e26b95b3c67b6dd8514fa050eef5409f2cff001fc"
+},
+"hyperliquid/backfill/funding/TURBO.jsonl.gz": {
+"lines": 457,
+"sha256": "d36ce8de63b17f72b07f203b869f94b7231d6490f7276f4b0208a59128b17de3"
+},
+"hyperliquid/backfill/funding/UMA.jsonl.gz": {
+"lines": 366,
+"sha256": "e25178786a86a003f920b5982f0bb4977cf79498c65005b65fc0470420488cbb"
+},
+"hyperliquid/backfill/funding/UNI.jsonl.gz": {
+"lines": 363,
+"sha256": "92823bb3b16996fc2dbeef29041b8a0b9bef68fa5cd3fc11e5b26bcfbecc2219"
+},
+"hyperliquid/backfill/funding/USELESS.jsonl.gz": {
+"lines": 19,
+"sha256": "468c269b9322ef45c98df61d7b1244f298954befaf794c96f336af90421f4881"
+},
+"hyperliquid/backfill/funding/USTC.jsonl.gz": {
+"lines": 244,
+"sha256": "9ca673c6a5bafa0253ed502e2ba64802b32b33da5ea851572acd57dd24d85d82"
+},
+"hyperliquid/backfill/funding/USUAL.jsonl.gz": {
+"lines": 412,
+"sha256": "44ad813972865bf6bd74465355109b54959b0d8e905f9eb5831c29ccdb87fcc9"
+},
+"hyperliquid/backfill/funding/VINE.jsonl.gz": {
+"lines": 295,
+"sha256": "cfafa7ddb90b8b2ba1b725889f50d3f63400586d345d9a55fb1c7d93e80debf4"
+},
+"hyperliquid/backfill/funding/VIRTUAL.jsonl.gz": {
+"lines": 324,
+"sha256": "360c67e76b058b39c9b03a159fd200c77c62e47b12096c2af0734ee58e2f2119"
+},
+"hyperliquid/backfill/funding/VVV.jsonl.gz": {
+"lines": 438,
+"sha256": "594f4aefb9b69f573d097a92f47ad10c0aa64e87946e39b3d878681152e9d315"
+},
+"hyperliquid/backfill/funding/W.jsonl.gz": {
+"lines": 379,
+"sha256": "debd9f4894ac1702752c12410ade4585dc8f67a1053c71e3d40ff33848dc8f9a"
+},
+"hyperliquid/backfill/funding/WCT.jsonl.gz": {
+"lines": 293,
+"sha256": "cea555f553a05810611a1d464d4c31d10f60b1b616a00656bfffbd76e60555fe"
+},
+"hyperliquid/backfill/funding/WIF.jsonl.gz": {
+"lines": 402,
+"sha256": "5e05888cc7c8607cc53a1e0deb287ed20ff16aeca9978c8b02f447cc6bb9ac41"
+},
+"hyperliquid/backfill/funding/WLD.jsonl.gz": {
+"lines": 420,
+"sha256": "63209ed4b3a627368bda150863d4980671fc3bc85bcab531495faee84fdc38f7"
+},
+"hyperliquid/backfill/funding/WLFI.jsonl.gz": {
+"lines": 245,
+"sha256": "7445b217a59dd2bd671e1fd101ee053f966bc491717d1ce7cbd5d7d0a7968186"
+},
+"hyperliquid/backfill/funding/XAI.jsonl.gz": {
+"lines": 420,
+"sha256": "2385be1722c97cdb71c677dc1337be7e0f1369f07485a4a467be36c4e92ecf09"
+},
+"hyperliquid/backfill/funding/XLM.jsonl.gz": {
+"lines": 369,
+"sha256": "dc6e569f408eb8948eef15d1cc5e7bba767fe0ae5d1df3680add84778546170d"
+},
+"hyperliquid/backfill/funding/XMR.jsonl.gz": {
+"lines": 207,
+"sha256": "28b047fc17aaa94ecab2b405dc10b1b5a6bd21336c7a3b89fa53614bd7932618"
+},
+"hyperliquid/backfill/funding/XPL.jsonl.gz": {
+"lines": 208,
+"sha256": "946ae3164a18c528cbb3d3f0ea864f4609bec711ba340d1dbf2ce2d6d3e6c86a"
+},
+"hyperliquid/backfill/funding/XRP.jsonl.gz": {
+"lines": 387,
+"sha256": "4dc7de7472943eb54d457669248ff19ecea1159fdf0cda83d89cd6cb99b341f7"
+},
+"hyperliquid/backfill/funding/YGG.jsonl.gz": {
+"lines": 310,
+"sha256": "c1d85b6f47fde99bcfc451e2e817d40bd9ab024c0ff9913f39e2dec550504399"
+},
+"hyperliquid/backfill/funding/YZY.jsonl.gz": {
+"lines": 163,
+"sha256": "f48f99a75a865496fd5aafacf6ddd17c29f8cbbebb4a9ba7974a970a196b2223"
+},
+"hyperliquid/backfill/funding/ZEC.jsonl.gz": {
+"lines": 219,
+"sha256": "61fa1b29997451ffeabc4eb281f2ccbe9eb03da698a7244bb70932e28c3bdaec"
+},
+"hyperliquid/backfill/funding/ZEN.jsonl.gz": {
+"lines": 314,
+"sha256": "f60b48a095bf60657267a88e1271e5ecf01bc9a2f45550649f599803a753290b"
+},
+"hyperliquid/backfill/funding/ZEREBRO.jsonl.gz": {
+"lines": 266,
+"sha256": "dd225ec61a4f651101361b6e2cba8cd3a33cb4fadfd2dc868f380e0788d40a76"
+},
+"hyperliquid/backfill/funding/ZETA.jsonl.gz": {
+"lines": 408,
+"sha256": "e9553fb981b49be0be8dc6874aeb391bff556d71ad5e2d15d0047965a92bf25c"
+},
+"hyperliquid/backfill/funding/ZK.jsonl.gz": {
+"lines": 428,
+"sha256": "48d02acaa4742d0561d7a5a24fb545a5fd332f4d7ffb5f49175cf013088789e5"
+},
+"hyperliquid/backfill/funding/ZORA.jsonl.gz": {
+"lines": 311,
+"sha256": "4d1bd14e6d05e297a9180cc22633982f3907faf8e2695e96e761c61fbb5364f6"
+},
+"hyperliquid/backfill/funding/ZRO.jsonl.gz": {
+"lines": 394,
+"sha256": "88acfd1473f176cf903f33f844dd7798c391195934c5fe4f44f8c19b1d488163"
+},
+"hyperliquid/backfill/funding/kBONK.jsonl.gz": {
+"lines": 446,
+"sha256": "9fffae7afdbae559ad3c743574239263b3b028789d9516846d648ba86dd03fd0"
+},
+"hyperliquid/backfill/funding/kDOGS.jsonl.gz": {
+"lines": 134,
+"sha256": "d76cf17f1cf3d5153f0e0d99ad0616bebf5ec114b8272074bc01967a5c106907"
+},
+"hyperliquid/backfill/funding/kFLOKI.jsonl.gz": {
+"lines": 376,
+"sha256": "d2a50f4a7834938b2510239018741434a52c621a2928fcfcd26bf1a312d85baf"
+},
+"hyperliquid/backfill/funding/kLUNC.jsonl.gz": {
+"lines": 386,
+"sha256": "63facaeab08123ec01308f965716d58620660c248b69b54a84bc4bf4b34d0a97"
+},
+"hyperliquid/backfill/funding/kNEIRO.jsonl.gz": {
+"lines": 373,
+"sha256": "3dc8987301e28be27c3f581ce778e291d8e004f1c4835e86393141da4a8987a7"
+},
+"hyperliquid/backfill/funding/kPEPE.jsonl.gz": {
+"lines": 418,
+"sha256": "d64caa3af4355800d8b94de6f89292471bb634592fdb92048cf1d88ba702ef6a"
+},
+"hyperliquid/backfill/funding/kSHIB.jsonl.gz": {
+"lines": 432,
+"sha256": "45fadaa912a156629d5497b5cade6af325cef08d5cb4c30890ea6fc817f1c5ae"
+},
+"hyperliquid/backfill/klines/0G.jsonl.gz": {
+"lines": 339,
+"sha256": "978a3bf6d04c30dcb50fb8bab1482f162d4eee9fd772059d3199fce5b9958916"
+},
+"hyperliquid/backfill/klines/2Z.jsonl.gz": {
+"lines": 280,
+"sha256": "f3c5205c0fbc9dda9f9fad4ea3d9befadae2f6cac0d229dec5ddbb39cf5f6913"
+},
+"hyperliquid/backfill/klines/AAVE.jsonl.gz": {
+"lines": 271,
+"sha256": "451852bccfd63935bb9a956945fcd9aa8b1cfeb711b3c6900d34785e28c6c197"
+},
+"hyperliquid/backfill/klines/ACE.jsonl.gz": {
+"lines": 192,
+"sha256": "9c73950982450fdfa91552b2febb058bfb93beeb2a97c3e6e1685cb5c4ed2d10"
+},
+"hyperliquid/backfill/klines/ADA.jsonl.gz": {
+"lines": 286,
+"sha256": "614a3402e9d15f11901ea432543083312a9f498241a63ca7b44755111cc2cf5c"
+},
+"hyperliquid/backfill/klines/AERO.jsonl.gz": {
+"lines": 343,
+"sha256": "000aaf16a097f1eacc07731b4edcc00e06841a49e7bcf46ec939f58539a52fa8"
+},
+"hyperliquid/backfill/klines/AI.jsonl.gz": {
+"lines": 188,
+"sha256": "73a0e93f99918b532a77230179b2e46a44d97e4517b8f5b5cb77030ea3def53c"
+},
+"hyperliquid/backfill/klines/AI16Z.jsonl.gz": {
+"lines": 389,
+"sha256": "8be3109167617f793cbc5f26766ac90b2ef47232ce1695fc25fce20715a268d6"
+},
+"hyperliquid/backfill/klines/AIXBT.jsonl.gz": {
+"lines": 352,
+"sha256": "d0426cc01c1db2077689b8eb87a4261f85708452f1757406d84e4ed93254da14"
+},
+"hyperliquid/backfill/klines/ALGO.jsonl.gz": {
+"lines": 333,
+"sha256": "262ddcd9d2964e3ee175bd02d5981ba85a56986a13a08a62b2def83de8719a13"
+},
+"hyperliquid/backfill/klines/ALT.jsonl.gz": {
+"lines": 301,
+"sha256": "ce60960cce194ecdf1545b7be75abf346288da7cfc25c9410abcc047fdaf8e8c"
+},
+"hyperliquid/backfill/klines/ANIME.jsonl.gz": {
+"lines": 268,
+"sha256": "cf17ba2530766586800fdcc5236dede00e86e7b4ba4e059cb904cff5aee867f8"
+},
+"hyperliquid/backfill/klines/APE.jsonl.gz": {
+"lines": 301,
+"sha256": "3c275ff6e7c53a300de9b3773012a91135aa5f9cd14e5a077bf4cf514f089b29"
+},
+"hyperliquid/backfill/klines/APEX.jsonl.gz": {
+"lines": 321,
+"sha256": "20d952e1c37a16510df15e38f767d7e0d113d4f60f3bc13cfe7e0c54dc5e5a42"
+},
+"hyperliquid/backfill/klines/APT.jsonl.gz": {
+"lines": 269,
+"sha256": "50e477481205aa1b1d18ec7849d92af35c87da0c1255d5ca121b2a1c54047262"
+},
+"hyperliquid/backfill/klines/AR.jsonl.gz": {
+"lines": 274,
+"sha256": "bab1e3d253a7ff9087bc548395c7a4c3af85fb2e4c7be0fa2a5557fbb2f4dfaf"
+},
+"hyperliquid/backfill/klines/ARB.jsonl.gz": {
+"lines": 294,
+"sha256": "562003c067334b9befec2afec71234ac03fa146785a6dedf95682e4483fd3421"
+},
+"hyperliquid/backfill/klines/ARK.jsonl.gz": {
+"lines": 361,
+"sha256": "3f33bc5fef1b045dbff7c7c2aea6490bc9d686394466ca25499cf61f70d76605"
+},
+"hyperliquid/backfill/klines/ASTER.jsonl.gz": {
+"lines": 345,
+"sha256": "70d4b57c1e73c9e6a2b65ed26f40add6ee1213d91dfbca0802b3a2eb6a267c81"
+},
+"hyperliquid/backfill/klines/ATOM.jsonl.gz": {
+"lines": 233,
+"sha256": "5a42e4bdef893f16ceff3668274cf72a9ba0e47d641d90420d9f47904f9df516"
+},
+"hyperliquid/backfill/klines/AVAX.jsonl.gz": {
+"lines": 281,
+"sha256": "924aaf431f01169a279a51d16512181a8423bb7e96d7a98f5f18b1221ca4d898"
+},
+"hyperliquid/backfill/klines/AVNT.jsonl.gz": {
+"lines": 312,
+"sha256": "dbb9c941fafa70dc603740f50bdf8ce064d010d10c28e4d3e802eee061a3a5e2"
+},
+"hyperliquid/backfill/klines/AXS.jsonl.gz": {
+"lines": 281,
+"sha256": "4ab2c898d717c0d029f980ff7eee2e90c435151fefb6c403c4272fa2088c9892"
+},
+"hyperliquid/backfill/klines/AZTEC.jsonl.gz": {
+"lines": 307,
+"sha256": "63a1cba90d1ae448093b16cbe03da79c1d816154d465ad09f220620bda555dd1"
+},
+"hyperliquid/backfill/klines/BABY.jsonl.gz": {
+"lines": 330,
+"sha256": "dc566388903370be094ae66405a1737e915abfe9254b1819e2e849953a7ebf0f"
+},
+"hyperliquid/backfill/klines/BADGER.jsonl.gz": {
+"lines": 181,
+"sha256": "506e3c74817804bb6ae70da5abd2e58f03240c033ce751d855e759e0279eb5b3"
+},
+"hyperliquid/backfill/klines/BANANA.jsonl.gz": {
+"lines": 269,
+"sha256": "285ae0981cfb92d98664061f70a5843c8500e59d75e22ec1780f901223bc85f2"
+},
+"hyperliquid/backfill/klines/BCH.jsonl.gz": {
+"lines": 251,
+"sha256": "deb059d141a4006be3fb783038620403fe46b94c39c7eb0375b5b4ac3304fb6f"
+},
+"hyperliquid/backfill/klines/BERA.jsonl.gz": {
+"lines": 334,
+"sha256": "4491a1ec8859026257d17f0f3e88fd2c08611ff6ddfa903972d9530a3161fe36"
+},
+"hyperliquid/backfill/klines/BIGTIME.jsonl.gz": {
+"lines": 273,
+"sha256": "b4b1469170d01643cc4d526458db19113bd0e101b9ac988fb85a401ba4ec4171"
+},
+"hyperliquid/backfill/klines/BIO.jsonl.gz": {
+"lines": 260,
+"sha256": "ea7c572f3c6d588e3da0649feee10e7f5376d08afd91e60b1486a84ec3453464"
+},
+"hyperliquid/backfill/klines/BLAST.jsonl.gz": {
+"lines": 178,
+"sha256": "426a81d6466ccfbdec6965115414f19ef9c3da889b2458db51412cef2de9a796"
+},
+"hyperliquid/backfill/klines/BLUR.jsonl.gz": {
+"lines": 317,
+"sha256": "1919730644d46b4d3e6c7e81363bde4d387fe51fc6a2fc121f697f9862416c31"
+},
+"hyperliquid/backfill/klines/BNB.jsonl.gz": {
+"lines": 245,
+"sha256": "5265412138b608360af36e208d8bf0f4df07c49f80f5dadab2ef661a920b6d5f"
+},
+"hyperliquid/backfill/klines/BNT.jsonl.gz": {
+"lines": 234,
+"sha256": "254b430cbab474d46228ad94f80ec03cbf0df2278ba9073f6a365e5ab7dfecfc"
+},
+"hyperliquid/backfill/klines/BOME.jsonl.gz": {
+"lines": 178,
+"sha256": "625765e7498038d0023088cf701948b67d3e0a987929fa0ad16f0cd6e06ffd6d"
+},
+"hyperliquid/backfill/klines/BRETT.jsonl.gz": {
+"lines": 288,
+"sha256": "928465e83329529afbe77d2b12ea310dc2686bcb34ed42471d6b093b89fcf0d7"
+},
+"hyperliquid/backfill/klines/BSV.jsonl.gz": {
+"lines": 206,
+"sha256": "e1de3e98307d2a2c6fff6247663e1eb4fdafddb6393c60d0056e3845f6d228b4"
 },
 "hyperliquid/backfill/klines/BTC.jsonl.gz": {
-"lines": 258,
-"sha256": "abff78d6d1d5c02d02b5ae44a68605b4a34503c5bf2f778952b417bf53414405"
+"lines": 259,
+"sha256": "e2fa978437de6d5ee8e49c582b38646b91d22ac24b131d5efcd53dde59c0bee1"
+},
+"hyperliquid/backfill/klines/CAKE.jsonl.gz": {
+"lines": 278,
+"sha256": "a451923097a9b1d7bde0a830248d05da9e6f99db848a1a40c22807ab2d909601"
+},
+"hyperliquid/backfill/klines/CASHCAT.jsonl.gz": {
+"lines": 114,
+"sha256": "79332eda976629cf5c1408c18e36e5874786e6413ae3754e367aa9481524c847"
+},
+"hyperliquid/backfill/klines/CATI.jsonl.gz": {
+"lines": 165,
+"sha256": "dd50f023175325893dbf0eb44e3fcc9aafc184f711a1d3feb5fc5eefc20d2d3e"
+},
+"hyperliquid/backfill/klines/CC.jsonl.gz": {
+"lines": 303,
+"sha256": "e8fdbf7c38d662f5a0f0ff0743d24d8401254ce322e6f12010e6d3088e52e592"
+},
+"hyperliquid/backfill/klines/CELO.jsonl.gz": {
+"lines": 304,
+"sha256": "b9f97de6390b76aec2b15e2634bd0575024593abf57d70e0313e3c6ade478e46"
+},
+"hyperliquid/backfill/klines/CFX.jsonl.gz": {
+"lines": 282,
+"sha256": "bf8e3b3a20979be10281f7b148d19b4bd88ad992fc906ba7309437d6a2606af2"
+},
+"hyperliquid/backfill/klines/CHILLGUY.jsonl.gz": {
+"lines": 312,
+"sha256": "7101444293a0ced1414a74da02ca28e0c20e99f6fd1fee3d3bb68cac25382094"
+},
+"hyperliquid/backfill/klines/CHIP.jsonl.gz": {
+"lines": 279,
+"sha256": "cb29d8d7ba725d0b7ff35d67ca3d0ee8d8751e63e6d803a5bae673e1be45112a"
+},
+"hyperliquid/backfill/klines/COMP.jsonl.gz": {
+"lines": 277,
+"sha256": "697c4bb60b70a0eb02cb00aed6296009a9b0ccc2acb18b62d9aa3a225aff4791"
+},
+"hyperliquid/backfill/klines/CRV.jsonl.gz": {
+"lines": 284,
+"sha256": "127de63db39103e453a8d91b4ad6aa65a907466f5816f0116f0d31e87ac7c709"
+},
+"hyperliquid/backfill/klines/CYBER.jsonl.gz": {
+"lines": 130,
+"sha256": "50dd89b90977b1f50209eb654f79b2c19cd2b866c95f96cede2b9cd94cac374b"
+},
+"hyperliquid/backfill/klines/DASH.jsonl.gz": {
+"lines": 292,
+"sha256": "5659cf01d920efa6aac1c6b2338e43b9197ab3f934a447066d4ff8b6535211cb"
+},
+"hyperliquid/backfill/klines/DOGE.jsonl.gz": {
+"lines": 292,
+"sha256": "b47e2b54fc8c9b7af630e1dbefbcaa9c5c183aa83315d9cf2101cda21c1f6ac0"
+},
+"hyperliquid/backfill/klines/DOOD.jsonl.gz": {
+"lines": 292,
+"sha256": "3e691063b56063116d90455ae0dde661230e848a0589fa33caa007a32d2fd02d"
+},
+"hyperliquid/backfill/klines/DOT.jsonl.gz": {
+"lines": 290,
+"sha256": "c873da1d1a8cb5d7c9b54b43d0a1ccd99ed219fbb6b581b410ed6bc5182ed6c2"
+},
+"hyperliquid/backfill/klines/DYDX.jsonl.gz": {
+"lines": 304,
+"sha256": "1aa5e7afa16c995456eb90f66f2ebdac3d4fc26b1cace40eccf60360363e36ef"
+},
+"hyperliquid/backfill/klines/DYM.jsonl.gz": {
+"lines": 298,
+"sha256": "20a50557ffc5f33ec1a0bb3bd482ace8b78cba0e8eafeab4cc6a055cf6c05080"
+},
+"hyperliquid/backfill/klines/EIGEN.jsonl.gz": {
+"lines": 206,
+"sha256": "a96fb31f163a78e859b111f2d05f0dd4d521d378e4a47b5a8f1f2fdfe5cde839"
+},
+"hyperliquid/backfill/klines/ENA.jsonl.gz": {
+"lines": 320,
+"sha256": "1984134aadd3921d7cc4d7aa711cd75c196da56832966d89c7cb43523f007fbb"
+},
+"hyperliquid/backfill/klines/ENS.jsonl.gz": {
+"lines": 228,
+"sha256": "088cfa9f84d441ad4793397d7fa99017d70b80630a1f5468e803dec825312a6e"
+},
+"hyperliquid/backfill/klines/ETC.jsonl.gz": {
+"lines": 232,
+"sha256": "bbbed1b4655e11c40c7664bbea0a2576d48cefc22dfabacdf04ecfd1dd702b62"
+},
+"hyperliquid/backfill/klines/ETH.jsonl.gz": {
+"lines": 322,
+"sha256": "799bfcec4dbefee873118350b61befaa52a5a67eabc061647545895a47410b08"
+},
+"hyperliquid/backfill/klines/ETHFI.jsonl.gz": {
+"lines": 361,
+"sha256": "bdbbe8de5ab42c3412dd1fecaaea4a6c19baa22d15d12aeec4a895116210b981"
+},
+"hyperliquid/backfill/klines/FARTCOIN.jsonl.gz": {
+"lines": 334,
+"sha256": "860a2dfaf54c6a9ceef3493bdff1fbc165340820d82e70c3f4cd810ce2f77a90"
+},
+"hyperliquid/backfill/klines/FET.jsonl.gz": {
+"lines": 270,
+"sha256": "4ea67bc0ab5f88c1dd54d1f2b828fdc6827b0d9efa06b2062560e122aa3408ef"
+},
+"hyperliquid/backfill/klines/FIL.jsonl.gz": {
+"lines": 371,
+"sha256": "8f98540f9f41d3ac229643dd504b4bdac4fd3e8ecf54fb0c53aec1edab5acec5"
+},
+"hyperliquid/backfill/klines/FOGO.jsonl.gz": {
+"lines": 309,
+"sha256": "8eec0592bc2e530e81deec6b4a069300e464db89dcb999842e1331117dd42385"
 },
 "hyperliquid/backfill/klines/FTM.jsonl.gz": {
 "lines": 20,
-"sha256": "1a3890071d9e26d979d6a18c08f1240c72b85d89011dd12814dfb1458427efef"
+"sha256": "727cc938c3af35b6b9bbc606e8598277bbff0d9a180a59d99d77c3d227435243"
+},
+"hyperliquid/backfill/klines/FTT.jsonl.gz": {
+"lines": 369,
+"sha256": "bc153405c014fcf6dbbe28b51ebffaaec12f600e24ad5c43a785423a2332fa79"
+},
+"hyperliquid/backfill/klines/FXS.jsonl.gz": {
+"lines": 282,
+"sha256": "497569908356e94089fc58470e2e63bacc163e41830f42ee164b980f3a7205fc"
+},
+"hyperliquid/backfill/klines/GALA.jsonl.gz": {
+"lines": 229,
+"sha256": "7cff098aee369748ec92878808534bc91828f90abdf203a4157318575e376585"
+},
+"hyperliquid/backfill/klines/GAS.jsonl.gz": {
+"lines": 250,
+"sha256": "d8995556007c7083fd1262a46a2e317c43c9372a7e8246741653d62b2f5ecadb"
+},
+"hyperliquid/backfill/klines/GMT.jsonl.gz": {
+"lines": 282,
+"sha256": "e2be60efd6107b34504238e8f173e98ef9c1de9810d063c94eec5a0ee0e355b4"
+},
+"hyperliquid/backfill/klines/GMX.jsonl.gz": {
+"lines": 293,
+"sha256": "8e01da09a1e933c5779d4a7a3da933bf7a3ed09d457c6e1acdfba62b293593b5"
+},
+"hyperliquid/backfill/klines/GOAT.jsonl.gz": {
+"lines": 340,
+"sha256": "630b0f31d2d8f958b847e2b28bea0b10c58ccca5d29e0030f8094f0fb38a9598"
+},
+"hyperliquid/backfill/klines/GRAM.jsonl.gz": {
+"lines": 111,
+"sha256": "4ae925b9001e22dcd164a023656d611839233bf162d806e925aff223f9d21346"
+},
+"hyperliquid/backfill/klines/GRASS.jsonl.gz": {
+"lines": 351,
+"sha256": "6737c573fec8026313016e18cdf13264441e840a085bed1e33798f658de65211"
+},
+"hyperliquid/backfill/klines/GRIFFAIN.jsonl.gz": {
+"lines": 355,
+"sha256": "2da942995aac234aea3affb42cd26933e07c283543584192220b33e7e3224d1b"
+},
+"hyperliquid/backfill/klines/HBAR.jsonl.gz": {
+"lines": 310,
+"sha256": "98206c519a535faca83f5ebec759c7c400232ca728b2673ed7150160305615c1"
+},
+"hyperliquid/backfill/klines/HEMI.jsonl.gz": {
+"lines": 330,
+"sha256": "94d535d4239cd09f263975a5780d4f51567a42533996e4eae86cdb8635e705f7"
+},
+"hyperliquid/backfill/klines/HMSTR.jsonl.gz": {
+"lines": 110,
+"sha256": "fa2b1be6b92cb23128bb6db3c54dba3342527064ac3a7b0dd14c668c13e953bd"
+},
+"hyperliquid/backfill/klines/HPOS.jsonl.gz": {
+"lines": 103,
+"sha256": "4ba77a721f590334eac00f960cbd7d6edfe434f1d03c37679daebaac7d7b841f"
 },
 "hyperliquid/backfill/klines/HYPE.jsonl.gz": {
-"lines": 273,
-"sha256": "b6d7fefe949e62162e05803ed10db06ff3964f88c4302a8d12ba5fdc7246860b"
+"lines": 259,
+"sha256": "289f2e721d306e70e15bcb2d9c0f81d9fa6a16725efc90b923e98e9b66b8323c"
+},
+"hyperliquid/backfill/klines/HYPER.jsonl.gz": {
+"lines": 313,
+"sha256": "eb52fdffb21cbe122e721e7a63efc1c1be081ff2a4beb3b25b2365bd22ef52e2"
+},
+"hyperliquid/backfill/klines/ICP.jsonl.gz": {
+"lines": 313,
+"sha256": "6761e9ee59b5170fb4886cf8adbf79ecae81232449bd661c0ed20490ea7fdfbb"
+},
+"hyperliquid/backfill/klines/ILV.jsonl.gz": {
+"lines": 135,
+"sha256": "25cf3038fb34509e1d34f9e5e1f9030ce31286929205733c7b89d4ed82011a09"
+},
+"hyperliquid/backfill/klines/IMX.jsonl.gz": {
+"lines": 393,
+"sha256": "f584fc06f2f2ace0cc7be48bc2f333f07fc4cf0e526728d9c381ed204b7c85dd"
+},
+"hyperliquid/backfill/klines/INIT.jsonl.gz": {
+"lines": 318,
+"sha256": "f18f61596ab22ca7ac3815fd5d883d64799a80c48cee3cf3a520dcf8108a2673"
+},
+"hyperliquid/backfill/klines/INJ.jsonl.gz": {
+"lines": 224,
+"sha256": "61e0baaf3709928471a9e0640b9d8573e696ae3d876ee06bd0fb75b6d0a3ac81"
+},
+"hyperliquid/backfill/klines/IO.jsonl.gz": {
+"lines": 327,
+"sha256": "e4c7575b8dc47c9bcb1642ff0a79f5e9fcf759025f325e82f4a2be62c4ad3524"
+},
+"hyperliquid/backfill/klines/IOTA.jsonl.gz": {
+"lines": 279,
+"sha256": "28b75d64a50ab13c6a4237da5daf7441341339008b13f43c8749aaa4df0e0705"
+},
+"hyperliquid/backfill/klines/IP.jsonl.gz": {
+"lines": 294,
+"sha256": "186c5d13f7deb09ad1e08bf372a198e18e4ba27f7198acf49ca6fd95ebe84519"
+},
+"hyperliquid/backfill/klines/JELLY.jsonl.gz": {
+"lines": 92,
+"sha256": "fb1dbb2ff6a9ad3dde2c9ce13f2fefbe4494e8c9b520fdffb583521698c5221d"
+},
+"hyperliquid/backfill/klines/JTO.jsonl.gz": {
+"lines": 376,
+"sha256": "3abdf5d14d018472006593eb1f30fe6efbaaf7de3046567dd1a88daa5c2bc4d9"
+},
+"hyperliquid/backfill/klines/JUP.jsonl.gz": {
+"lines": 303,
+"sha256": "220248d128148999912bdfcb59f990ca7163a6890478cf6eab1a134d746343b6"
+},
+"hyperliquid/backfill/klines/KAITO.jsonl.gz": {
+"lines": 356,
+"sha256": "32fcfd33f818bff877fd1ee30826f81a5baf41a72294edcd8d15795345b6841a"
+},
+"hyperliquid/backfill/klines/KAS.jsonl.gz": {
+"lines": 285,
+"sha256": "2fe44c7a21bec0a93dc72e119987de5b1c7dc34612b89c26607e8fc6e3c072bd"
+},
+"hyperliquid/backfill/klines/LAUNCHCOIN.jsonl.gz": {
+"lines": 267,
+"sha256": "08aa8463f140e11d7f5c9c0fa9da460ef040283048aae1218f4e07843c01ec18"
+},
+"hyperliquid/backfill/klines/LAYER.jsonl.gz": {
+"lines": 306,
+"sha256": "a714944cac36c4bf0813c00db6c3af7df375a1746d7c1ffea59147322f40061d"
+},
+"hyperliquid/backfill/klines/LDO.jsonl.gz": {
+"lines": 358,
+"sha256": "d443d8d52e0b17fcd037a7557f9380f168a4f8a7b4037ccdf2faddd9011bbf7f"
+},
+"hyperliquid/backfill/klines/LINEA.jsonl.gz": {
+"lines": 248,
+"sha256": "ac3997a18f3147fd50659b45ee358ab0d7b64ab83d44b33e50f3bcb1312bd19d"
+},
+"hyperliquid/backfill/klines/LINK.jsonl.gz": {
+"lines": 289,
+"sha256": "9f73180fbe69376a8caef095699b05b714a67bff0033babe8cde86e358395280"
+},
+"hyperliquid/backfill/klines/LISTA.jsonl.gz": {
+"lines": 148,
+"sha256": "9a24d49243c2487416c9ab0e6c3546362a02bf72c532db50ec8f14f18b66640a"
+},
+"hyperliquid/backfill/klines/LIT.jsonl.gz": {
+"lines": 268,
+"sha256": "571fa49144daae393a8aaabbafa51fafe4197c947b14029a6e5abfdb9255d098"
+},
+"hyperliquid/backfill/klines/LTC.jsonl.gz": {
+"lines": 261,
+"sha256": "299fa07b1c20fbde5d2486422ba27cea31935dce0a40858591aa2ba6d1b505cd"
+},
+"hyperliquid/backfill/klines/MANTA.jsonl.gz": {
+"lines": 272,
+"sha256": "9c8db7e5d3baecb1bcfffcace081186ad00c544808aa49240c344d16ed313d93"
+},
+"hyperliquid/backfill/klines/MAV.jsonl.gz": {
+"lines": 319,
+"sha256": "dce331386ea117ff6c76421f08a7418722ad2fb7e44deb21878f9670d28d26a7"
+},
+"hyperliquid/backfill/klines/MAVIA.jsonl.gz": {
+"lines": 294,
+"sha256": "dd3d001af33addba241622dfeccf54a9e6b9081542ea94e89b5c3d4d2e8f721b"
+},
+"hyperliquid/backfill/klines/ME.jsonl.gz": {
+"lines": 421,
+"sha256": "73be968965cad09a34715f21ecf73e29f35fa787da39778d247ab26cc1f24eaf"
+},
+"hyperliquid/backfill/klines/MEGA.jsonl.gz": {
+"lines": 306,
+"sha256": "cd06b6bf481886eb8bf5a7cbd943f14548e50d741895daed2b1cc3ce1e849aa0"
+},
+"hyperliquid/backfill/klines/MELANIA.jsonl.gz": {
+"lines": 400,
+"sha256": "a6da0752837c61a4c586f020f11655cda123ae83ee06c92001fc701a79ea4511"
+},
+"hyperliquid/backfill/klines/MEME.jsonl.gz": {
+"lines": 132,
+"sha256": "77ba1ec1b733c4fbf0dcfacc3414181b1496f93ad3448ae0513f55711f350142"
+},
+"hyperliquid/backfill/klines/MERL.jsonl.gz": {
+"lines": 287,
+"sha256": "c04787cb94c0ca4548ee1d52cb8ef85b8c7466880e8e21d372e8ad834cb4c7f9"
+},
+"hyperliquid/backfill/klines/MET.jsonl.gz": {
+"lines": 329,
+"sha256": "209373efe6266a7cd157325fb0d2961cf100b8f73dcd76e6e46a67d582521484"
+},
+"hyperliquid/backfill/klines/MEW.jsonl.gz": {
+"lines": 166,
+"sha256": "652ace1ee9e68e7d628736fa5ac8c4a06ec87532d40a9c52b575dd40ca289402"
+},
+"hyperliquid/backfill/klines/MINA.jsonl.gz": {
+"lines": 339,
+"sha256": "b7e8f5b1b9f95263592196f5d2d8cefecb57cbb57e6f83ba90f187ab01bb897b"
+},
+"hyperliquid/backfill/klines/MKR.jsonl.gz": {
+"lines": 386,
+"sha256": "7fe38ad2f221f20ca999b67adb7db0e0cb6350096626641c5ff5c4d0b036f11c"
+},
+"hyperliquid/backfill/klines/MNT.jsonl.gz": {
+"lines": 330,
+"sha256": "b11c01634888882d5370f263cea4dd97ff705c5053698240d1ed519f9c1e8ab3"
 },
 "hyperliquid/backfill/klines/MON.jsonl.gz": {
 "lines": 299,
-"sha256": "5af32078b5ec89d949f2698cd9e9bb07e48b76d0233b46fa212dbdeccdbcf008"
+"sha256": "7f59f76e5ed14d6c60cf1fac9afa7675494072b2870dc6a39c1aba5a8a37a61d"
+},
+"hyperliquid/backfill/klines/MOODENG.jsonl.gz": {
+"lines": 309,
+"sha256": "9eab95b3affd85cb6cdb16416328c1c0b22e8ad12d3886b2d2cfde66a822c306"
+},
+"hyperliquid/backfill/klines/MORPHO.jsonl.gz": {
+"lines": 301,
+"sha256": "465c79a65d607c0ecfa1aad0b08ac100b4f7c3ff5dc320274abc7c1f16161a12"
+},
+"hyperliquid/backfill/klines/MOVE.jsonl.gz": {
+"lines": 318,
+"sha256": "ddb988ae79cb9d790ac648dc4fc050731dffe90c22c8077ed006441bae61c3d6"
+},
+"hyperliquid/backfill/klines/MYRO.jsonl.gz": {
+"lines": 127,
+"sha256": "14e8a2d98d44a05fe9116279e5a33f664d3de6d9adae6e2db8c385dc84c6137e"
+},
+"hyperliquid/backfill/klines/NEAR.jsonl.gz": {
+"lines": 219,
+"sha256": "eef6690417b18a763816a3bad348f7a5ca5805945b5c8d85c774f6e4cdc541e4"
+},
+"hyperliquid/backfill/klines/NEIROETH.jsonl.gz": {
+"lines": 344,
+"sha256": "cbe11b67d0ad18e00042b212e71131b9791db13922380e98066771970551626f"
+},
+"hyperliquid/backfill/klines/NEO.jsonl.gz": {
+"lines": 289,
+"sha256": "527ca29aa4a1c9f571e7efa1af34027cca6f2faa4aa9f484d35d0168847cf370"
+},
+"hyperliquid/backfill/klines/NIL.jsonl.gz": {
+"lines": 316,
+"sha256": "bfdb311d656658c55a45b4e7142b0deda0aa1abc78c97fe404685d143e24c681"
+},
+"hyperliquid/backfill/klines/NOT.jsonl.gz": {
+"lines": 129,
+"sha256": "ec49e60f96e658595a88ff69e0d685560afd995b53d861d1bd60bccf9651ec13"
+},
+"hyperliquid/backfill/klines/NTRN.jsonl.gz": {
+"lines": 168,
+"sha256": "293ed5af902160b0e14b086ac59cdb82522c0dbfb063b80d6efd07669f94e70f"
+},
+"hyperliquid/backfill/klines/NXPC.jsonl.gz": {
+"lines": 370,
+"sha256": "24b94a2c4fc67b9550838513392c8fd1d118bdf077995c9d38690fee6277ea34"
+},
+"hyperliquid/backfill/klines/OGN.jsonl.gz": {
+"lines": 369,
+"sha256": "b7db704049fd07143d06d053137c769d2f9f1252b665effc6e00accf4344ec3c"
+},
+"hyperliquid/backfill/klines/OM.jsonl.gz": {
+"lines": 303,
+"sha256": "063fc8d7fae34b43a3c3ae7e1b0a286967a79d75a512d041611e610dd5849657"
+},
+"hyperliquid/backfill/klines/OMNI.jsonl.gz": {
+"lines": 307,
+"sha256": "af9d07811b83085fe41e2476628c3694c15834e4995d99de65368d99e1c43cef"
+},
+"hyperliquid/backfill/klines/ONDO.jsonl.gz": {
+"lines": 307,
+"sha256": "dd9aa9b15479d5ef12c501149eda76d62123fd2f5c9496ce409b8c7b1e9d2791"
+},
+"hyperliquid/backfill/klines/OP.jsonl.gz": {
+"lines": 319,
+"sha256": "51e29f34e7c5d92b902097f2e62b7f98b23c627acd3866ae2d7a92b4077f682d"
+},
+"hyperliquid/backfill/klines/ORBS.jsonl.gz": {
+"lines": 123,
+"sha256": "b84a17e59daa86b7dbea2efb0b1174615b6498feabd69c218106751223779df8"
+},
+"hyperliquid/backfill/klines/ORDI.jsonl.gz": {
+"lines": 289,
+"sha256": "83634aaa95b50d85515dffc68802068c310614a3bd9d22de00bc0a99558d84be"
+},
+"hyperliquid/backfill/klines/PAXG.jsonl.gz": {
+"lines": 332,
+"sha256": "e75d6db81335e8b5ad29dc12a1f574579038a4552d75418a80aa02b9cacd337c"
+},
+"hyperliquid/backfill/klines/PENDLE.jsonl.gz": {
+"lines": 300,
+"sha256": "f57e8424a6271ffd0539e5f6a5b83c3b3659de7c5803f151b9ab3a1a326d5716"
+},
+"hyperliquid/backfill/klines/PENGU.jsonl.gz": {
+"lines": 334,
+"sha256": "7f2320e25928b53165c8b0df22ebe85ebf92893c344f50bb95cd7e70b9ecf883"
+},
+"hyperliquid/backfill/klines/PEOPLE.jsonl.gz": {
+"lines": 315,
+"sha256": "633e5977c785a8df41772e058b2169e1b814f6454663c530fa4de42d21b7e228"
+},
+"hyperliquid/backfill/klines/PIXEL.jsonl.gz": {
+"lines": 163,
+"sha256": "e4d46039a1249cc3af11384fb76f37a07e4ae0ffa0fa67a09f3d52ae36bd7776"
+},
+"hyperliquid/backfill/klines/PNUT.jsonl.gz": {
+"lines": 318,
+"sha256": "e62b6fa92991e4b02a9c07a999f2156d90808b868c6cca7ba252c06469bbc20b"
+},
+"hyperliquid/backfill/klines/POL.jsonl.gz": {
+"lines": 301,
+"sha256": "771b07e0ff09e55bf99d47477d0582f6138574f0c7d60f042657c6f986f9b044"
+},
+"hyperliquid/backfill/klines/POLYX.jsonl.gz": {
+"lines": 265,
+"sha256": "6717812b2d764005f6fcafff39c043719b0d34a91287e1332e696de1b6a620aa"
+},
+"hyperliquid/backfill/klines/PONS.jsonl.gz": {
+"lines": 75,
+"sha256": "ba319193e55c027555bfc752c45351725f7653c2127269d113ed965ab7826290"
+},
+"hyperliquid/backfill/klines/POPCAT.jsonl.gz": {
+"lines": 320,
+"sha256": "3337ae9ac0ef69a79554141e7fb06adc3d15dd646a4788891f8e5b4139d788e9"
+},
+"hyperliquid/backfill/klines/PROMPT.jsonl.gz": {
+"lines": 304,
+"sha256": "e12e2f0dda22f97801326b2b6b6ee81a0cb27075572d929a005629733ead7fa1"
+},
+"hyperliquid/backfill/klines/PROVE.jsonl.gz": {
+"lines": 347,
+"sha256": "4971f1d600fe252467312e52e45471af585389921077856bba9005a9291d35fe"
+},
+"hyperliquid/backfill/klines/PUMP.jsonl.gz": {
+"lines": 238,
+"sha256": "6705e7dbf1a82836faa4394e2f60f2973681aadc9861bda782d82b650854d4f3"
+},
+"hyperliquid/backfill/klines/PURR.jsonl.gz": {
+"lines": 332,
+"sha256": "ac6f86a13d10a709b06e4110e2599208dcff34a1920f48232d6a4fe3651d7fd7"
+},
+"hyperliquid/backfill/klines/PYTH.jsonl.gz": {
+"lines": 313,
+"sha256": "aaaf9135c369dc7aaf1b6c01014751da696c7d45fe9d1bd5f83290db133bc8ca"
+},
+"hyperliquid/backfill/klines/RDNT.jsonl.gz": {
+"lines": 136,
+"sha256": "b1e10785c3b1c1c5ef644978eb70e6d01cd945fec0f9fc40a1c2fd7e1ddd4269"
+},
+"hyperliquid/backfill/klines/RENDER.jsonl.gz": {
+"lines": 250,
+"sha256": "56e2fc43c13dfe03edd720661eaa6c5e8c336dc834f1e0b20807df45dd7ad596"
+},
+"hyperliquid/backfill/klines/REQ.jsonl.gz": {
+"lines": 421,
+"sha256": "0e6c3b515143c4431e74cfb262d55217fbc17b062a35efb43e3fcf9f43e2950d"
+},
+"hyperliquid/backfill/klines/RESOLV.jsonl.gz": {
+"lines": 327,
+"sha256": "6caa273355d574a2f57485b7ba44eb555b218e8f1b048ec339acfcc2b9de25d9"
+},
+"hyperliquid/backfill/klines/REZ.jsonl.gz": {
+"lines": 303,
+"sha256": "3be83615093042f8a32bc9feee3d5ab959848e3fcf0f9c6015bfb4d2c7467fbd"
+},
+"hyperliquid/backfill/klines/RLB.jsonl.gz": {
+"lines": 88,
+"sha256": "da14f367926e447b53825cd90405b7bd5de7676d265031678a7a3beeac0d5eb2"
+},
+"hyperliquid/backfill/klines/RSR.jsonl.gz": {
+"lines": 200,
+"sha256": "4f557cf0914ebfaea6140e12a1e63cf6d26ea154910e11ecee320d4b5d0eb7b4"
+},
+"hyperliquid/backfill/klines/RUNE.jsonl.gz": {
+"lines": 325,
+"sha256": "12cea1ed84908d63254aeb918aed76e2f3129cfc978af3a39c3fb076d7ec776e"
+},
+"hyperliquid/backfill/klines/S.jsonl.gz": {
+"lines": 290,
+"sha256": "b3c0672c2e773178fd5cbcb3d290b70a91e7d8b452aa32da86ae9066e4a4a24a"
+},
+"hyperliquid/backfill/klines/SAGA.jsonl.gz": {
+"lines": 361,
+"sha256": "adfe0bff2a1212e9a7f11b1230ed3afdfe0997db0931cc3690f18dc71daeaf96"
+},
+"hyperliquid/backfill/klines/SAND.jsonl.gz": {
+"lines": 308,
+"sha256": "7ccf065da6f66c586a931f9ddc389f3d4302da6a63a7a3102759977742246c55"
+},
+"hyperliquid/backfill/klines/SCR.jsonl.gz": {
+"lines": 329,
+"sha256": "b4f44eed822d19556aa9398b9c6e46ac0a11b2b317a6a6b6df8123d48752966e"
+},
+"hyperliquid/backfill/klines/SEI.jsonl.gz": {
+"lines": 287,
+"sha256": "d1e647caa008f578c3a3b6d68ee500ca3f7393dca2042fd06d81a549eebf433d"
+},
+"hyperliquid/backfill/klines/SKR.jsonl.gz": {
+"lines": 275,
+"sha256": "4415486186ca4629278dd9504d177790d915d475801bb890b2862524374cf5d9"
+},
+"hyperliquid/backfill/klines/SKY.jsonl.gz": {
+"lines": 341,
+"sha256": "23f6be05b3d40d3daef74f3fb5077178bb5e048b674af2ba8714bd521ba87e13"
+},
+"hyperliquid/backfill/klines/SNX.jsonl.gz": {
+"lines": 347,
+"sha256": "6553eddb485c3bf50919c5b92156373fdf22107e27329e4a86894feb3c6c8785"
+},
+"hyperliquid/backfill/klines/SOL.jsonl.gz": {
+"lines": 286,
+"sha256": "2142a476a2eade6839050556df76795c2d6a46d7f335c633a53b4685a874e59d"
+},
+"hyperliquid/backfill/klines/SOPH.jsonl.gz": {
+"lines": 296,
+"sha256": "7081e2aa0ea8ca87f1d32e190b9015ae18015bf9e4eb9d0e1fb920a084ee6aa6"
+},
+"hyperliquid/backfill/klines/SPX.jsonl.gz": {
+"lines": 381,
+"sha256": "a139ab4b9c96b6b7a428d956bdf02d3a7e434b11c90b1022a57ae8a390f5109f"
+},
+"hyperliquid/backfill/klines/STABLE.jsonl.gz": {
+"lines": 341,
+"sha256": "471df059f9bd347cb266080b4b3929918c7d9e38c30efeade33f08f0c50e9d9e"
+},
+"hyperliquid/backfill/klines/STBL.jsonl.gz": {
+"lines": 309,
+"sha256": "6508872751758909cb35539f510628f81b7bd767e4d8cdb427a0e0d6c2d25cc2"
+},
+"hyperliquid/backfill/klines/STG.jsonl.gz": {
+"lines": 366,
+"sha256": "b126644df43d5018fa058163f5269b7e683aac35f41c7ae936eade3791278e2e"
+},
+"hyperliquid/backfill/klines/STRK.jsonl.gz": {
+"lines": 301,
+"sha256": "ef7e1c3c8389819105971d15de12fc23e4edd6b4e57bd269211f9fcddf8bf04e"
+},
+"hyperliquid/backfill/klines/STX.jsonl.gz": {
+"lines": 331,
+"sha256": "27791323d5a60a1cdaa4e637ded26b0248373928dec3ec164ed1d88b1cba8206"
+},
+"hyperliquid/backfill/klines/SUI.jsonl.gz": {
+"lines": 309,
+"sha256": "7c055c6084f45cb9acad327aab7a89bb095749626763fd39c785c4905e1ec461"
+},
+"hyperliquid/backfill/klines/SUPER.jsonl.gz": {
+"lines": 334,
+"sha256": "e4143a69999a55eec5a9b8d753cfbea4f6abf80095dd8220bab400bd2214eef8"
+},
+"hyperliquid/backfill/klines/SUSHI.jsonl.gz": {
+"lines": 370,
+"sha256": "da4e4e8b8f5554e7b0ece3cd3b1c1a1d9c6337ae9f12f4239abd6874ae4de27c"
+},
+"hyperliquid/backfill/klines/SYRUP.jsonl.gz": {
+"lines": 311,
+"sha256": "fca72aeeaf1429876671bee8dcef0092553de315494200af0bfe931cc04f459a"
+},
+"hyperliquid/backfill/klines/TAO.jsonl.gz": {
+"lines": 238,
+"sha256": "1bae2028a61bc73d3c601530dcb7ab4e2e105891df323f70858d4c3fef8b5d90"
+},
+"hyperliquid/backfill/klines/TIA.jsonl.gz": {
+"lines": 360,
+"sha256": "8d7b935c7209b8672fe8f819f88179b9691fbf5c7ec933c4a0f231d73e166f26"
+},
+"hyperliquid/backfill/klines/TNSR.jsonl.gz": {
+"lines": 341,
+"sha256": "d1b94956f61c40c3336ba56d64dbdd95b8d3d6a781b73b1a358f4114ff34ad04"
+},
+"hyperliquid/backfill/klines/TON.jsonl.gz": {
+"lines": 250,
+"sha256": "4200472ec038280cfd89c0fe382f86201708533ef6f6630f7450592098b15e57"
+},
+"hyperliquid/backfill/klines/TRB.jsonl.gz": {
+"lines": 298,
+"sha256": "7d91317ad41a7c1f3c422fffc09b73491486a573545c855fd6f0c0c1e04a55cf"
+},
+"hyperliquid/backfill/klines/TRUMP.jsonl.gz": {
+"lines": 223,
+"sha256": "2e5305ed0f1aa998599529bb7f5d7cd9537734d9fb6b3f44aacbf8b40b01d277"
+},
+"hyperliquid/backfill/klines/TRX.jsonl.gz": {
+"lines": 324,
+"sha256": "ef19a8c875d036ffac2df82846d036fc6c163b51a4e9359aff606f0b85c4169b"
+},
+"hyperliquid/backfill/klines/TST.jsonl.gz": {
+"lines": 320,
+"sha256": "2726b1ffa36b6a7d662144094ad19ff53fbf754989c7585ebcb701c9a01c46da"
+},
+"hyperliquid/backfill/klines/TURBO.jsonl.gz": {
+"lines": 229,
+"sha256": "5bd1215489ac1843c679e1cace42c7033e24cd7cd0f25d2f50094c20f153ce52"
+},
+"hyperliquid/backfill/klines/UMA.jsonl.gz": {
+"lines": 441,
+"sha256": "d45c5ea1825abd7171cd43f69a16c88b9a126bc578b6e6271fd81c01606ca7a9"
+},
+"hyperliquid/backfill/klines/UNI.jsonl.gz": {
+"lines": 279,
+"sha256": "11cc684c5faa8705b691a8d84975672a4f7c41f216aa28c1e477cbb4c3a50fd8"
+},
+"hyperliquid/backfill/klines/USELESS.jsonl.gz": {
+"lines": 39,
+"sha256": "e5ba0c360fb0477b8a3baa3053604cc8dfcc2488400761c01837ae2854c64ee6"
+},
+"hyperliquid/backfill/klines/USTC.jsonl.gz": {
+"lines": 246,
+"sha256": "b2dc84caf32d746be8c17164709cbec3bcb685def61b207b006e090ad574fcef"
+},
+"hyperliquid/backfill/klines/USUAL.jsonl.gz": {
+"lines": 301,
+"sha256": "a23f8d4af6a5c90116f5d937d1876216056909d12247dde2a686f93fb5533ddf"
+},
+"hyperliquid/backfill/klines/VINE.jsonl.gz": {
+"lines": 295,
+"sha256": "c75717720be283d8c59395f4ce4524aaa69c0f27ace500442df0e619b2d82461"
+},
+"hyperliquid/backfill/klines/VIRTUAL.jsonl.gz": {
+"lines": 307,
+"sha256": "fa0d30f286344ea2550ba56937e720ef65a9987af1e7cf7f4e0c8308a20c6acf"
+},
+"hyperliquid/backfill/klines/VVV.jsonl.gz": {
+"lines": 234,
+"sha256": "67cc0fb8f5d1ae9ffe2ddd1900e17ad49432d62f4a1706490b1b971323086399"
+},
+"hyperliquid/backfill/klines/W.jsonl.gz": {
+"lines": 239,
+"sha256": "7bc84d4901479bc540d7bf70e25645d82cc4045a66fd182db299b8af9f7ff83b"
+},
+"hyperliquid/backfill/klines/WCT.jsonl.gz": {
+"lines": 287,
+"sha256": "0cd8724df41454b54b71d6fc22c20f612a95889ff3de02394e452c530e0287f1"
+},
+"hyperliquid/backfill/klines/WIF.jsonl.gz": {
+"lines": 327,
+"sha256": "411311d2a642308e5749a1a39298a7006b1e277ba945c015642e8a4b5a269e6c"
+},
+"hyperliquid/backfill/klines/WLD.jsonl.gz": {
+"lines": 336,
+"sha256": "de5699bbd88a40729f124ebf989ef299838f7556858a4ecc37f33d954bdf94e8"
+},
+"hyperliquid/backfill/klines/WLFI.jsonl.gz": {
+"lines": 344,
+"sha256": "693c9922ea37a7ef23508c9fc30fd5be0d24edf2cc1a7c6be99351481312cefa"
+},
+"hyperliquid/backfill/klines/XAI.jsonl.gz": {
+"lines": 231,
+"sha256": "eac2de03b0fe2c19d574f7b73217bd8da53b609b0235680ed9b6ec8917df90c5"
+},
+"hyperliquid/backfill/klines/XLM.jsonl.gz": {
+"lines": 291,
+"sha256": "3f6fb722e0560ee955788b112de6eb68a7c8876cb0088d8335dcda255f036699"
+},
+"hyperliquid/backfill/klines/XMR.jsonl.gz": {
+"lines": 261,
+"sha256": "a4a5b9510e6a7d3ea7457a8d20a61c4a99798d47db0448da943cb8976950f77c"
+},
+"hyperliquid/backfill/klines/XPL.jsonl.gz": {
+"lines": 354,
+"sha256": "123e9607e756a1aa6757e9afd453be52fca907aa90af2e199232a37cceecb31c"
+},
+"hyperliquid/backfill/klines/XRP.jsonl.gz": {
+"lines": 279,
+"sha256": "11cdf18312caa875317388c1aa1d4dc4bc73e00421ea9cf5424913321150ed2a"
+},
+"hyperliquid/backfill/klines/YGG.jsonl.gz": {
+"lines": 317,
+"sha256": "02f7a820b84677f71e3286e3f43332901c9be3cc274e6278cab7c32eefa2b78b"
+},
+"hyperliquid/backfill/klines/YZY.jsonl.gz": {
+"lines": 348,
+"sha256": "d2333c380f7fdd41786b3f55d14cedb3320a3fed0069a5147b3d16d149390401"
+},
+"hyperliquid/backfill/klines/ZEC.jsonl.gz": {
+"lines": 248,
+"sha256": "5fab7986e568e90c4df386f3104a3e4e0a65871c2d06f6417d46ce3ebf1f328f"
+},
+"hyperliquid/backfill/klines/ZEN.jsonl.gz": {
+"lines": 289,
+"sha256": "10a0e02a0049fb35014424c904cf252747aa765f6977e62a08c4dee827a177fe"
+},
+"hyperliquid/backfill/klines/ZEREBRO.jsonl.gz": {
+"lines": 264,
+"sha256": "358920df08616c4dadc306c3bf55862d52c7da63c29a15f09c0f46778f2939fd"
+},
+"hyperliquid/backfill/klines/ZETA.jsonl.gz": {
+"lines": 315,
+"sha256": "38d4aac476547f63f145d683e651835a44e53b3c052e58a072cd2db15149e3cf"
+},
+"hyperliquid/backfill/klines/ZK.jsonl.gz": {
+"lines": 301,
+"sha256": "80d9ef37ff887d15171ab7e5f67970bb1d41469e24051d2920162c110a90009b"
+},
+"hyperliquid/backfill/klines/ZORA.jsonl.gz": {
+"lines": 307,
+"sha256": "ea2e1497b2007f56f181dde1dd2f3160cfe000b3cb1ead0e4241a9ed986d866e"
+},
+"hyperliquid/backfill/klines/ZRO.jsonl.gz": {
+"lines": 316,
+"sha256": "5b4b81bbcabbfcf2412b03a0ef73b0853608f6736718b08d60ace71d44b6c1f5"
+},
+"hyperliquid/backfill/klines/kBONK.jsonl.gz": {
+"lines": 248,
+"sha256": "c39e20ae139002bed1e66c07d2368ca9c707fb34d7df44242f52f8110f1e7e81"
+},
+"hyperliquid/backfill/klines/kDOGS.jsonl.gz": {
+"lines": 382,
+"sha256": "52bd41b2598fd654ddd7abe3c4f637644175f7e6066f9647692353c4784c1966"
+},
+"hyperliquid/backfill/klines/kFLOKI.jsonl.gz": {
+"lines": 367,
+"sha256": "aaaf003f69aea53fc4e9df699df65f434b6ae7d38bd6c52766b1204e50832895"
+},
+"hyperliquid/backfill/klines/kLUNC.jsonl.gz": {
+"lines": 312,
+"sha256": "47fd60d44ea000a0dafac2dda4adb2997645eee3e87a62a5cfb19b1af7a484f2"
+},
+"hyperliquid/backfill/klines/kNEIRO.jsonl.gz": {
+"lines": 323,
+"sha256": "c05d15f4837d82ba93329b2b5a530fb3dfc2c1bb2001bf95d110179fcf7e496f"
+},
+"hyperliquid/backfill/klines/kPEPE.jsonl.gz": {
+"lines": 289,
+"sha256": "dfa15195e4b79b4c5adf8d94aaf27145047a022d8f871415b8c80505b0b99721"
+},
+"hyperliquid/backfill/klines/kSHIB.jsonl.gz": {
+"lines": 251,
+"sha256": "dcaae8f2ee837638c8193a65b66c01cb0bfb2c04fddd215277ed1ae993266344"
+},
+"hyperliquid/backfill/klines4h/0G.jsonl.gz": {
+"lines": 56,
+"sha256": "9ff238fc9788e31e96b3f0fea1ddd73487bf415da5ddc11becfcf9e11512728d"
+},
+"hyperliquid/backfill/klines4h/2Z.jsonl.gz": {
+"lines": 88,
+"sha256": "948b0769386017458af6e8c2d2f70f470cc02eabd28d145b6564a50faa4d782f"
+},
+"hyperliquid/backfill/klines4h/AAVE.jsonl.gz": {
+"lines": 125,
+"sha256": "195b1a5b21b3524c993c57c3b04f21a85c474d2ba5659ba71af772f968c5cd05"
+},
+"hyperliquid/backfill/klines4h/ACE.jsonl.gz": {
+"lines": 203,
+"sha256": "7648f8e76895429275df6b75433810184f3c9a00df4dcbefc12534b09f549210"
+},
+"hyperliquid/backfill/klines4h/ADA.jsonl.gz": {
+"lines": 166,
+"sha256": "ea7c38c4ebe0c90485cfda12274f126ab004d89da31a65d8c72515789ecd3ddf"
+},
+"hyperliquid/backfill/klines4h/AERO.jsonl.gz": {
+"lines": 133,
+"sha256": "3c21ba039bba23671fbc7d16421923b95a8e50581cc9b70d61827b698ce0ffeb"
+},
+"hyperliquid/backfill/klines4h/AI16Z.jsonl.gz": {
+"lines": 44,
+"sha256": "1dd151d146299d3d7fc5d0d7eacba7a0232e8e25b5d2c0280bf9dd57943e68f6"
+},
+"hyperliquid/backfill/klines4h/AIXBT.jsonl.gz": {
+"lines": 176,
+"sha256": "2c0f748b5a4bcd2e4303bf60a206b22cd72093503f14ffba46392b082c0cb8ed"
+},
+"hyperliquid/backfill/klines4h/ALGO.jsonl.gz": {
+"lines": 198,
+"sha256": "d5fe2835b48bbf50b98074225bde80f0f7decdbf441ac45f51265c16bbe0c14f"
+},
+"hyperliquid/backfill/klines4h/ALT.jsonl.gz": {
+"lines": 177,
+"sha256": "dd5515b94b838a8d6a263ec761c99ce908de23e17826d845eb1a8ea4c929ee4c"
+},
+"hyperliquid/backfill/klines4h/ANIME.jsonl.gz": {
+"lines": 155,
+"sha256": "783103ef3e6a641a8aa9d3da8c95dd8a1af82aed53ab9d2289f3db22a508ab5c"
+},
+"hyperliquid/backfill/klines4h/APE.jsonl.gz": {
+"lines": 188,
+"sha256": "4291173d34ea3e3267d5acc3c0e1c076a2b2bbec4dd67460d1f9643c6280328b"
+},
+"hyperliquid/backfill/klines4h/APEX.jsonl.gz": {
+"lines": 66,
+"sha256": "4cae4bd3e231ccfb7b5859ce91fda99cc3991e98020dfb91d0b2aa92b9477af0"
+},
+"hyperliquid/backfill/klines4h/APT.jsonl.gz": {
+"lines": 133,
+"sha256": "c6d28346c3a5e705c8c370dbafca9f291b3162e67ba8ad0fc16db66effae0515"
+},
+"hyperliquid/backfill/klines4h/AR.jsonl.gz": {
+"lines": 156,
+"sha256": "fc828b35fd0c1acb2b8f345d847c5c2bcf381b626f1ab13fdf5b96940b47f4c3"
+},
+"hyperliquid/backfill/klines4h/ARB.jsonl.gz": {
+"lines": 206,
+"sha256": "cd7c4d0181cc79df8e6e9c6f227e964f4a70af396ef6e4e304858b4b1917418c"
+},
+"hyperliquid/backfill/klines4h/ARK.jsonl.gz": {
+"lines": 143,
+"sha256": "e9245230023b6a584b7076c7c7c04b97bb2a4c5b4bd8478ad365d11a5c168247"
+},
+"hyperliquid/backfill/klines4h/ASTER.jsonl.gz": {
+"lines": 77,
+"sha256": "6671c55f6c683c6acacf9619c79575ac8b6d9bf880d0773bef48e23ddf8d6066"
+},
+"hyperliquid/backfill/klines4h/ATOM.jsonl.gz": {
+"lines": 132,
+"sha256": "4320a1f0cabcf9e8f674f55ada2e50fde1d6e9a247e6dac9ac87396732da929f"
+},
+"hyperliquid/backfill/klines4h/AVAX.jsonl.gz": {
+"lines": 127,
+"sha256": "4f86e4dfd6656b24f29e8874ecb49124c416f2e0d32c78068d507a7eab8b24d8"
+},
+"hyperliquid/backfill/klines4h/AVNT.jsonl.gz": {
+"lines": 95,
+"sha256": "f61370b45fc90e7a7c12bdcb6ab437304be180016cdb3157bbd279430dab27e4"
+},
+"hyperliquid/backfill/klines4h/AXS.jsonl.gz": {
+"lines": 83,
+"sha256": "d0772bee992c4a87186214009d3a88b08508f4fb6cf7768d5bfff0a501c6f07f"
+},
+"hyperliquid/backfill/klines4h/AZTEC.jsonl.gz": {
+"lines": 26,
+"sha256": "ae297e31aec02904bdf244f0585b71a5de12ac08d27d14a4d9d915d79f65792e"
+},
+"hyperliquid/backfill/klines4h/BABY.jsonl.gz": {
+"lines": 114,
+"sha256": "a5ef7d76e93ad16c8e6375af63db7534da50add056d131339438f504b824a841"
+},
+"hyperliquid/backfill/klines4h/BANANA.jsonl.gz": {
+"lines": 131,
+"sha256": "06e94e4a86da87a05d5b8d6857498526730659dfa49768a2fee298f12df4f598"
+},
+"hyperliquid/backfill/klines4h/BCH.jsonl.gz": {
+"lines": 116,
+"sha256": "9da756f5e696abbecf007cc9ca33f0eb5289512a033a6b5f3eb8526a1e51d2e6"
+},
+"hyperliquid/backfill/klines4h/BERA.jsonl.gz": {
+"lines": 150,
+"sha256": "01809a2d708074ee01dea8ef7e2870166a8f1f0acb73a3bca5fc35c08b226728"
+},
+"hyperliquid/backfill/klines4h/BIGTIME.jsonl.gz": {
+"lines": 146,
+"sha256": "7818a7941ccb014852a7609e205850317d64c5d61ab333982e159d85455cdada"
+},
+"hyperliquid/backfill/klines4h/BIO.jsonl.gz": {
+"lines": 261,
+"sha256": "499a14fc65e231a38361034f7df32059e29955812de64b7ce74bde87e5086220"
+},
+"hyperliquid/backfill/klines4h/BLAST.jsonl.gz": {
+"lines": 112,
+"sha256": "6f98f211ea36eea9e077d19dc309712951b3dc9879ede3e8aa39c32f609f9947"
+},
+"hyperliquid/backfill/klines4h/BLUR.jsonl.gz": {
+"lines": 175,
+"sha256": "291ef3b09f3dd503870fcac3c9bf0550a7f3a0c00becc7a1420d82d0ab8c8651"
+},
+"hyperliquid/backfill/klines4h/BNB.jsonl.gz": {
+"lines": 143,
+"sha256": "eef92b392b82f79d1ef98309363fd62d63004159457c45459cef1371b55d09c8"
+},
+"hyperliquid/backfill/klines4h/BOME.jsonl.gz": {
+"lines": 98,
+"sha256": "ecfed8640137ea608d1a327a65d4b863783c952a9dd8835e10c98312c74803e7"
+},
+"hyperliquid/backfill/klines4h/BRETT.jsonl.gz": {
+"lines": 190,
+"sha256": "9e1ada3563e0b0c62af4f52f2e713216e0e7883094029f405c65814eeab5c242"
+},
+"hyperliquid/backfill/klines4h/BSV.jsonl.gz": {
+"lines": 145,
+"sha256": "941fd0e0752c97d84a71fdf50f7fde35174c0b606f6afde2c85dda549cb94513"
 },
 "hyperliquid/backfill/klines4h/BTC.jsonl.gz": {
 "lines": 164,
-"sha256": "970435525a27095e13ca59136e10941cdef7bd9c69f92a2094d0d0f8fd997a60"
+"sha256": "cc8e28a64a0e65ffabf143238b17f3d4cafeef84ac74c6b4d1813527fb2e7455"
+},
+"hyperliquid/backfill/klines4h/CAKE.jsonl.gz": {
+"lines": 119,
+"sha256": "beb9feedfbb7355d25a46854d8fa4e623fec5305dd8e298b148a4abe5cd48b19"
+},
+"hyperliquid/backfill/klines4h/CC.jsonl.gz": {
+"lines": 53,
+"sha256": "5afbf24a80f5964c637a21c966d4c461fdcad224dfa05cf30ec6bbbc716ac4e3"
+},
+"hyperliquid/backfill/klines4h/CELO.jsonl.gz": {
+"lines": 199,
+"sha256": "819d3d4d10c366551fd74488dbdf199577479ddc2ebb4f1eee3aae711642665c"
+},
+"hyperliquid/backfill/klines4h/CFX.jsonl.gz": {
+"lines": 196,
+"sha256": "9cc4a600f9b49ed7761ca09d0efbe9c3b08dc9f5e5df30d5c88e52736ad85549"
+},
+"hyperliquid/backfill/klines4h/CHILLGUY.jsonl.gz": {
+"lines": 186,
+"sha256": "9d4fec89a706814b967e44ac0403a020d540aa5c460dfef6a5d9496a97b43498"
+},
+"hyperliquid/backfill/klines4h/COMP.jsonl.gz": {
+"lines": 160,
+"sha256": "1a93e0668582d7c68a8c4aa8029eca87b641e70f742eb06056690ba8243b2265"
+},
+"hyperliquid/backfill/klines4h/CRV.jsonl.gz": {
+"lines": 190,
+"sha256": "2dbb442007ef00206996ca01d3f391186f5d4833810df91a68dd3821220a4004"
+},
+"hyperliquid/backfill/klines4h/DASH.jsonl.gz": {
+"lines": 85,
+"sha256": "8b340564e911559d7316dcd586b7dac9ec142c7e2d1ae671681e3303a95213cb"
+},
+"hyperliquid/backfill/klines4h/DOGE.jsonl.gz": {
+"lines": 184,
+"sha256": "f0baeb81c44e72b03f9868886cd1aa8dc86c295f330f5ae131b4345b5e7b856c"
+},
+"hyperliquid/backfill/klines4h/DOOD.jsonl.gz": {
+"lines": 67,
+"sha256": "44b285cddba6f595395538e15802507fb2041ac544c9ab61749a5a0b63fb43e8"
+},
+"hyperliquid/backfill/klines4h/DOT.jsonl.gz": {
+"lines": 203,
+"sha256": "d4a88fb9d6d5b1a9292c52595da4887578658749acf93fb1d41f6e7dd9271fe0"
+},
+"hyperliquid/backfill/klines4h/DYDX.jsonl.gz": {
+"lines": 201,
+"sha256": "2dcce17d43e1760685b8318e48df6122555af9cbea180590c5532ead7e21d981"
+},
+"hyperliquid/backfill/klines4h/DYM.jsonl.gz": {
+"lines": 179,
+"sha256": "3e98e62b88ce659577bc58fe49e6bd545cfa7d61f3ee15d745e9c44bc1144339"
+},
+"hyperliquid/backfill/klines4h/EIGEN.jsonl.gz": {
+"lines": 161,
+"sha256": "e181219f51ae494acfe2dcb2afeda055313bb179e829cfb06d38fe7fe224b5f8"
+},
+"hyperliquid/backfill/klines4h/ENA.jsonl.gz": {
+"lines": 197,
+"sha256": "4450597c89b74eae30ee40e6b653615a632bf50667e4e3ddc3e9416c8c24b36f"
+},
+"hyperliquid/backfill/klines4h/ENS.jsonl.gz": {
+"lines": 152,
+"sha256": "bb0a92d2a89aa64f3b169b1edb7b18a9cadb38f193341778166a26d044c10867"
+},
+"hyperliquid/backfill/klines4h/ETC.jsonl.gz": {
+"lines": 157,
+"sha256": "f76c89d9af695c2bb5f0e71d48b3db640ba6eec57ee092d059a4330895487d81"
+},
+"hyperliquid/backfill/klines4h/ETH.jsonl.gz": {
+"lines": 180,
+"sha256": "32835d98f85bf182f695104b04c1cb3427e32ae335801c4b3f742445cf007bdc"
+},
+"hyperliquid/backfill/klines4h/ETHFI.jsonl.gz": {
+"lines": 174,
+"sha256": "0ef7427e54817c5983c84be454e27a8b430d5522215cbc0f66308bdf8e7e088a"
+},
+"hyperliquid/backfill/klines4h/FARTCOIN.jsonl.gz": {
+"lines": 178,
+"sha256": "d2e6d7146dac2339ee158f9f9cab7d3c06860e8ce132625f8e6d7778c340bbe6"
+},
+"hyperliquid/backfill/klines4h/FET.jsonl.gz": {
+"lines": 191,
+"sha256": "d2283c8a78d25a51402de61e68fb3085b70e6569d44afde0add7abc3e1ea997b"
+},
+"hyperliquid/backfill/klines4h/FIL.jsonl.gz": {
+"lines": 169,
+"sha256": "b92c55b9d355b2beb2418d3a51b92c45c0a4208deee09942e65f70b51c3eb774"
+},
+"hyperliquid/backfill/klines4h/FOGO.jsonl.gz": {
+"lines": 38,
+"sha256": "555810dfcf6ab1256f86cdacec30f2b153cedf1faf6cddfc2d56851e49b3e8ef"
+},
+"hyperliquid/backfill/klines4h/FTT.jsonl.gz": {
+"lines": 137,
+"sha256": "d1c25daf8706ad3a0e0e97d23b8bacb662ecaccf14218ec16eb1a4bace8e47f0"
+},
+"hyperliquid/backfill/klines4h/FXS.jsonl.gz": {
+"lines": 61,
+"sha256": "9de9dd3383eb665159b5143f7229e3fb3c14f9c7d6d4b82bdee5ebcaa962840a"
+},
+"hyperliquid/backfill/klines4h/GALA.jsonl.gz": {
+"lines": 151,
+"sha256": "a90b1cb794db05e072c1bbbb51f8b1cca5af7104fc11427a7395a62b0b1f2c51"
+},
+"hyperliquid/backfill/klines4h/GAS.jsonl.gz": {
+"lines": 136,
+"sha256": "59a5b833375e70e9a3150cd0a21e88c2a82b6b7149d77c06aba6499c40023a7b"
+},
+"hyperliquid/backfill/klines4h/GMT.jsonl.gz": {
+"lines": 128,
+"sha256": "b1c146c35450b217eaac1c2fd50aeffd42ca23ec96553e9b8f77338091baf63f"
+},
+"hyperliquid/backfill/klines4h/GMX.jsonl.gz": {
+"lines": 160,
+"sha256": "f28e7abc4953eb5e70134ec1209da602a618afc0ef628330f23f34fd676d79c2"
+},
+"hyperliquid/backfill/klines4h/GOAT.jsonl.gz": {
+"lines": 168,
+"sha256": "5cd3d241feef117b17f2532ca53e0c32140dba42b1ecdebef309de2dadeb5a36"
+},
+"hyperliquid/backfill/klines4h/GRASS.jsonl.gz": {
+"lines": 174,
+"sha256": "41f0259bef7d35a37f7f101ba172db9371c6cec7598586b3820ff718b5787740"
+},
+"hyperliquid/backfill/klines4h/GRIFFAIN.jsonl.gz": {
+"lines": 186,
+"sha256": "b418e48d1412ffe8e3bce0f2c30d10ea465fcbbe7f01e0a97389c3870c15ab69"
+},
+"hyperliquid/backfill/klines4h/HBAR.jsonl.gz": {
+"lines": 221,
+"sha256": "e46bde56bdf47eeed6eb7a6785edc55cb538003437d2838cd66ad80572130acf"
+},
+"hyperliquid/backfill/klines4h/HEMI.jsonl.gz": {
+"lines": 80,
+"sha256": "a82ed7180de5d60fbac20f24a243569044ccec1c68beb49d9e75adb198310898"
+},
+"hyperliquid/backfill/klines4h/HMSTR.jsonl.gz": {
+"lines": 101,
+"sha256": "06fb6d7bd7af1c54a8b9dba1a9c817d541e7effa2ee1a44d04d7e6d1fe8ffc38"
 },
 "hyperliquid/backfill/klines4h/HYPE.jsonl.gz": {
 "lines": 176,
-"sha256": "eaaf99ef7a1e81697a323825f62aa017624d1237e019f0d42dd9ea24f811bb8a"
+"sha256": "cf3a8b9ae53ec943be468a9dea6ed9322690db6a6b5bd6e5dbc7fb3460c422c9"
+},
+"hyperliquid/backfill/klines4h/HYPER.jsonl.gz": {
+"lines": 173,
+"sha256": "879f50de1693e0695438873a9275559694379b935774453646b53bc69eb4eb14"
+},
+"hyperliquid/backfill/klines4h/ICP.jsonl.gz": {
+"lines": 104,
+"sha256": "8ead9ed166cc37f105c7605e79230bbafe3aa0c7ddbd1dd0edce84e63c97e985"
+},
+"hyperliquid/backfill/klines4h/IMX.jsonl.gz": {
+"lines": 200,
+"sha256": "628e7b2f97fcf4b7223bd85534b7c25a6242714db55be3a0a579d3b28a7e67ea"
+},
+"hyperliquid/backfill/klines4h/INIT.jsonl.gz": {
+"lines": 162,
+"sha256": "0b452326870cbf690402577d03e7704f4429077f11bcd2742bad30b838450704"
+},
+"hyperliquid/backfill/klines4h/INJ.jsonl.gz": {
+"lines": 151,
+"sha256": "f6fbd38aafa902aefc1a59bb86b58b1a8ee0dc02e0b548078c9a06c4e68564d3"
+},
+"hyperliquid/backfill/klines4h/IO.jsonl.gz": {
+"lines": 206,
+"sha256": "c1193332a23da272304ce543bdeecf5d4c718ec2f8ee3581a8366700f16aeb9d"
+},
+"hyperliquid/backfill/klines4h/IOTA.jsonl.gz": {
+"lines": 177,
+"sha256": "cf8cb769ad2524ac1dfe53fb7d7cbde92fab7ead216b115e0704fe8131da3960"
+},
+"hyperliquid/backfill/klines4h/IP.jsonl.gz": {
+"lines": 99,
+"sha256": "1a7bbe766532dcb5c65db256fbf217cede69cbed80a3922b17884f65b6299954"
+},
+"hyperliquid/backfill/klines4h/JTO.jsonl.gz": {
+"lines": 175,
+"sha256": "b6725052955f6e18535ae8e570978662b364e42d3d37029e84a1e1517557d90d"
+},
+"hyperliquid/backfill/klines4h/JUP.jsonl.gz": {
+"lines": 226,
+"sha256": "01d5aff6835b977dd48fdb81e77b574f76f298d6146616417052998927d91b72"
+},
+"hyperliquid/backfill/klines4h/KAITO.jsonl.gz": {
+"lines": 161,
+"sha256": "ba541e106657d634d6035e8bdfc933c64d240ce5b61e45981e49c3bd8e122deb"
+},
+"hyperliquid/backfill/klines4h/KAS.jsonl.gz": {
+"lines": 199,
+"sha256": "045ccd1e28d9b2586397a3b2e1fc0382d0fc677440ed02854e89f9ceef61cb87"
+},
+"hyperliquid/backfill/klines4h/LAYER.jsonl.gz": {
+"lines": 172,
+"sha256": "a39ae0d93577b17bcb308cfafc059c259017eb1294eb135bc765bbdacc85355c"
+},
+"hyperliquid/backfill/klines4h/LDO.jsonl.gz": {
+"lines": 195,
+"sha256": "4d4e3539b9894737d731211c5cdff01e6d1b0c2648298c9f37377e459b1e1020"
+},
+"hyperliquid/backfill/klines4h/LINEA.jsonl.gz": {
+"lines": 72,
+"sha256": "2b1b7325064c78eaef5f297efddc895de33d9c5e672a2c4a20e9bfc7725ec508"
+},
+"hyperliquid/backfill/klines4h/LINK.jsonl.gz": {
+"lines": 99,
+"sha256": "0a75e30b95df190fc74a3783ffa797530f1ea4edefd51efc6b7d683403aa43ea"
+},
+"hyperliquid/backfill/klines4h/LIT.jsonl.gz": {
+"lines": 35,
+"sha256": "e22edd44fd6bf98bf1b4e07eebe4eda094ad3ed8b77e1da34f177947c09ca48b"
+},
+"hyperliquid/backfill/klines4h/LTC.jsonl.gz": {
+"lines": 127,
+"sha256": "b11d9c1bba907c8a259bd828a2541c0ced91dbf42bc9b8e0627409896b65fdc0"
+},
+"hyperliquid/backfill/klines4h/MANTA.jsonl.gz": {
+"lines": 177,
+"sha256": "7de41b6b215c1b2852dce1f37cd2349d5120d0ebaae7185a5829bf97380a30a2"
+},
+"hyperliquid/backfill/klines4h/MAV.jsonl.gz": {
+"lines": 130,
+"sha256": "8585302c73a51f261f635dd6c0ae7b8f0bd8afa181767d4b5a9dbff65a3493e5"
+},
+"hyperliquid/backfill/klines4h/MAVIA.jsonl.gz": {
+"lines": 132,
+"sha256": "6ed3f2d97d02ec7be4d2a6c0f866779aa8b4094fbc70c755323b3d16980bca80"
+},
+"hyperliquid/backfill/klines4h/ME.jsonl.gz": {
+"lines": 192,
+"sha256": "37956437a1077353d375e99c740c9d58e0ede12ddd1bdfca59fa00169a7e354c"
+},
+"hyperliquid/backfill/klines4h/MEGA.jsonl.gz": {
+"lines": 48,
+"sha256": "c8545d813d1043ad9b6f67aa2183603e13bdb10718c497fff1d6892054fe249c"
+},
+"hyperliquid/backfill/klines4h/MELANIA.jsonl.gz": {
+"lines": 150,
+"sha256": "0df95d4914ff529127246fd58e213ad6a2f0e74404f1b36bf311ad80f99d7cb5"
+},
+"hyperliquid/backfill/klines4h/MEME.jsonl.gz": {
+"lines": 120,
+"sha256": "cf620c644f4331c7cc93bf0378787ca770a74a5f19cdcbe118bffdd6e66e36fa"
+},
+"hyperliquid/backfill/klines4h/MERL.jsonl.gz": {
+"lines": 201,
+"sha256": "1330a8a17daafe0347eac1a9212033de3518b7f6c284a88c73f0c067a019de3a"
+},
+"hyperliquid/backfill/klines4h/MET.jsonl.gz": {
+"lines": 94,
+"sha256": "2784c2c0637c9c95277cdcefb2d4325b76e20d0706d5630ac10874cad0ceb252"
+},
+"hyperliquid/backfill/klines4h/MEW.jsonl.gz": {
+"lines": 100,
+"sha256": "a335e6d0e94c5e10094c7d4892b0b316b68c4ac36644d78cb2a3b97177426d41"
+},
+"hyperliquid/backfill/klines4h/MINA.jsonl.gz": {
+"lines": 196,
+"sha256": "78dcfc60f75e16bf7b60bd150fac43671f2d29b1ca1c03ddf727aacc50e8cc5b"
+},
+"hyperliquid/backfill/klines4h/MKR.jsonl.gz": {
+"lines": 20,
+"sha256": "da0df77f8ab7ea69fbb5112a45b6d0e3e24856cec23d5cc7eb08d6e57f5cc644"
+},
+"hyperliquid/backfill/klines4h/MNT.jsonl.gz": {
+"lines": 164,
+"sha256": "7a80d7b4290399f8e053c3ed8bc04528f773c995d0b3ed95d7456c1dbcf3296b"
 },
 "hyperliquid/backfill/klines4h/MON.jsonl.gz": {
 "lines": 64,
-"sha256": "c76ab319b349ad027217bfd46790532f5d357f08a474654c99d9c2c269e7cc17"
+"sha256": "6c3fae0d5a6b97fa9760bca5a3d2a213baef76b2adb63d3701e9be5ff5061c31"
+},
+"hyperliquid/backfill/klines4h/MOODENG.jsonl.gz": {
+"lines": 178,
+"sha256": "a5b2da6e7d9a0372f83320109a0297d751093118d00c525032369201d351999d"
+},
+"hyperliquid/backfill/klines4h/MORPHO.jsonl.gz": {
+"lines": 119,
+"sha256": "58bf7150614bd4ad14063d5f445d5a7b20c192a7df6e253a9fb91894772a7319"
+},
+"hyperliquid/backfill/klines4h/MOVE.jsonl.gz": {
+"lines": 158,
+"sha256": "e0db063ca8df49f072b090d666421e49b0b6dae5519c46f11d3f2b0f5fdfd7b3"
+},
+"hyperliquid/backfill/klines4h/NEAR.jsonl.gz": {
+"lines": 145,
+"sha256": "8e4e5a8db52725bb4a5430008ddd98d4cf9d674a6bab97fb487b216d629e28a1"
+},
+"hyperliquid/backfill/klines4h/NEIROETH.jsonl.gz": {
+"lines": 19,
+"sha256": "654eef309bfcdb5210dde91ca631d2cdade7b29a8726213a18fcd18b312f80ac"
+},
+"hyperliquid/backfill/klines4h/NEO.jsonl.gz": {
+"lines": 182,
+"sha256": "78d0aefd5b1a0b87e728a66919cdac81e0f592c96db62be7152afb771ff3ccbe"
+},
+"hyperliquid/backfill/klines4h/NIL.jsonl.gz": {
+"lines": 157,
+"sha256": "1d26db1a9e10cea9394c21133ba4c21a1bc4304fa8cc16361e5937a9e7643aff"
+},
+"hyperliquid/backfill/klines4h/NOT.jsonl.gz": {
+"lines": 173,
+"sha256": "88d4849f9ea8636e650edd3f8b65bf4e348f4ebc4f5ae0d4c269fd31c4362173"
+},
+"hyperliquid/backfill/klines4h/NXPC.jsonl.gz": {
+"lines": 144,
+"sha256": "da1d91eef219c5dd28f736dd1a0403acec9fc820d67afb43b37b7a80b517ea24"
+},
+"hyperliquid/backfill/klines4h/OGN.jsonl.gz": {
+"lines": 6,
+"sha256": "0ee524ceae060fa0f6b8f30708b8f87f61fe1536b51a39cc7e85e9eb12fb09b5"
+},
+"hyperliquid/backfill/klines4h/OM.jsonl.gz": {
+"lines": 86,
+"sha256": "c01915298752f3e12be7f107e5977ee3a0945a629db82d909358148315e68e12"
+},
+"hyperliquid/backfill/klines4h/OMNI.jsonl.gz": {
+"lines": 26,
+"sha256": "227f51fa86b54eafca07ab39538671be3f5329ac9485cccacd19aa443f376536"
+},
+"hyperliquid/backfill/klines4h/ONDO.jsonl.gz": {
+"lines": 177,
+"sha256": "c3da927c9fb93aed0b449a9510047c6b4a2660b500659b27d1e36b38efbb8889"
+},
+"hyperliquid/backfill/klines4h/OP.jsonl.gz": {
+"lines": 171,
+"sha256": "587e79f72cd2342aa825f82054f809fd1ed33de7648201a17dc6bebc62cecea8"
+},
+"hyperliquid/backfill/klines4h/ORDI.jsonl.gz": {
+"lines": 156,
+"sha256": "1c830803185f269c7ffabebf4ee7989399df746b73f7a718f2ea868385374ab6"
+},
+"hyperliquid/backfill/klines4h/PAXG.jsonl.gz": {
+"lines": 147,
+"sha256": "c678d40f993792ec63c9c546a5d4232626ce1c58fbc6bec0ad921dfeae7da7f5"
+},
+"hyperliquid/backfill/klines4h/PENDLE.jsonl.gz": {
+"lines": 145,
+"sha256": "ba035d409d117383b4550dd94cab67b79dd2ad5e5471cdd9ed083910e075bda6"
+},
+"hyperliquid/backfill/klines4h/PENGU.jsonl.gz": {
+"lines": 150,
+"sha256": "4e9e51c36a9fef21e2d64780ed80af493d5f3d8455a8f0fbc13a9b781a67203d"
+},
+"hyperliquid/backfill/klines4h/PEOPLE.jsonl.gz": {
+"lines": 159,
+"sha256": "8301b2c1a8f395368ce12ee42af423a93bcd0029eef7061d69fd5e21bd180f82"
+},
+"hyperliquid/backfill/klines4h/PNUT.jsonl.gz": {
+"lines": 158,
+"sha256": "a829d8e45cb73c668d6b7532867b02c4cfe463477ee24c877f802358567c2410"
+},
+"hyperliquid/backfill/klines4h/POL.jsonl.gz": {
+"lines": 167,
+"sha256": "e49a3dd44cb48b96677629fd2d1019e53c3aa2f2e19639ab300a693aacf809e5"
+},
+"hyperliquid/backfill/klines4h/POLYX.jsonl.gz": {
+"lines": 216,
+"sha256": "559d25ef8d32fb5d156ee806babca337422ec99d1e76ff0be7969ec688195081"
+},
+"hyperliquid/backfill/klines4h/POPCAT.jsonl.gz": {
+"lines": 197,
+"sha256": "60754f9fcc7f8be8c2a2b2aff90726313c0088d369f4bdc49d728d36a6a87e9d"
+},
+"hyperliquid/backfill/klines4h/PROMPT.jsonl.gz": {
+"lines": 79,
+"sha256": "5f300f9ab6cfa326cffaf32f08954776fab8f90bcd5b63e35f7d34e916649496"
+},
+"hyperliquid/backfill/klines4h/PROVE.jsonl.gz": {
+"lines": 85,
+"sha256": "ee16b90a2f0a4d22da81d3616f1309287fae914e277c6d1941689e252d5720bd"
+},
+"hyperliquid/backfill/klines4h/PUMP.jsonl.gz": {
+"lines": 60,
+"sha256": "0efb89e2fe2fa4c2c565c67c17b6aa8b3a3314a423ffdc69e0a82bd42eedeaaa"
+},
+"hyperliquid/backfill/klines4h/PURR.jsonl.gz": {
+"lines": 198,
+"sha256": "16d12b8c078ffef488063b6edb14629c74910c093a71b046df9c3d76a029b416"
+},
+"hyperliquid/backfill/klines4h/PYTH.jsonl.gz": {
+"lines": 164,
+"sha256": "1c3dc851a4227abfa04abd003aca391183255927f5dffcbe9e6cf221e26014f2"
+},
+"hyperliquid/backfill/klines4h/RENDER.jsonl.gz": {
+"lines": 158,
+"sha256": "1dcd10eecb0661e096c959081e429b38813ff909ea85f8a1a6bf92f003e9abed"
+},
+"hyperliquid/backfill/klines4h/REQ.jsonl.gz": {
+"lines": 2,
+"sha256": "97e688da56ea7be708e9ed47bf99d6522bdadaf16aa79ed0f1dc8325820d1c3a"
+},
+"hyperliquid/backfill/klines4h/RESOLV.jsonl.gz": {
+"lines": 101,
+"sha256": "521f7b329d42b21dd89c445591c502ecf13219775582123dcb9c0639ccc901ed"
+},
+"hyperliquid/backfill/klines4h/REZ.jsonl.gz": {
+"lines": 147,
+"sha256": "82c1dc9d24bb1ba06a63ead2975e7ef7cf991ce82a7330b5f17c45d13f69ab8f"
+},
+"hyperliquid/backfill/klines4h/RSR.jsonl.gz": {
+"lines": 187,
+"sha256": "444a2b7c29903ee874a13d58286f74fd3763e7cd7188badd22c1bb856f9d64d1"
+},
+"hyperliquid/backfill/klines4h/RUNE.jsonl.gz": {
+"lines": 167,
+"sha256": "76e947bbfa851321659f7f9a3c5aa2f3d47dedaef3a4070f8d102ef356dc62cc"
+},
+"hyperliquid/backfill/klines4h/S.jsonl.gz": {
+"lines": 173,
+"sha256": "8dd0705f34961298da3479d8908747a74d7f4166e03ffd90e8da2bc4a040096e"
+},
+"hyperliquid/backfill/klines4h/SAGA.jsonl.gz": {
+"lines": 210,
+"sha256": "d3112c7b94362cc04280585238c7dc6281af4273770ed46699b96434ef3b8da9"
+},
+"hyperliquid/backfill/klines4h/SAND.jsonl.gz": {
+"lines": 218,
+"sha256": "64e5dfcf6e4074137ea183f94c7dcc3787312e2e361ecc189d28a9378d1a5000"
+},
+"hyperliquid/backfill/klines4h/SCR.jsonl.gz": {
+"lines": 167,
+"sha256": "ce338c594f8de2b89432b4b1c9f709320d0c41f5b414aa9ffc6273893e7270e0"
+},
+"hyperliquid/backfill/klines4h/SEI.jsonl.gz": {
+"lines": 197,
+"sha256": "0438136020e7bd8c02895d7e52378f6d13400fe402d1643a1d307380b0155d4f"
+},
+"hyperliquid/backfill/klines4h/SKR.jsonl.gz": {
+"lines": 27,
+"sha256": "ecd0d07e8cde4bccd25bbc26066db3ccf83fa411f7f611134de321bcf3f62bbf"
+},
+"hyperliquid/backfill/klines4h/SKY.jsonl.gz": {
+"lines": 64,
+"sha256": "7548511d2e15697dd90ceb86081929d929a1c3861eff4660931e62b9fde3836d"
+},
+"hyperliquid/backfill/klines4h/SNX.jsonl.gz": {
+"lines": 205,
+"sha256": "f757b27601abf266219fb337b5bf97ce377f73674e1efb1e58639d3d55ab8441"
+},
+"hyperliquid/backfill/klines4h/SOL.jsonl.gz": {
+"lines": 116,
+"sha256": "c4c16bb4948c4b001c43259b657c31d7fe078dafde6321ade7fbe2f10c0dc36a"
+},
+"hyperliquid/backfill/klines4h/SOPH.jsonl.gz": {
+"lines": 111,
+"sha256": "245bf60ef8642872dd86d977bca27054fc5b8044ef9237022bfb45a3f31b986b"
+},
+"hyperliquid/backfill/klines4h/SPX.jsonl.gz": {
+"lines": 187,
+"sha256": "93cba5708c6c0aba0f157093ad2ab7f3b723935dbf30ec75d7fa7666e0006a45"
+},
+"hyperliquid/backfill/klines4h/STABLE.jsonl.gz": {
+"lines": 43,
+"sha256": "30f8efc3a426be2a48658f5ff28bd0494c43a4764c45e770db3f042cf0c76e81"
+},
+"hyperliquid/backfill/klines4h/STBL.jsonl.gz": {
+"lines": 98,
+"sha256": "538d9794bf2f76a94719a15232e21a09c93c5ca53a64712b206d006795a8a56a"
+},
+"hyperliquid/backfill/klines4h/STG.jsonl.gz": {
+"lines": 2,
+"sha256": "820ca74bd4fdaa40f21997da82bc257fb423da0d40bb5d533d5134751c21b3aa"
+},
+"hyperliquid/backfill/klines4h/STRK.jsonl.gz": {
+"lines": 176,
+"sha256": "ffa0699def1a6fdb33de15cd204df68bed15c7761f161cdcabd25049675ccc22"
+},
+"hyperliquid/backfill/klines4h/STX.jsonl.gz": {
+"lines": 193,
+"sha256": "0d498d6be13fe624a10d10e135385008cedbe26abd0e7aa0cea3467c2b3629a8"
+},
+"hyperliquid/backfill/klines4h/SUI.jsonl.gz": {
+"lines": 162,
+"sha256": "1b98ef4139cdce2780cdd35664bb68e321891a039ee9f4fe13211afaeab0cd9f"
+},
+"hyperliquid/backfill/klines4h/SUPER.jsonl.gz": {
+"lines": 227,
+"sha256": "5761a1de3979cef14d809dc9d4645c783b511da1b1569e1102d43b8f183d6833"
+},
+"hyperliquid/backfill/klines4h/SUSHI.jsonl.gz": {
+"lines": 230,
+"sha256": "0ff2bf4dd4b05866fea6058c3e5bafeb5254615d9a29e1d3cbf2d8707a259a94"
+},
+"hyperliquid/backfill/klines4h/SYRUP.jsonl.gz": {
+"lines": 156,
+"sha256": "b060b088eaba6b3b2f2bed0ab20e816d82008ad9604b33c79c572a9de78be00c"
+},
+"hyperliquid/backfill/klines4h/TAO.jsonl.gz": {
+"lines": 141,
+"sha256": "dc519b820536e3a54034e6069976f323fc7a2b29219729e2cc808b89a66c02f8"
+},
+"hyperliquid/backfill/klines4h/TIA.jsonl.gz": {
+"lines": 196,
+"sha256": "d09f465a7fe76e43568e488c0676d67b12e78d689ea3cfb17662b166e5207aa1"
+},
+"hyperliquid/backfill/klines4h/TNSR.jsonl.gz": {
+"lines": 170,
+"sha256": "ff8aa1dece31d50d18cc7d82f22a507ece3347c17f602324b6caf9e5795d26ce"
+},
+"hyperliquid/backfill/klines4h/TON.jsonl.gz": {
+"lines": 85,
+"sha256": "09438dd66c3919f38d80e00946581ae0a9376c7aab0702de8d4af117216ee87f"
+},
+"hyperliquid/backfill/klines4h/TRB.jsonl.gz": {
+"lines": 121,
+"sha256": "0331cd88ad7a8e113e25087e2fbcfef95c9b9935f139c599a5f27f761d70f022"
+},
+"hyperliquid/backfill/klines4h/TRUMP.jsonl.gz": {
+"lines": 132,
+"sha256": "a86565b6d96c9d8fceb2285a2ede94ea3292ff1409d834baacd151c884cbcd9f"
+},
+"hyperliquid/backfill/klines4h/TRX.jsonl.gz": {
+"lines": 163,
+"sha256": "a92613eb011203842d730525055fff00e6a3799aab50f5b4d54ce5ff64a8379b"
+},
+"hyperliquid/backfill/klines4h/TST.jsonl.gz": {
+"lines": 101,
+"sha256": "a8705bfd84b253f60d7727e1c9621f14acbd86b592dfbf8f736d860cd3e9f2f0"
+},
+"hyperliquid/backfill/klines4h/TURBO.jsonl.gz": {
+"lines": 152,
+"sha256": "4d3d5b3892f978e0bbdff578ae2f24cb03b0f4bc9c95b1958da91907c304a0f6"
+},
+"hyperliquid/backfill/klines4h/UMA.jsonl.gz": {
+"lines": 226,
+"sha256": "f16706d7e6937ec5eefd38975f3b8bfbff5e6c1ab9f17ac628ee9c471ba3a4b8"
+},
+"hyperliquid/backfill/klines4h/UNI.jsonl.gz": {
+"lines": 139,
+"sha256": "a1f71484fc8349735c16fba0ed15d1b9b2a8abe0abd70627245a99847ae2292d"
+},
+"hyperliquid/backfill/klines4h/USTC.jsonl.gz": {
+"lines": 91,
+"sha256": "4098a49de8312e9c8156494a694ea4eec0e2cffb0e1321fa305c2181096c405e"
+},
+"hyperliquid/backfill/klines4h/USUAL.jsonl.gz": {
+"lines": 167,
+"sha256": "b8de8963c8c77b6b8ac304b6b5e37dec3c331bed811d9a547251384a1c9bfefd"
+},
+"hyperliquid/backfill/klines4h/VINE.jsonl.gz": {
+"lines": 164,
+"sha256": "f05cc0e0ac00470f16bf29d8f7ffa8e6957c578dbbfa8d9f8d3634eb45c35fc1"
+},
+"hyperliquid/backfill/klines4h/VIRTUAL.jsonl.gz": {
+"lines": 161,
+"sha256": "6aa1747f1d83236f5c096eec78ad55bac93389c249b3edcdd3f7a80ac367ab5e"
+},
+"hyperliquid/backfill/klines4h/VVV.jsonl.gz": {
+"lines": 147,
+"sha256": "3ef200e598dc075e5a401ed0834f04c9b87a8306e62b497e84c87caaa4118aca"
+},
+"hyperliquid/backfill/klines4h/W.jsonl.gz": {
+"lines": 194,
+"sha256": "99fc1b6c8a288e53074c9c981ec1bcac807b3c3c2dffe0de82e27de37ed2e1bb"
+},
+"hyperliquid/backfill/klines4h/WCT.jsonl.gz": {
+"lines": 147,
+"sha256": "dd29b8d52324baf8f92236325c06b64b1c906096335882e2f680df4e477b958f"
+},
+"hyperliquid/backfill/klines4h/WIF.jsonl.gz": {
+"lines": 188,
+"sha256": "76140a39069c6eaa959fca0b75c7c2c6efeac9ec08d857eb4fccca3ebe628245"
+},
+"hyperliquid/backfill/klines4h/WLD.jsonl.gz": {
+"lines": 197,
+"sha256": "fcea5eb00831bc7ebc77d54dabffa1168feca6b9f30301f626ecdb641f5b7e65"
+},
+"hyperliquid/backfill/klines4h/WLFI.jsonl.gz": {
+"lines": 92,
+"sha256": "e8a56e50978771fe0f8335ecda6b77d65ec449558f5db60f0e9682a423c86485"
+},
+"hyperliquid/backfill/klines4h/XAI.jsonl.gz": {
+"lines": 163,
+"sha256": "2a7cb7bc43f838fc4fd482560da19ded5efd09a99ddc5ee75601b6811692547b"
+},
+"hyperliquid/backfill/klines4h/XLM.jsonl.gz": {
+"lines": 183,
+"sha256": "ed5f21ff33b0adbe7525d76bf7b75b8e66de068dc138cac9404adb25f1c642a9"
+},
+"hyperliquid/backfill/klines4h/XMR.jsonl.gz": {
+"lines": 60,
+"sha256": "040810d2def4223e39d35876b25bd30612ce403cd05bdf540508f0da6f2d811d"
+},
+"hyperliquid/backfill/klines4h/XPL.jsonl.gz": {
+"lines": 102,
+"sha256": "fa84c23c96159258743b981683bb9407486657f10afa367ace2b87635e5ee3ba"
+},
+"hyperliquid/backfill/klines4h/XRP.jsonl.gz": {
+"lines": 141,
+"sha256": "481df2fd003409c44225d34c9096fc2b927316fdf09df8263fbe93bce9a3f784"
+},
+"hyperliquid/backfill/klines4h/YGG.jsonl.gz": {
+"lines": 202,
+"sha256": "1e3bf571518b2ddc483823b075f2fabbeaabfb7698159d87fcd63ab3a3740ca7"
+},
+"hyperliquid/backfill/klines4h/YZY.jsonl.gz": {
+"lines": 18,
+"sha256": "52b582feceb22a97abc5d44dce830553959dee94a2fdb8439f753f34d74ebb6e"
+},
+"hyperliquid/backfill/klines4h/ZEC.jsonl.gz": {
+"lines": 116,
+"sha256": "9df60261076c3807a609bfe207676cced2e4cee88ab1c328a3ae5f903f41eea9"
+},
+"hyperliquid/backfill/klines4h/ZEN.jsonl.gz": {
+"lines": 123,
+"sha256": "83801ebcd1e279d156fcfd756e69cea374318bb8cd34752c5bb6458ea7e391bb"
+},
+"hyperliquid/backfill/klines4h/ZEREBRO.jsonl.gz": {
+"lines": 125,
+"sha256": "6990a055a7a600dacb2b94fa7d1c4b8d243f0c2cef649a5b2da3e45cf0b94293"
+},
+"hyperliquid/backfill/klines4h/ZETA.jsonl.gz": {
+"lines": 153,
+"sha256": "4620b5abf882fdafa2507481cbf183b5e82136c295ae9c9d21f35f3da1ce967b"
+},
+"hyperliquid/backfill/klines4h/ZK.jsonl.gz": {
+"lines": 158,
+"sha256": "bdd2386b562003318bc6279e76625b79e5e90a3ce48d0813456a2b6d78a17337"
+},
+"hyperliquid/backfill/klines4h/ZORA.jsonl.gz": {
+"lines": 130,
+"sha256": "f82b2b655d3dff2756e0d119874e7e247e48c5ed895bcad5100eae214beedd30"
+},
+"hyperliquid/backfill/klines4h/ZRO.jsonl.gz": {
+"lines": 190,
+"sha256": "3b559cb8d8157b7164ce24b4bccf189cec55b137bb72c31b45cc25f55f858fc9"
+},
+"hyperliquid/backfill/klines4h/kBONK.jsonl.gz": {
+"lines": 154,
+"sha256": "6432869e231533ff2626524faf04c1e6466e5ba1e3aa095adef79f4ea46a3c4e"
+},
+"hyperliquid/backfill/klines4h/kDOGS.jsonl.gz": {
+"lines": 0,
+"sha256": "1619e8a1c346f8efb2b0cbe3cb60dbea7fa87937af26c18faae6ddae5f7edf4b"
+},
+"hyperliquid/backfill/klines4h/kFLOKI.jsonl.gz": {
+"lines": 165,
+"sha256": "db3b89c765e420d740a5bc825898978d792278c7a578c39a1a710ba1b955c91d"
+},
+"hyperliquid/backfill/klines4h/kLUNC.jsonl.gz": {
+"lines": 185,
+"sha256": "f027d96ec5c74e63b2a9db47ed263ef1d0e670fde3dfebe8710669d09f63431e"
+},
+"hyperliquid/backfill/klines4h/kNEIRO.jsonl.gz": {
+"lines": 199,
+"sha256": "7356ed29357e37d586aad9630c96279f5b58cd60f1a32f7c5b12baf010635780"
+},
+"hyperliquid/backfill/klines4h/kPEPE.jsonl.gz": {
+"lines": 167,
+"sha256": "fd64af81df35b43a7f518fd45f17f671d8e6f6cbe0b9661b539793a8f69779b0"
+},
+"hyperliquid/backfill/klines4h/kSHIB.jsonl.gz": {
+"lines": 137,
+"sha256": "b69f86dd62711554cbfdf9e0631eccbf4c9b63ec59c6c05cb2e4e764ccc1fcb2"
 },
 "hyperliquid/funding/2026-10-10.jsonl": {
 "lines": 2232,
