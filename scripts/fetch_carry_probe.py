@@ -39,6 +39,24 @@ ROUTES = [
     ("hyperliquid", "api.hyperliquid.xyz info meta", "POST", "https://api.hyperliquid.xyz/info", {"type": "meta"}),
     ("okx", "www.okx.com funding-rate", "GET", "https://www.okx.com/api/v5/public/funding-rate?instId=BTC-USDT-SWAP", None),
     ("deribit", "www.deribit.com index", "GET", "https://www.deribit.com/api/v2/public/get_index_price?index_name=btc_usd", None),
+    # 第二轮（02:36Z 首跑后补）：www.binance.com/fapi 全套端点、现货镜像、Bybit 区域域名
+    ("binance", "www fapi fundingRate", "GET", "https://www.binance.com/fapi/v1/fundingRate?symbol=BTCUSDT&limit=5", None),
+    ("binance", "www fapi fundingInfo", "GET", "https://www.binance.com/fapi/v1/fundingInfo", None),
+    ("binance", "www fapi exchangeInfo", "GET", "https://www.binance.com/fapi/v1/exchangeInfo", None),
+    ("binance", "www fapi markPriceKlines", "GET", "https://www.binance.com/fapi/v1/markPriceKlines?symbol=BTCUSDT&interval=1h&limit=2", None),
+    ("binance", "www fapi openInterest", "GET", "https://www.binance.com/fapi/v1/openInterest?symbol=BTCUSDT", None),
+    ("binance", "www fapi ticker24hr", "GET", "https://www.binance.com/fapi/v1/ticker/24hr?symbol=BTCUSDT", None),
+    ("binance", "www api v3 ticker24hr (spot)", "GET", "https://www.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT", None),
+    ("binance", "data-api.binance.vision depth", "GET", "https://data-api.binance.vision/api/v3/depth?symbol=BTCUSDT&limit=5", None),
+    ("binance", "data-api.binance.vision klines", "GET", "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1d&limit=2", None),
+    ("bybit", "api.bybit.nl tickers", "GET", "https://api.bybit.nl/v5/market/tickers?category=linear&symbol=BTCUSDT", None),
+    ("bybit", "api.bybit.kz tickers", "GET", "https://api.bybit.kz/v5/market/tickers?category=linear&symbol=BTCUSDT", None),
+    ("bybit", "api.bybit.eu tickers", "GET", "https://api.bybit.eu/v5/market/tickers?category=linear&symbol=BTCUSDT", None),
+    ("bybit", "api.bybit-tr.com tickers", "GET", "https://api.bybit-tr.com/v5/market/tickers?category=linear&symbol=BTCUSDT", None),
+    ("bybit", "api.byhkbit.com tickers", "GET", "https://api.byhkbit.com/v5/market/tickers?category=linear&symbol=BTCUSDT", None),
+    ("bybit", "api2.bybit.com tickers", "GET", "https://api2.bybit.com/v5/market/tickers?category=linear&symbol=BTCUSDT", None),
+    ("bybit", "www.bybit.com/x-api tickers", "GET", "https://www.bybit.com/x-api/v5/market/tickers?category=linear&symbol=BTCUSDT", None),
+    ("bybit", "public.bybit.com listing", "GET", "https://public.bybit.com/", None),
 ]
 
 
