@@ -1,0 +1,89 @@
+name: carry
+# carry-desk 采集中继（只读公共接口，无密钥）。本机对 Binance/Bybit/Hyperliquid 不可达，
+# 由 Actions 出口 IP 代取，产物写 data/carry/{ex}/…，本机 ~/note/套利策略/collect/sync_relay.py 拉回。
+# 每源 continue-on-error，一源挂不连坐；gate 只在三源全挂时红。probe 每次都跑，HTTP 码留档。
+on:
+  schedule:
+    - cron: '7 */4 * * *'      # 每 4h（:07 避开整点拥堵）
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'probe = 只跑可达性探针；collect = 探针 + 采集；backfill = 采集 + 历史回填'
+        required: false
+        default: 'collect'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: carry
+  cancel-in-progress: false
+
+jobs:
+  carry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      MODE: ${{ github.event.inputs.mode || 'collect' }}
+      CARRY_WHERE: actions
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Probe
+        id: probe
+        continue-on-error: true
+        run: python3 scripts/fetch_carry_probe.py
+
+      - name: Binance
+        id: binance
+        if: env.MODE != 'probe' && hashFiles('scripts/fetch_carry_binance.py') != ''
+        continue-on-error: true
+        run: python3 scripts/fetch_carry_binance.py
+
+      - name: Bybit
+        id: bybit
+        if: env.MODE != 'probe' && hashFiles('scripts/fetch_carry_bybit.py') != ''
+        continue-on-error: true
+        run: python3 scripts/fetch_carry_bybit.py
+
+      - name: Hyperliquid
+        id: hyperliquid
+        if: env.MODE != 'probe' && hashFiles('scripts/fetch_carry_hyperliquid.py') != ''
+        continue-on-error: true
+        run: python3 scripts/fetch_carry_hyperliquid.py
+
+      - name: Commit data changes
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data/carry
+          if git diff --cached --quiet; then
+            echo "data/carry 无变化,不提交"
+          else
+            git commit -m "carry: $MODE $(date -u +%Y-%m-%dT%H:%MZ)"
+            for i in 1 2 3; do
+              git pull --rebase -X theirs origin main && git push && break
+              sleep 5
+            done
+          fi
+
+      - name: Gate
+        env:
+          B: ${{ steps.binance.outcome }}
+          Y: ${{ steps.bybit.outcome }}
+          H: ${{ steps.hyperliquid.outcome }}
+        run: |
+          echo "mode=$MODE binance=$B bybit=$Y hyperliquid=$H"
+          if [ "$MODE" = "probe" ]; then exit 0; fi
+          if [ "$B" != "success" ] && [ "$Y" != "success" ] && [ "$H" != "success" ]; then
+            echo "::error::三源全挂 —— 见 data/carry/*/error.jsonl"
+            exit 1
+          fi
+          for s in "binance:$B" "bybit:$Y" "hyperliquid:$H"; do
+            [ "${s#*:}" = "success" ] || echo "::warning::${s%%:*} 未成功(${s#*:})"
+          done
