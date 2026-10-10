@@ -7984,5 +7984,27 @@
   "market": "MICRO BITCOIN - CHICAGO MERCANTILE EXCHANGE",
   "open_interest": 26320,
   "report_date": "2026-09-29"
+ },
+ {
+  "asset_mgr_long": 5174,
+  "asset_mgr_short": 1642,
+  "dealer_long": 6974,
+  "dealer_short": 4635,
+  "lev_money_long": 5731,
+  "lev_money_short": 12583,
+  "market": "BITCOIN - CHICAGO MERCANTILE EXCHANGE",
+  "open_interest": 21432,
+  "report_date": "2026-10-06"
+ },
+ {
+  "asset_mgr_long": 2404,
+  "asset_mgr_short": 76,
+  "dealer_long": 4083,
+  "dealer_short": 401,
+  "lev_money_long": 13371,
+  "lev_money_short": 29798,
+  "market": "MICRO BITCOIN - CHICAGO MERCANTILE EXCHANGE",
+  "open_interest": 34582,
+  "report_date": "2026-10-06"
  }
 ]
