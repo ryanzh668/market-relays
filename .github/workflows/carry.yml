@@ -8,9 +8,17 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'probe = 只跑可达性探针；collect = 探针 + 采集；backfill = 采集 + 历史回填'
+        description: 'probe = 只跑可达性探针；collect = 探针 + 前向采集；backfill = 历史回填（产物为 artifact，不进仓库）'
         required: false
         default: 'collect'
+      sources:
+        description: 'backfill 的源，逗号分隔（binance,hyperliquid,bybit）'
+        required: false
+        default: 'binance,hyperliquid'
+      only:
+        description: 'backfill 的表（binance: funding,pool,klines；hyperliquid: funding,klines）；空 = 全部'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -21,6 +29,7 @@ concurrency:
 
 jobs:
   carry:
+    if: (github.event.inputs.mode || 'collect') != 'backfill'
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
@@ -87,3 +96,35 @@ jobs:
           for s in "binance:$B" "bybit:$Y" "hyperliquid:$H"; do
             [ "${s#*:}" = "success" ] || echo "::warning::${s%%:*} 未成功(${s#*:})"
           done
+
+  backfill:
+    if: github.event.inputs.mode == 'backfill'
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        src: [binance, hyperliquid, bybit]
+    env:
+      MODE: backfill
+      CARRY_WHERE: actions
+      ONLY: ${{ github.event.inputs.only }}
+    steps:
+      - uses: actions/checkout@v4
+        if: contains(github.event.inputs.sources, matrix.src)
+      - uses: actions/setup-python@v5
+        if: contains(github.event.inputs.sources, matrix.src)
+        with:
+          python-version: '3.11'
+      - name: Backfill ${{ matrix.src }}
+        if: contains(github.event.inputs.sources, matrix.src)
+        continue-on-error: true
+        run: python3 scripts/fetch_carry_${{ matrix.src }}.py
+      - uses: actions/upload-artifact@v4
+        if: contains(github.event.inputs.sources, matrix.src)
+        with:
+          name: carry-backfill-${{ matrix.src }}
+          path: |
+            backfill_out
+            data/carry/${{ matrix.src }}/meta.json
+          retention-days: 30
