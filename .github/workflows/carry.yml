@@ -119,7 +119,7 @@ jobs:
   backfill:
     if: github.event.inputs.mode == 'backfill'
     concurrency:
-      group: carry-backfill-${{ github.event.inputs.sources }}
+      group: carry-backfill-${{ matrix.src }}-${{ github.event.inputs.symbols }}
       cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 300
