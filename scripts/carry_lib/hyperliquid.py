@@ -33,6 +33,25 @@ def info(body, interval=1.05):
     return C.http(URL, body=body, bucket="hl", min_interval=interval)
 
 
+PX_TOL = 0.15  # 现货/永续价比偏离 >15% ⇒ 同名不同币（HL 现货代币名先到先得，抢注常见）[有据 v0.1]
+
+
+def spot_px_ok(spot_px, perp_px):
+    return bool(spot_px and perp_px) and abs(spot_px / perp_px - 1.0) <= PX_TOL
+
+
+def spot_check(d):
+    """daily 记录 → (px_ratio, valid)：取现货与永续最后一个共同日的收盘价比。"""
+    s = dict((t, c) for t, c, _v in d.get("spot_1d") or [])
+    p = dict((t, c) for t, c, _v in d.get("perp_1d") or [])
+    common = sorted(set(s) & set(p))
+    if not common:
+        return None, False
+    t = common[-1]
+    r = s[t] / p[t] if s[t] and p[t] else None
+    return (round(r, 4) if r else None), spot_px_ok(s[t], p[t])
+
+
 def load_state():
     meta, ctxs = info({"type": "metaAndAssetCtxs"})
     spot_meta, spot_ctxs = info({"type": "spotMetaAndAssetCtxs"})
@@ -53,6 +72,10 @@ def load_state():
             spot = spot_by_base.get(stripped)
         mark = C.f(c.get("markPx"))
         oi = C.f(c.get("openInterest"))
+        if spot:
+            spx = C.f(sctx.get(spot, {}).get("midPx") or sctx.get(spot, {}).get("markPx"))
+            if not spot_px_ok(spx, mark):  # 同名不同币（如 MON↔@129、TRUMP↔@9）→ 视为无同所现货
+                spot = None
         perps[name] = {
             "delisted": bool(u.get("isDelisted")), "spot": spot, "mark": mark,
             "oracle": C.f(c.get("oraclePx")), "funding": C.f(c.get("funding")),
@@ -341,12 +364,16 @@ def write_spot_meta(spot, daily, ledger=None):
             continue
         s1 = d.get("spot_1d") or []
         tdt = d.get("token_deploy_time")
-        pairs.append({"perp": coin, "spot_symbol": d["spot"],
+        ratio, ok = spot_check(d)
+        pairs.append({"perp": coin, "spot_symbol": d["spot"], "spot_perp_px_ratio": ratio,
+                      "same_asset": ok,
                       "listed_spot_date": C.ms_to_date(s1[0][0]) if s1 else None,
                       "listed_spot_date_src": "first_spot_1d_candle" if s1 else None,
                       "token_deploy_time": tdt, "perp_delisted": d.get("delisted")})
     out = {"fetched_at": spot["fetched_at"], "fetched_at_iso": C.ms_to_iso(spot["fetched_at"]),
-           "note": "spotMeta 只有当前列表；listed_spot_date 用现货 1d K 线首根日期代理 [推断]；"
+           "note": "spotMeta 只有当前列表；名字映射（同名 / U+名 / 去 k 前缀）后再做价比校验，"
+                   "现货/永续收盘价比偏离 >15% 或现货无成交 ⇒ same_asset=false（同名抢注），has_spot=false；"
+                   "listed_spot_date 用现货 1d K 线首根日期代理 [推断]；"
                    "v0.1 回放按“当前有现货即全程有现货”处理（预注册 §4 已登记偏向）",
            "n_spot_pairs_usdc_mapped_to_perp": len(pairs), "pairs": pairs,
            "spotMeta": spot["spotMeta"]}
@@ -369,10 +396,11 @@ def proxy_pool_rows(funding_by_sym, daily, forward_first, today, fetched):
         if not tss:
             continue
         d = daily.get(coin, {})
-        spot_sym = d.get("spot")
+        ok = spot_check(d)[1]
+        spot_sym = d.get("spot") if ok else None   # 同名抢注 → 无现货
+        s1 = (d.get("spot_1d") or []) if ok else []
         pv = dict((C.ms_to_date(t), (c or 0) * (v or 0)) for t, c, v in d.get("perp_1d") or [])
-        sv = dict((C.ms_to_date(t), (c or 0) * (v or 0)) for t, c, v in d.get("spot_1d") or [])
-        s1 = d.get("spot_1d") or []
+        sv = dict((C.ms_to_date(t), (c or 0) * (v or 0)) for t, c, v in s1)
         lsd = C.ms_to_date(s1[0][0]) if s1 else None
         lpd = C.ms_to_date(tss[0])
         dates = sorted(set(C.ms_to_date(t) for t in tss))
@@ -406,6 +434,29 @@ def proxy_pool(v01_dir, ledger=None):
     for r in C.iter_jsonl(C.table_path("pool", ledger=ledger)):
         if r["ex"] == EX and not r.get("proxy"):
             ff[r["symbol"]] = min(ff.get(r["symbol"], "9999"), r["date"])
+    # 已下架币：上一轮（v0）回填可能已把下架后的 rate=0 空结算写进账本（账本只追加，删不掉）
+    # → 在 hl_universe.json 给出每币 trade_end_ts，读取方据此截断；代理池行也按它截
+    import glob
+    rep = {}
+    for fn in sorted(glob.glob(os.path.join(v01_dir, "report_*.json"))):
+        rep.update(json.load(open(fn))["coins"])
+    uni = {}
+    for coin, r in sorted(rep.items()):
+        end = (r["k1h_last"] + C.HOUR_MS) if r.get("delisted") and r.get("k1h_last") else None
+        tss = fb.get(coin, [])
+        stale = [t for t in tss if end and t > end] if r.get("delisted") else []
+        if r.get("delisted"):
+            fb[coin] = [t for t in tss if not end or t <= end] if end else []
+        uni[coin] = {"delisted": r.get("delisted"), "spot": r.get("spot"),
+                     "funding_first_ts": r.get("funding_first"), "funding_n_v01": r.get("funding_n"),
+                     "trade_end_ts": end, "ledger_rows_after_delist": len(stale),
+                     "k1h_first_ts": r.get("k1h_first"), "k4h_first_ts": r.get("k4h_first"),
+                     "errors": [k for k in r if k.endswith("_err")]}
+    with open(os.path.join(ledger, "hl_universe.json"), "w") as fh:
+        json.dump({"generated_at": C.ms_to_iso(C.now_ms()),
+                   "note": "meta 全部永续（含 isDelisted）；trade_end_ts=已下架币最后一根 1h K 线收盘，"
+                           "其后的费率行是 HL 返回的 rate=0 空结算，回放必须丢弃",
+                   "coins": uni}, fh, ensure_ascii=False, indent=1)
     rows = proxy_pool_rows(fb, daily, ff, C.today(), C.now_ms())
     n = C.LedgerWriter(ledger).append("pool", rows)
     C.log("hyperliquid proxy-pool 生成 %d 行，新追加 %d 行，币 %d" % (len(rows), n, len(fb)))
