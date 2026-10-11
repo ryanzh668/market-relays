@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-11T20:06:03Z",
+ "probed_at": "2026-10-11T23:36:52Z",
  "where": "actions",
  "results": [
   {
@@ -7,7 +7,7 @@
    "err": null,
    "bytes": null,
    "head": "{\n  \"code\": 0,\n  \"msg\": \"Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact custom",
-   "ms": 225,
+   "ms": 203,
    "src": "binance",
    "route": "fapi.binance.com premiumIndex",
    "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT"
@@ -17,7 +17,7 @@
    "err": null,
    "bytes": null,
    "head": "{\n  \"code\": 0,\n  \"msg\": \"Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact custom",
-   "ms": 88,
+   "ms": 82,
    "src": "binance",
    "route": "fapi.binance.com fundingRate",
    "url": "https://fapi.binance.com/fapi/v1/fundingRate?symbol=BTCUSDT&limit=5"
@@ -27,7 +27,7 @@
    "err": null,
    "bytes": 0,
    "head": "",
-   "ms": 684,
+   "ms": 569,
    "src": "binance",
    "route": "fapi1.binance.com premiumIndex",
    "url": "https://fapi1.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT"
@@ -37,7 +37,7 @@
    "err": null,
    "bytes": 0,
    "head": "",
-   "ms": 536,
+   "ms": 513,
    "src": "binance",
    "route": "fapi2.binance.com premiumIndex",
    "url": "https://fapi2.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT"
@@ -47,7 +47,7 @@
    "err": null,
    "bytes": 0,
    "head": "",
-   "ms": 598,
+   "ms": 583,
    "src": "binance",
    "route": "fapi3.binance.com premiumIndex",
    "url": "https://fapi3.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT"
@@ -56,8 +56,8 @@
    "http": 200,
    "err": null,
    "bytes": 231,
-   "head": "{\"symbol\":\"BTCUSDT\",\"markPrice\":\"83628.56218841\",\"indexPrice\":\"83676.72586957\",\"estimatedSettlePrice\":\"83706.97736725\",\"lastFundingRate\":\"0.00002622\",\"interestR",
-   "ms": 253,
+   "head": "{\"symbol\":\"BTCUSDT\",\"markPrice\":\"83681.38459420\",\"indexPrice\":\"83725.49086957\",\"estimatedSettlePrice\":\"83705.25594179\",\"lastFundingRate\":\"0.00000876\",\"interestR",
+   "ms": 189,
    "src": "binance",
    "route": "www.binance.com/fapi premiumIndex",
    "url": "https://www.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT"
@@ -67,7 +67,7 @@
    "err": null,
    "bytes": null,
    "head": "{\"code\":\"000002\",\"message\":\"illegal parameter\",\"messageDetail\":null,\"data\":null,\"success\":false}",
-   "ms": 456,
+   "ms": 500,
    "src": "binance",
    "route": "www.binance.com bapi fundingRate",
    "url": "https://www.binance.com/bapi/futures/v1/public/future/common/get-funding-rate-history?symbol=BTCUSDT"
@@ -77,7 +77,7 @@
    "err": null,
    "bytes": null,
    "head": "{\n  \"code\": 0,\n  \"msg\": \"Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact custom",
-   "ms": 264,
+   "ms": 795,
    "src": "binance",
    "route": "api-gcp.binance.com spot ping",
    "url": "https://api-gcp.binance.com/api/v3/ping"
@@ -86,8 +86,8 @@
    "http": 200,
    "err": null,
    "bytes": 45,
-   "head": "{\"symbol\":\"BTCUSDT\",\"price\":\"83677.71000000\"}",
-   "ms": 577,
+   "head": "{\"symbol\":\"BTCUSDT\",\"price\":\"83728.00000000\"}",
+   "ms": 630,
    "src": "binance",
    "route": "data-api.binance.vision spot ticker",
    "url": "https://data-api.binance.vision/api/v3/ticker/price?symbol=BTCUSDT"
@@ -97,7 +97,7 @@
    "err": null,
    "bytes": 941,
    "head": "zip",
-   "ms": 250,
+   "ms": 384,
    "src": "binance",
    "route": "data.binance.vision fundingRate zip",
    "url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2025-09.zip"
@@ -107,7 +107,7 @@
    "err": null,
    "bytes": 20590,
    "head": "zip",
-   "ms": 319,
+   "ms": 440,
    "src": "binance",
    "route": "data.binance.vision markPriceKlines zip",
    "url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2025-09.zip"
@@ -117,7 +117,7 @@
    "err": null,
    "bytes": 2,
    "head": "{}",
-   "ms": 573,
+   "ms": 815,
    "src": "binance",
    "route": "fapi.binance.us (US 站无合约)",
    "url": "https://api.binance.us/api/v3/ping"
@@ -127,7 +127,7 @@
    "err": null,
    "bytes": null,
    "head": "{\n    error:The Amazon CloudFront distribution is configured to block access from your country\n}",
-   "ms": 175,
+   "ms": 94,
    "src": "bybit",
    "route": "api.bybit.com tickers linear",
    "url": "https://api.bybit.com/v5/market/tickers?category=linear"
@@ -137,7 +137,7 @@
    "err": null,
    "bytes": null,
    "head": "{\n    error:The Amazon CloudFront distribution is configured to block access from your country\n}",
-   "ms": 367,
+   "ms": 135,
    "src": "bybit",
    "route": "api.bytick.com tickers linear",
    "url": "https://api.bytick.com/v5/market/tickers?category=linear"
@@ -147,7 +147,7 @@
    "err": null,
    "bytes": null,
    "head": "{\n    error:The Amazon CloudFront distribution is configured to block access from your country\n}",
-   "ms": 73,
+   "ms": 54,
    "src": "bybit",
    "route": "api.bybit.com funding history",
    "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=BTCUSDT&limit=5"
@@ -157,7 +157,7 @@
    "err": null,
    "bytes": 17628,
    "head": "{\"universe\":[{\"szDecimals\":5,\"name\":\"BTC\",\"maxLeverage\":40,\"marginTableId\":56},{\"szDecimals\":4,\"name\":\"ETH\",\"maxLeverage\":25,\"marginTableId\":55},{\"szDecimals\":2",
-   "ms": 223,
+   "ms": 215,
    "src": "hyperliquid",
    "route": "api.hyperliquid.xyz info meta",
    "url": "https://api.hyperliquid.xyz/info"
@@ -165,9 +165,9 @@
   {
    "http": 200,
    "err": null,
-   "bytes": 525,
-   "head": "{\"code\":\"0\",\"data\":[{\"formulaType\":\"withRate\",\"fundingRate\":\"0.0000001221851013\",\"fundingTime\":\"1791763200000\",\"impactValue\":\"20000.0000000000000000\",\"instId\":\"",
-   "ms": 367,
+   "bytes": 526,
+   "head": "{\"code\":\"0\",\"data\":[{\"formulaType\":\"withRate\",\"fundingRate\":\"-0.0000053846990439\",\"fundingTime\":\"1791763200000\",\"impactValue\":\"20000.0000000000000000\",\"instId\":",
+   "ms": 193,
    "src": "okx",
    "route": "www.okx.com funding-rate",
    "url": "https://www.okx.com/api/v5/public/funding-rate?instId=BTC-USDT-SWAP"
@@ -176,8 +176,8 @@
    "http": 200,
    "err": null,
    "bytes": 165,
-   "head": "{\"jsonrpc\":\"2.0\",\"result\":{\"estimated_delivery_price\":83590.39,\"index_price\":83590.39},\"usIn\":1791749169495152,\"usOut\":1791749169495490,\"usDiff\":338,\"testnet\":f",
-   "ms": 296,
+   "head": "{\"jsonrpc\":\"2.0\",\"result\":{\"estimated_delivery_price\":83637.01,\"index_price\":83637.01},\"usIn\":1791761819175937,\"usOut\":1791761819176269,\"usDiff\":332,\"testnet\":f",
+   "ms": 151,
    "src": "deribit",
    "route": "www.deribit.com index",
    "url": "https://www.deribit.com/api/v2/public/get_index_price?index_name=btc_usd"
@@ -187,7 +187,7 @@
    "err": null,
    "bytes": 634,
    "head": "[{\"symbol\":\"BTCUSDT\",\"fundingTime\":1791619200001,\"fundingRate\":\"-0.00000431\",\"markPrice\":\"82762.25921739\",\"rateType\":\"Regular\"},{\"symbol\":\"BTCUSDT\",\"fundingTime",
-   "ms": 227,
+   "ms": 186,
    "src": "binance",
    "route": "www fapi fundingRate",
    "url": "https://www.binance.com/fapi/v1/fundingRate?symbol=BTCUSDT&limit=5"
@@ -197,7 +197,7 @@
    "err": null,
    "bytes": 137632,
    "head": "[{\"symbol\":\"GTCUSDT\",\"adjustedFundingRateCap\":\"0.02000000\",\"adjustedFundingRateFloor\":\"-0.02000000\",\"fundingIntervalHours\":8,\"disclaimer\":false,\"updateTime\":175",
-   "ms": 521,
+   "ms": 533,
    "src": "binance",
    "route": "www fapi fundingInfo",
    "url": "https://www.binance.com/fapi/v1/fundingInfo"
@@ -206,8 +206,8 @@
    "http": 200,
    "err": null,
    "bytes": 1147714,
-   "head": "{\"timezone\":\"UTC\",\"serverTime\":1791530164015,\"futuresType\":\"U_MARGINED\",\"rateLimits\":[{\"rateLimitType\":\"REQUEST_WEIGHT\",\"interval\":\"MINUTE\",\"intervalNum\":1,\"lim",
-   "ms": 1316,
+   "head": "{\"timezone\":\"UTC\",\"serverTime\":1791530164010,\"futuresType\":\"U_MARGINED\",\"rateLimits\":[{\"rateLimitType\":\"REQUEST_WEIGHT\",\"interval\":\"MINUTE\",\"intervalNum\":1,\"lim",
+   "ms": 1261,
    "src": "binance",
    "route": "www fapi exchangeInfo",
    "url": "https://www.binance.com/fapi/v1/exchangeInfo"
@@ -215,9 +215,9 @@
   {
    "http": 200,
    "err": null,
-   "bytes": 246,
-   "head": "[[1791745200000,\"83640.00091304\",\"83717.57453623\",\"83611.27582609\",\"83625.39728986\",\"0\",1791748799999,\"0\",3600,\"0\",\"0\",\"0\"],[1791748800000,\"83625.39728986\",\"836",
-   "ms": 219,
+   "bytes": 247,
+   "head": "[[1791756000000,\"83483.70000000\",\"83653.54884783\",\"83408.40000000\",\"83606.87966667\",\"0\",1791759599999,\"0\",3600,\"0\",\"0\",\"0\"],[1791759600000,\"83606.87966667\",\"837",
+   "ms": 164,
    "src": "binance",
    "route": "www fapi markPriceKlines",
    "url": "https://www.binance.com/fapi/v1/markPriceKlines?symbol=BTCUSDT&interval=1h&limit=2"
@@ -226,8 +226,8 @@
    "http": 200,
    "err": null,
    "bytes": 68,
-   "head": "{\"symbol\":\"BTCUSDT\",\"openInterest\":\"92644.265\",\"time\":1791749165423}",
-   "ms": 186,
+   "head": "{\"symbol\":\"BTCUSDT\",\"openInterest\":\"92394.310\",\"time\":1791761819995}",
+   "ms": 244,
    "src": "binance",
    "route": "www fapi openInterest",
    "url": "https://www.binance.com/fapi/v1/openInterest?symbol=BTCUSDT"
@@ -236,8 +236,8 @@
    "http": 200,
    "err": null,
    "bytes": 370,
-   "head": "{\"closeTime\":1791749165423,\"count\":1109870,\"firstId\":8162169101,\"highPrice\":\"84180.00\",\"lastId\":8163284811,\"lastPrice\":\"83628.20\",\"lastQty\":\"0.002\",\"lowPrice\":\"",
-   "ms": 188,
+   "head": "{\"closeTime\":1791761818140,\"count\":1192241,\"firstId\":8162264795,\"highPrice\":\"84180.00\",\"lastId\":8163463522,\"lastPrice\":\"83680.50\",\"lastQty\":\"0.001\",\"lowPrice\":\"",
+   "ms": 159,
    "src": "binance",
    "route": "www fapi ticker24hr",
    "url": "https://www.binance.com/fapi/v1/ticker/24hr?symbol=BTCUSDT"
@@ -246,8 +246,8 @@
    "http": 200,
    "err": null,
    "bytes": 553,
-   "head": "{\"symbol\":\"BTCUSDT\",\"priceChange\":\"577.72000000\",\"priceChangePercent\":\"0.695\",\"weightedAvgPrice\":\"83302.79319796\",\"prevClosePrice\":\"83100.00000000\",\"lastPrice\":",
-   "ms": 227,
+   "head": "{\"symbol\":\"BTCUSDT\",\"priceChange\":\"680.57000000\",\"priceChangePercent\":\"0.819\",\"weightedAvgPrice\":\"83370.18672589\",\"prevClosePrice\":\"83047.44000000\",\"lastPrice\":",
+   "ms": 170,
    "src": "binance",
    "route": "www api v3 ticker24hr (spot)",
    "url": "https://www.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT"
@@ -256,8 +256,8 @@
    "http": 200,
    "err": null,
    "bytes": 367,
-   "head": "{\"lastUpdateId\":101287554750,\"bids\":[[\"83677.70000000\",\"4.86051000\"],[\"83677.69000000\",\"0.00019000\"],[\"83677.68000000\",\"0.00012000\"],[\"83677.66000000\",\"0.000220",
-   "ms": 588,
+   "head": "{\"lastUpdateId\":101291219406,\"bids\":[[\"83728.00000000\",\"3.75797000\"],[\"83727.99000000\",\"0.00054000\"],[\"83727.98000000\",\"0.00012000\"],[\"83727.77000000\",\"0.000080",
+   "ms": 605,
    "src": "binance",
    "route": "data-api.binance.vision depth",
    "url": "https://data-api.binance.vision/api/v3/depth?symbol=BTCUSDT&limit=5"
@@ -267,7 +267,7 @@
    "err": null,
    "bytes": 367,
    "head": "[[1791590400000,\"82635.56000000\",\"83173.29000000\",\"82545.82000000\",\"82988.36000000\",\"7437.72181000\",1791676799999,\"616246732.05837310\",607880,\"3921.33089000\",\"3",
-   "ms": 742,
+   "ms": 606,
    "src": "binance",
    "route": "data-api.binance.vision klines",
    "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1d&limit=2"
@@ -277,7 +277,7 @@
    "err": null,
    "bytes": null,
    "head": "{\n    error:The Amazon CloudFront distribution is configured to block access from your country\n}",
-   "ms": 207,
+   "ms": 219,
    "src": "bybit",
    "route": "api.bybit.nl tickers",
    "url": "https://api.bybit.nl/v5/market/tickers?category=linear&symbol=BTCUSDT"
@@ -287,7 +287,7 @@
    "err": null,
    "bytes": null,
    "head": "<!doctype html><html lang=zh-CN><meta charset=UTF-8><meta content=\"width=device-width,initial-scale=1\" name=viewport><title></title><style>*{margin:0;padding:0;",
-   "ms": 472,
+   "ms": 354,
    "src": "bybit",
    "route": "api.bybit.kz tickers",
    "url": "https://api.bybit.kz/v5/market/tickers?category=linear&symbol=BTCUSDT"
@@ -297,7 +297,7 @@
    "err": null,
    "bytes": null,
    "head": "{\n    error:The Amazon CloudFront distribution is configured to block access from your country\n}",
-   "ms": 431,
+   "ms": 117,
    "src": "bybit",
    "route": "api.bybit.eu tickers",
    "url": "https://api.bybit.eu/v5/market/tickers?category=linear&symbol=BTCUSDT"
@@ -307,7 +307,7 @@
    "err": null,
    "bytes": null,
    "head": "{\n    error:The Amazon CloudFront distribution is configured to block access from your country\n}",
-   "ms": 233,
+   "ms": 192,
    "src": "bybit",
    "route": "api.bybit-tr.com tickers",
    "url": "https://api.bybit-tr.com/v5/market/tickers?category=linear&symbol=BTCUSDT"
@@ -317,7 +317,7 @@
    "err": null,
    "bytes": null,
    "head": "{\n    error:The Amazon CloudFront distribution is configured to block access from your country\n}",
-   "ms": 279,
+   "ms": 178,
    "src": "bybit",
    "route": "api.byhkbit.com tickers",
    "url": "https://api.byhkbit.com/v5/market/tickers?category=linear&symbol=BTCUSDT"
@@ -327,7 +327,7 @@
    "err": null,
    "bytes": null,
    "head": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n<script type=\"text/javascript\"  ",
-   "ms": 9979,
+   "ms": 8837,
    "src": "bybit",
    "route": "api2.bybit.com tickers",
    "url": "https://api2.bybit.com/v5/market/tickers?category=linear&symbol=BTCUSDT"
@@ -337,7 +337,7 @@
    "err": null,
    "bytes": null,
    "head": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;bybit&#46;com&#",
-   "ms": 159,
+   "ms": 71,
    "src": "bybit",
    "route": "www.bybit.com/x-api tickers",
    "url": "https://www.bybit.com/x-api/v5/market/tickers?category=linear&symbol=BTCUSDT"
@@ -347,7 +347,7 @@
    "err": null,
    "bytes": 542,
    "head": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; cha",
-   "ms": 585,
+   "ms": 624,
    "src": "bybit",
    "route": "public.bybit.com listing",
    "url": "https://public.bybit.com/"
