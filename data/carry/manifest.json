@@ -53,8 +53,8 @@
 "sha256": "c7954e6ff84bae5fc5b515f11b2cc20dbc5a425e47262aaf8983e61bc576921f"
 },
 "binance/funding/2026-10-23.jsonl": {
-"lines": 8676,
-"sha256": "4375559bbc1fd7ddd357ace2e6a96e2b685a9f0d12cdeb8740ab3c4755760649"
+"lines": 12536,
+"sha256": "0f2c07cc37b313cbbb670f7be0fdf7206fe37572acada74ffad6f3ab1bdf46cc"
 },
 "binance/pool/2026-10-10.jsonl": {
 "lines": 400,
@@ -165,12 +165,12 @@
 "sha256": "35f72810ceaccc9ee45189d0a9b0b57b7fe12e261a2e92ffa62f4ee5c0b37e69"
 },
 "binance/snapshots/2026-10-23.jsonl": {
-"lines": 1122,
-"sha256": "be695325a76dd74358d51b01367f323ced0b729eaa4e0a6e8cf71119f661f8b0"
+"lines": 1682,
+"sha256": "ef7fd2c1430ec2762a91e125b913c0b70743cccfa114e68e30def522bcce37d9"
 },
 "bybit/error.jsonl": {
-"lines": 55,
-"sha256": "00baeaf7bb271230431215798277f282ca089852bd8a3abf973a635c79805d45"
+"lines": 56,
+"sha256": "a2c44b6eb07b52d35bb48ca3c92898e8d72052e97124185165703590ef5b89c2"
 },
 "deribit/basis/2026-10-10.jsonl": {
 "lines": 96,
@@ -225,8 +225,8 @@
 "sha256": "75a4be6d34e65331763bbf8ec41f24168debe225eab28b5b99983aa06c9efd5a"
 },
 "deribit/basis/2026-10-23.jsonl": {
-"lines": 48,
-"sha256": "d232537014413904d7efc8856a82c0c3ce7987e58ac7d6fc4ade192ee55a6d4c"
+"lines": 72,
+"sha256": "0fe1b29fda15cdd09c65022670f792d843375057e52438714a753d29ae1fffb8"
 },
 "hyperliquid/backfill/funding/0G.jsonl.gz": {
 "lines": 354,
@@ -2857,8 +2857,8 @@
 "sha256": "d203a9fa78475c81409fc0f0b43ad60061737ddc32d9bccd5fc4316243a05052"
 },
 "hyperliquid/funding/2026-10-23.jsonl": {
-"lines": 1416,
-"sha256": "940f11e9a1b5b21e9ef00233aa8aed4db5aae25d07dba6601c02630710b029dc"
+"lines": 2124,
+"sha256": "3647133994152704b705c50dce329c195daddb72e02ad903b6e10083aac6ee50"
 },
 "hyperliquid/pool/2026-10-10.jsonl": {
 "lines": 78,
@@ -2969,8 +2969,8 @@
 "sha256": "ab1174107ec843f2c535ae5819c1a799a16b97d8abf04105675159630a4aff8a"
 },
 "hyperliquid/snapshots/2026-10-23.jsonl": {
-"lines": 356,
-"sha256": "f4ad04291f71b4899c670f5ca6e9d254236124613fe13232b1cbec2e64626059"
+"lines": 534,
+"sha256": "aef86f29c10a9c898b76faff2ace02c3650643021b6b956ec72d8c0aaa432317"
 },
 "okx/basis/2026-10-10.jsonl": {
 "lines": 48,
@@ -3025,8 +3025,8 @@
 "sha256": "7a1dcd1f38dbbe3945d2d46325a11aad78b2826fa77ac76266ef2cd291077557"
 },
 "okx/basis/2026-10-23.jsonl": {
-"lines": 24,
-"sha256": "b86cdb80bf62310e33e8dc1e5d181d961fc5efcef0e93a02b5b644f634bd432e"
+"lines": 36,
+"sha256": "c8bb685d85326f714756b2e07bbbc10b994cf2192a907299279f697d0f7992e0"
 },
 "okx/funding/2026-10-10.jsonl": {
 "lines": 15520,
@@ -3081,8 +3081,8 @@
 "sha256": "44e8825daeedcee4e92ed730e29e8e304da9e0e62b083d5cda742f751d7df095"
 },
 "okx/funding/2026-10-23.jsonl": {
-"lines": 8044,
-"sha256": "060d51e022953b715117ebed36b78e11cfae85d8834700209e384444408d1940"
+"lines": 12076,
+"sha256": "4b5baccce86d6a0e0645ed7354124d76dafd2a580879dec8eb91958b4416a383"
 },
 "okx/pool/2026-10-10.jsonl": {
 "lines": 220,
@@ -3193,12 +3193,12 @@
 "sha256": "e11713f2bbb193f3dc1b4d7cfcafb6e8b1602156cd17b1e12c75cdf92c6dc73d"
 },
 "okx/snapshots/2026-10-23.jsonl": {
-"lines": 1015,
-"sha256": "7e0f85a90e89dbdc926f27042f6fa0826eedc76fa695833c4d7100e0e32c1223"
+"lines": 1522,
+"sha256": "73e1ee07d84a1c17c1aee5b2728cd9f6df3c1e95e4a403264d42ab6b28adb374"
 },
 "probe_log.jsonl": {
-"lines": 57,
-"sha256": "b4a4f8b9f1b1d753b915abe80da2fec27639c137b9fbadc55fa298386f251338"
+"lines": 58,
+"sha256": "86839a63e1b03ce143cf79ef6a3aafa9fc0754deceb5482b4eeac709a2ff4690"
 }
 }
 }
