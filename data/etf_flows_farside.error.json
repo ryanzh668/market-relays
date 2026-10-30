@@ -3,5 +3,10 @@
   "date": "2026-09-05",
   "error": "RuntimeError: 只解析出 15 条日行(< 下限 30),判为页面结构变化或内容被截断",
   "ts_utc": "2026-09-05T17:53:53+00:00"
+ },
+ {
+  "date": "2026-10-30",
+  "error": "https://farside.co.uk/bitcoin-etf-flow-all-data/ → HTTPError: HTTP Error 522: <none>; https://farside.co.uk/btc/ → HTTPError: HTTP Error 525: <none>",
+  "ts_utc": "2026-10-30T02:09:51+00:00"
  }
 ]
