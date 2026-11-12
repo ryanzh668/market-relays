@@ -1,0 +1,12 @@
+{"ts":1794466165829,"ex":"okx","underlying":"BTC","instrument":"BTC-USD-261127","expiry_ts":1795766400000,"fut_px":73724.1,"spot_px":73521.0,"days_to_expiry":15.049,"ann_basis":0.067001,"fetched_at":1794466165829}
+{"ts":1794466165829,"ex":"okx","underlying":"BTC","instrument":"BTC-USD-261225","expiry_ts":1798185600000,"fut_px":74048.1,"spot_px":73521.0,"days_to_expiry":43.049,"ann_basis":0.060787,"fetched_at":1794466165829}
+{"ts":1794466165829,"ex":"okx","underlying":"BTC","instrument":"BTC-USD-270326","expiry_ts":1806048000000,"fut_px":75106.8,"spot_px":73521.0,"days_to_expiry":134.049,"ann_basis":0.058731,"fetched_at":1794466165829}
+{"ts":1794466165829,"ex":"okx","underlying":"BTC","instrument":"BTC-USD-270625","expiry_ts":1813910400000,"fut_px":76201.0,"spot_px":73521.0,"days_to_expiry":225.049,"ann_basis":0.059121,"fetched_at":1794466165829}
+{"ts":1794466165829,"ex":"okx","underlying":"BTC","instrument":"BTC-USD-270924","expiry_ts":1821772800000,"fut_px":77264.6,"spot_px":73521.0,"days_to_expiry":316.049,"ann_basis":0.058805,"fetched_at":1794466165829}
+{"ts":1794466165829,"ex":"okx","underlying":"BTC","instrument":"BTC-USD-271231","expiry_ts":1830240000000,"fut_px":78532.1,"spot_px":73521.0,"days_to_expiry":414.049,"ann_basis":0.060085,"fetched_at":1794466165829}
+{"ts":1794466165829,"ex":"okx","underlying":"ETH","instrument":"ETH-USD-261127","expiry_ts":1795766400000,"fut_px":2048.37,"spot_px":2043.8,"days_to_expiry":15.049,"ann_basis":0.054233,"fetched_at":1794466165829}
+{"ts":1794466165829,"ex":"okx","underlying":"ETH","instrument":"ETH-USD-261225","expiry_ts":1798185600000,"fut_px":2054.81,"spot_px":2043.8,"days_to_expiry":43.049,"ann_basis":0.045675,"fetched_at":1794466165829}
+{"ts":1794466165829,"ex":"okx","underlying":"ETH","instrument":"ETH-USD-270326","expiry_ts":1806048000000,"fut_px":2077.61,"spot_px":2043.8,"days_to_expiry":134.049,"ann_basis":0.045044,"fetched_at":1794466165829}
+{"ts":1794466165829,"ex":"okx","underlying":"ETH","instrument":"ETH-USD-270625","expiry_ts":1813910400000,"fut_px":2102.8,"spot_px":2043.8,"days_to_expiry":225.049,"ann_basis":0.04682,"fetched_at":1794466165829}
+{"ts":1794466165829,"ex":"okx","underlying":"ETH","instrument":"ETH-USD-270924","expiry_ts":1821772800000,"fut_px":2128.51,"spot_px":2043.8,"days_to_expiry":316.049,"ann_basis":0.047867,"fetched_at":1794466165829}
+{"ts":1794466165829,"ex":"okx","underlying":"ETH","instrument":"ETH-USD-271231","expiry_ts":1830240000000,"fut_px":2160.68,"spot_px":2043.8,"days_to_expiry":414.049,"ann_basis":0.050413,"fetched_at":1794466165829}
