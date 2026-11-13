@@ -2909,6 +2909,10 @@
  },
  {
   "date": "2026-11-11",
-  "total_net_flow_usd_m": -30.1
+  "total_net_flow_usd_m": -299.8
+ },
+ {
+  "date": "2026-11-12",
+  "total_net_flow_usd_m": -47.7
  }
 ]
