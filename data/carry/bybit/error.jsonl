@@ -127,3 +127,4 @@
 {"at": "2026-11-14T17:51:45Z", "where": "forward", "error": "HTTP 403 https://api.bytick.com/v5/market/tickers?category=linear {\n    error:The Amazon CloudFront distribution is configured to block access from your country\n}", "http": 403}
 {"at": "2026-11-14T23:47:42Z", "where": "forward", "error": "HTTP 403 https://api.bytick.com/v5/market/tickers?category=linear {\n    error:The Amazon CloudFront distribution is configured to block access from your country\n}", "http": 403}
 {"at": "2026-11-15T05:51:10Z", "where": "forward", "error": "HTTP 403 https://api.bytick.com/v5/market/tickers?category=linear {\n    error:The Amazon CloudFront distribution is configured to block access from your country\n}", "http": 403}
+{"at": "2026-11-15T15:31:41Z", "where": "forward", "error": "HTTP 403 https://api.bytick.com/v5/market/tickers?category=linear {\n    error:The Amazon CloudFront distribution is configured to block access from your country\n}", "http": 403}
